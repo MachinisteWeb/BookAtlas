@@ -1,218 +1,218 @@
 .is-editable [data-edit=true][data-edit-targeted=true],
 .is-editable [data-addhoc=true],
 .is-editable [data-edit=true][data-edit-targeted=true] * {
-    background-color: rgba(238, 236, 248, 0.8);
-    cursor: crosshair;
+	background-color: rgba(238, 236, 248, 0.8);
+	cursor: crosshair;
 }
 .is-editable [data-edit=true][data-edit-targeted=true]:empty:before,
 .is-editable [data-edit=true][data-edit-targeted=true] *:empty:before {
-    content: "";
-    display: inline-block;
-    min-height: 6px;
-    min-width: 6px;
+	content: "";
+	display: inline-block;
+	min-height: 6px;
+	min-width: 6px;
 }
 .is-editable img[data-edit-attr=true][data-edit-targeted=true] {
-    border: 3px solid #E4ECF8;
-    margin: -3px;
-    opacity: .5;
+	border: 3px solid #E4ECF8;
+	margin: -3px;
+	opacity: .5;
 }
 
 .edit-atlas--plaintext {
-    display: none;
+	display: none;
 }
 .as-alternative .edit-atlas--plaintext {
-    display: inline;
+	display: inline;
 }
 .as-alternative .edit-atlas--wysiwyg {
-    display: none;
+	display: none;
 }
 
 .edit-atlas--to-left {
-    float: left;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 1.2em;
-    margin-top: -0.2em;
+	float: left;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 1.2em;
+	margin-top: -0.2em;
 }
 .edit-atlas--to-right {
-    float: left;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 1.2em;
-    margin-top: -0.2em;
+	float: left;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 1.2em;
+	margin-top: -0.2em;
 }
 .edit-atlas--anchor {
-    float: left;
-    font-size: 1em;
+	float: left;
+	font-size: 1em;
 }
 
 .edit-atlas.is-docked-left {
-    height: calc(100% - 16px);
-    width: auto;
-    top: 0;
-    left: -400px;
-    -webkit-transform: none;
-       -moz-transform: none;
-        -ms-transform: none;
-         -o-transform: none;
-            transform: none;
-    -webkit-transition: left 0.5s ease;
-       -moz-transition: left 0.5s ease;
-        -ms-transition: left 0.5s ease;
-         -o-transition: left 0.5s ease;
-            transition: left 0.5s ease;
+	height: calc(100% - 16px);
+	width: auto;
+	top: 0;
+	left: -400px;
+	-webkit-transform: none;
+	   -moz-transform: none;
+		-ms-transform: none;
+		 -o-transform: none;
+			transform: none;
+	-webkit-transition: left 0.5s ease;
+	   -moz-transition: left 0.5s ease;
+		-ms-transition: left 0.5s ease;
+		 -o-transition: left 0.5s ease;
+			transition: left 0.5s ease;
 }
 .edit-atlas.is-docked-left:hover {
-    left: 0;
+	left: 0;
 }
 .is-docked-left .edit-atlas--popup {
-    height: 100%;
-    top: 0;
-    left: 0;
-    -webkit-transform: none;
-       -moz-transform: none;
-        -ms-transform: none;
-         -o-transform: none;
-            transform: none;
-    -webkit-border-top-left-radius: 0;
-            border-top-left-radius: 0;
-    -webkit-border-bottom-left-radius: 0;
-            border-bottom-left-radius: 0;
+	height: 100%;
+	top: 0;
+	left: 0;
+	-webkit-transform: none;
+	   -moz-transform: none;
+		-ms-transform: none;
+		 -o-transform: none;
+			transform: none;
+	-webkit-border-top-left-radius: 0;
+			border-top-left-radius: 0;
+	-webkit-border-bottom-left-radius: 0;
+			border-bottom-left-radius: 0;
 }
 .edit-atlas.is-docked-right {
-    height: calc(100% - 16px);
-    width: auto;
-    top: 0;
-    right: -400px;
-    left: auto;
-    -webkit-transform: none;
-       -moz-transform: none;
-        -ms-transform: none;
-         -o-transform: none;
-            transform: none;
-    -webkit-transition: right 0.5s ease;
-       -moz-transition: right 0.5s ease;
-        -ms-transition: right 0.5s ease;
-         -o-transition: right 0.5s ease;
-            transition: right 0.5s ease;
+	height: calc(100% - 16px);
+	width: auto;
+	top: 0;
+	right: -400px;
+	left: auto;
+	-webkit-transform: none;
+	   -moz-transform: none;
+		-ms-transform: none;
+		 -o-transform: none;
+			transform: none;
+	-webkit-transition: right 0.5s ease;
+	   -moz-transition: right 0.5s ease;
+		-ms-transition: right 0.5s ease;
+		 -o-transition: right 0.5s ease;
+			transition: right 0.5s ease;
 }
 .edit-atlas.is-docked-right:hover {
-    right: 0;
+	right: 0;
 }
 
 .is-docked-right .edit-atlas--popup {
-    height: 100%;
-    top: 0;
-    right: 0;
-    left: auto;
-    -webkit-transform: none;
-       -moz-transform: none;
-        -ms-transform: none;
-         -o-transform: none;
-            transform: none;
-    -webkit-border-top-right-radius: 0;
-            border-top-right-radius: 0;
-    -webkit-border-bottom-right-radius: 0;
-            border-bottom-right-radius: 0;
+	height: 100%;
+	top: 0;
+	right: 0;
+	left: auto;
+	-webkit-transform: none;
+	   -moz-transform: none;
+		-ms-transform: none;
+		 -o-transform: none;
+			transform: none;
+	-webkit-border-top-right-radius: 0;
+			border-top-right-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+			border-bottom-right-radius: 0;
 }
 .is-docked-left .edit-atlas--submit,
 .is-docked-right .edit-atlas--submit {
-    position: absolute;
-    bottom: 8px;
-    left: 8px;
-    width: calc(100% - 16px);
+	position: absolute;
+	bottom: 8px;
+	left: 8px;
+	width: calc(100% - 16px);
 }
 .is-docked-left .edit-atlas--templates,
 .is-docked-right .edit-atlas--templates {
-    max-height: none;
+	max-height: none;
 }
 
 .is-docked-left .edit-atlas--templates + hr,
 .is-docked-right .edit-atlas--templates + hr {
-    position: absolute;
-    bottom: 33px;
-    left: 8px;
-    width: calc(100% - 16px);
+	position: absolute;
+	bottom: 33px;
+	left: 8px;
+	width: calc(100% - 16px);
 }
 
 .edit-atlas--submit ins {
-    text-decoration: none;
-    color: #777;
+	text-decoration: none;
+	color: #777;
 }
 .edit-atlas--submit del {
-    text-decoration: none;
-    display: none;
+	text-decoration: none;
+	display: none;
 }
 .is-docked-left .edit-atlas--submit ins,
 .is-docked-right .edit-atlas--submit ins {
-    display: none;
+	display: none;
 }
 .is-docked-left .edit-atlas--submit del,
 .is-docked-right .edit-atlas--submit del {
-    display: block;
-    font-size: .9em;
-    cursor: pointer;
+	display: block;
+	font-size: .9em;
+	cursor: pointer;
 }
 
 .is-docked-left .edit-atlas--to-left {
-    display: none;
+	display: none;
 }
 .is-docked-right .edit-atlas--to-right {
-    display: none;
+	display: none;
 }
 
 
 
 .edit-atlas.is-opened {
-    display: block;
+	display: block;
 }
 .edit-atlas {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 0;
-    height: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 1000;
-    -webkit-transform: translateY(-50%) translateX(-50%);
-       -moz-transform: translateY(-50%) translateX(-50%);
-        -ms-transform: translateY(-50%) translateX(-50%);
-         -o-transform: translateY(-50%) translateX(-50%);
-            transform: translateY(-50%) translateX(-50%);
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 0;
+	height: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1000;
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	   -moz-transform: translateY(-50%) translateX(-50%);
+		-ms-transform: translateY(-50%) translateX(-50%);
+		 -o-transform: translateY(-50%) translateX(-50%);
+			transform: translateY(-50%) translateX(-50%);
 }
 .edit-atlas--popup {
-    padding: 8px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    background-color: #fff;
-    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNWWFMmUAAAAbSURBVBhXY/j//z8KBhMLFiywAWHcAgj8nwEA9u0sTVrSYqUAAAAASUVORK5CYII=');
-    -webkit-transform: translateY(-50%) translateX(-50%);
-       -moz-transform: translateY(-50%) translateX(-50%);
-        -ms-transform: translateY(-50%) translateX(-50%);
-         -o-transform: translateY(-50%) translateX(-50%);
-            transform: translateY(-50%) translateX(-50%);
-    -webkit-box-shadow: 0 0 10px #000;
-       -moz-box-shadow: 0 0 10px #000;
-            box-shadow: 0 0 10px #000;
-    -webkit-border-radius: 4px;
-       -moz-border-radius: 4px;
-            border-radius: 4px;
-    cursor: all-scroll;
+	padding: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	background-color: #fff;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuNWWFMmUAAAAbSURBVBhXY/j//z8KBhMLFiywAWHcAgj8nwEA9u0sTVrSYqUAAAAASUVORK5CYII=');
+	-webkit-transform: translateY(-50%) translateX(-50%);
+	   -moz-transform: translateY(-50%) translateX(-50%);
+		-ms-transform: translateY(-50%) translateX(-50%);
+		 -o-transform: translateY(-50%) translateX(-50%);
+			transform: translateY(-50%) translateX(-50%);
+	-webkit-box-shadow: 0 0 10px #000;
+	   -moz-box-shadow: 0 0 10px #000;
+			box-shadow: 0 0 10px #000;
+	-webkit-border-radius: 4px;
+	   -moz-border-radius: 4px;
+			border-radius: 4px;
+	cursor: all-scroll;
 }
 .edit-atlas--popup hr {
-    visibility: hidden;
+	visibility: hidden;
 }
 .edit-atlas .as-html hr, .edit-atlas .as-text hr {
-    display: none;
+	display: none;
 }
 
 .as-html:not(.edit-atlas--template) + .as-html hr,
 .as-text:not(.edit-atlas--template) + .as-text hr,
 .as-html:not(.edit-atlas--template) + .as-text hr,
 .as-text:not(.edit-atlas--template) + .as-html hr {
-    display: block;
+	display: block;
 }
 
 .edit-atlas--variations,
@@ -220,156 +220,156 @@
 .edit-atlas--popup h1,
 .edit-atlas--templates,
 .edit-atlas--submit {
-    background-color: #fff;
-    cursor: default;
+	background-color: #fff;
+	cursor: default;
 }
 .edit-atlas--submit {
-    padding: 4px;
+	padding: 4px;
 }
 @media (min-width: 430px) {
-    .edit-atlas--popup {
-        width: 430px;
-    }
+	.edit-atlas--popup {
+		width: 430px;
+	}
 }
 .edit-atlas--variations:after {
-    content: "";
-    display: block;
-    clear: left;
+	content: "";
+	display: block;
+	clear: left;
 }
 .edit-atlas--popup .cke_textarea_inline,
 .edit-atlas--popup textarea,
 .edit-atlas--popup input[type=text] {
-    border: 1px solid rgb(169, 169, 169);
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-    width: 100%;
+	border: 1px solid rgb(169, 169, 169);
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+	width: 100%;
 }
 
 .edit-atlas--submit {
-    text-align: right;
+	text-align: right;
 }
 
 .edit-atlas--wysiwyg,
 .edit-atlas--plaintext,
 .edit-atlas--cancel {
-    color: #48739E;
-    text-decoration: none;
-    cursor: pointer;
+	color: #48739E;
+	text-decoration: none;
+	cursor: pointer;
 }
 
 .edit-atlas--plaintext,
 .edit-atlas--wysiwyg {
-    font-size: 0.9em;
+	font-size: 0.9em;
 }
 .edit-atlas--cancel {
-    font-size: 0.7em;
+	font-size: 0.7em;
 }
 .edit-atlas--plaintext:hover,
 .edit-atlas--wysiwyg:hover,
 .edit-atlas--cancel:hover {
-    color: #cc0000;
+	color: #cc0000;
 }
 .edit-atlas--plaintext:before,
 .edit-atlas--wysiwyg:before {
-    content: " - ";
+	content: " - ";
 }
 .edit-atlas--cancel:before {
-    content: " - ";
+	content: " - ";
 }
 
 .edit-atlas--info .as-link,
 .edit-atlas--close--switch-block,
 .edit-atlas--close--switch-inline,
 .edit-atlas--close--button {
-    cursor: pointer;
-    border: 0;
-    background-color: transparent;
-    color: #48739E;
-    text-decoration: none;
+	cursor: pointer;
+	border: 0;
+	background-color: transparent;
+	color: #48739E;
+	text-decoration: none;
 }
 .edit-atlas--close--switch-block {
-    font-size: .6em;
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
+	font-size: .6em;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
 }
 .edit-atlas--info .as-link:hover,
 .edit-atlas--close--button:hover {
-    color: #CC0000;
+	color: #CC0000;
 }
 .edit-atlas--source,
 .edit-atlas--template {
-    display: none;
+	display: none;
 }
 .edit-atlas--source em {
-    font-size: .7em;
+	font-size: .7em;
 }
 .edit-atlas--templates {
-    max-height: 250px;
-    -ms-overflow-y: auto;
-        overflow-y: auto;
-    padding: 4px;
+	max-height: 250px;
+	-ms-overflow-y: auto;
+		overflow-y: auto;
+	padding: 4px;
 }
 
 .edit-atlas h1 {
-    margin-top: 0;
-    margin-bottom: 24px;
-    padding: 4px;
+	margin-top: 0;
+	margin-bottom: 24px;
+	padding: 4px;
 }
 .edit-atlas hr {
-    margin-top: .5em;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ddd;
+	margin-top: .5em;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ddd;
 }
 .edit-atlas--close {
-    float: right;
-    margin-top: 6px;
+	float: right;
+	margin-top: 6px;
 }
 
 .edit-atlas--popup .cke_textarea_inline,
 .edit-atlas--popup textarea,
 .edit-atlas--popup input[type=text] {
-    padding: 4px;
+	padding: 4px;
 }
 
 .edit-atlas--inline {
-    display: block;
+	display: block;
 }
 .edit-atlas--block {
-    display: none;
+	display: none;
 }
 .is-block .edit-atlas--block {
-    display: block;
+	display: block;
 }
 .is-block .edit-atlas--inline {
-    display: none;
+	display: none;
 }
 .edit-atlas--variations--common,
 .edit-atlas--variations--specific {
-    float: left;
-    width: 50%;
-    overflow: hidden;
-    -webkit-transition: width 1s ease, opacity 1s ease;
-       -moz-transition: width 1s ease, opacity 1s ease;
-        -ms-transition: width 1s ease, opacity 1s ease;
-         -o-transition: width 1s ease, opacity 1s ease;
-            transition: width 1s ease, opacity 1s ease;
+	float: left;
+	width: 50%;
+	overflow: hidden;
+	-webkit-transition: width 1s ease, opacity 1s ease;
+	   -moz-transition: width 1s ease, opacity 1s ease;
+		-ms-transition: width 1s ease, opacity 1s ease;
+		 -o-transition: width 1s ease, opacity 1s ease;
+			transition: width 1s ease, opacity 1s ease;
 }
 .for-specific .edit-atlas--variations--specific,
 .for-common .edit-atlas--variations--common {
-    width: 90%;
+	width: 90%;
 }
 .for-specific .edit-atlas--variations--common,
 .for-common .edit-atlas--variations--specific {
-    width: 10%;
-    opacity: 0.2;
+	width: 10%;
+	opacity: 0.2;
 }
 .for-common .edit-atlas--variations--common,
 .for-specific .edit-atlas--variations--specific {
-    opacity: 1;
+	opacity: 1;
 }
 .edit-atlas--variations--common--title,
 .edit-atlas--variations--specific--title {
-    white-space: nowrap;
+	white-space: nowrap;
 }

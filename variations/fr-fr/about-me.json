@@ -1,49 +1,49 @@
 {
-    "components": {
-        "content": [
-            {
-                "path": "partials/top-section.htm"
-            },
-            {
-                "path": "partials/bottom-section.htm"
-            },
-            {
-                "path": "partials/section-about-me.htm"
-            },
-            {
-                "path": "partials/presentation.htm",
-                "variations": {
-                    "components": {
-                        "content": [
-                            {
-                                "path": "partials/header.htm"
-                            },
-                            {
-                                "path": "partials/footer.htm"
-                            }
-                        ]
-                    }
-                }
-            }
-        ]
-    },
-    "titlePage": "Biographie de Bruno Lesieur",
-    "description": "Je vis sur Annecy avec ma Femme et mon chien. Je développe en JavaScript aussi !",
-    "opened": {
-        "main": "to top",
-        "bepo": "",
-        "offers": "",
-        "book": "",
-        "website": "",
-        "blog": "",
-        "front-end": "",
-        "unknown-top": "",
-        "unknown-bottom": "",
-        "websites": "",
-        "skills": "",
-        "contact-me": "",
-        "about-me": "open",
-        "nodeatlas": "",
-        "games": ""
-    }
+	"components": {
+		"content": [
+			{
+				"path": "partials/top-section.htm"
+			},
+			{
+				"path": "partials/bottom-section.htm"
+			},
+			{
+				"path": "partials/section-about-me.htm"
+			},
+			{
+				"path": "partials/presentation.htm",
+				"variations": {
+					"components": {
+						"content": [
+							{
+								"path": "partials/header.htm"
+							},
+							{
+								"path": "partials/footer.htm"
+							}
+						]
+					}
+				}
+			}
+		]
+	},
+	"titlePage": "Biographie de Bruno Lesieur",
+	"description": "Je vis sur Annecy avec ma Femme et mon chien. Je développe en JavaScript aussi !",
+	"opened": {
+		"main": "to top",
+		"bepo": "",
+		"offers": "",
+		"book": "",
+		"website": "",
+		"blog": "",
+		"front-end": "",
+		"unknown-top": "",
+		"unknown-bottom": "",
+		"websites": "",
+		"skills": "",
+		"contact-me": "",
+		"about-me": "open",
+		"nodeatlas": "",
+		"games": ""
+	}
 }

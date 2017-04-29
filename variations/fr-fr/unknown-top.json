@@ -1,24 +1,24 @@
 {
-    "components": {
-        "content" : [{
-            "path": "partials/top-section.htm"
-        }, {
-            "path": "partials/section-unknown-top.htm"
-        }, {
-            "path": "partials/bottom-section.htm"
-        }, {
-            "path": "partials/presentation.htm",
-            "variations": {
+	"components": {
+		"content" : [{
+			"path": "partials/top-section.htm"
+		}, {
+			"path": "partials/section-unknown-top.htm"
+		}, {
+			"path": "partials/bottom-section.htm"
+		}, {
+			"path": "partials/presentation.htm",
+			"variations": {
 				"components": {
 					"content" : [{
-			            "path": "partials/header.htm"
-			        }, {
-			            "path": "partials/footer.htm"
-			        }]
-		        }
-            }
-        }]
-    },
+						"path": "partials/header.htm"
+					}, {
+						"path": "partials/footer.htm"
+					}]
+				}
+			}
+		}]
+	},
 	"titlePage": "Bruno Lesieur c'est pas encore à quoi sert cette page.",
 	"description": "Contenu prochainement disponible.",
 	"opened": {

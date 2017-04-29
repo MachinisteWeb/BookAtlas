@@ -1,24 +1,24 @@
 {
-    "components": {
-        "content" : [{
-            "path": "partials/top-section.htm"
-        }, {
-            "path": "partials/section-blog.htm"
-        }, {
-            "path": "partials/bottom-section.htm"
-        }, {
-            "path": "partials/presentation.htm",
-            "variations": {
+	"components": {
+		"content" : [{
+			"path": "partials/top-section.htm"
+		}, {
+			"path": "partials/section-blog.htm"
+		}, {
+			"path": "partials/bottom-section.htm"
+		}, {
+			"path": "partials/presentation.htm",
+			"variations": {
 				"components": {
 					"content" : [{
-			            "path": "partials/header.htm"
-			        }, {
-			            "path": "partials/footer.htm"
-			        }]
-		        }
-            }
-        }]
-    },
+						"path": "partials/header.htm"
+					}, {
+						"path": "partials/footer.htm"
+					}]
+				}
+			}
+		}]
+	},
 	"titlePage": "Billets du Blog de Bruno Lesieur",
 	"description": "Je rédige des tutos et donne mes avis sur des techniques et technos à travers les billets de mon Blog.",
 	"opened": {

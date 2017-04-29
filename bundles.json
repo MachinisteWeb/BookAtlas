@@ -1,7 +1,7 @@
 {
 	"javascripts": {
-		"javascripts/common.min.js": [
-			"javascripts/socket.io.js",
+		"javascripts/common.{version}.min.js": [
+			"../node_modules/socket.io-client/dist/socket.io.min.js",
 			"node-atlas/socket.io.js",
 			"javascripts/modernizr.js",
 			"javascripts/jquery.js",
@@ -14,7 +14,7 @@
 		]
 	},
 	"stylesheets": {
-		"stylesheets/common.min.css": [
+		"stylesheets/common.{version}.min.css": [
 			"stylesheets/edit-atlas.css",
 			"stylesheets/lato.css",
 			"stylesheets/common.css"

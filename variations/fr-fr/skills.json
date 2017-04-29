@@ -1,24 +1,24 @@
 {
-    "components": {
-        "content" : [{
-            "path": "partials/top-section.htm"
-        }, {
-            "path": "partials/bottom-section.htm"
-        }, {
-            "path": "partials/section-skills.htm"
-        }, {
-            "path": "partials/presentation.htm",
-            "variations": {
-            	"components": {
+	"components": {
+		"content" : [{
+			"path": "partials/top-section.htm"
+		}, {
+			"path": "partials/bottom-section.htm"
+		}, {
+			"path": "partials/section-skills.htm"
+		}, {
+			"path": "partials/presentation.htm",
+			"variations": {
+				"components": {
 					"content" : [{
-			            "path": "partials/header.htm"
-			        }, {
-			            "path": "partials/footer.htm"
-			        }]
-		        }
-            }
-        }]
-    },
+						"path": "partials/header.htm"
+					}, {
+						"path": "partials/footer.htm"
+					}]
+				}
+			}
+		}]
+	},
 	"titlePage": "Bruno Lesieur est peut-être un développeur ninja",
 	"description": "Voici la liste de toutes les technologies web auxquelles j'ai pu toucher de prèt ou de loin.",
 	"opened": {

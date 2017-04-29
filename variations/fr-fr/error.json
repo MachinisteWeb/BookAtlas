@@ -1,22 +1,22 @@
 {
-    "components": {
-        "content" : [{
-            "path": "partials/presentation.htm",
-            "variations": {
-	            "componentName": "error",
+	"components": {
+		"content" : [{
+			"path": "partials/presentation.htm",
+			"variations": {
+				"componentName": "error",
 				"components": {
 					"content" : [{
-			            "path": "partials/header.htm",
-			            "variations": {
-			            	"error": "true"
-			            }
-			        }, {
-			            "path": "partials/footer.htm"
-			        }]
-		        }
-            }
-        }]
-    },
+						"path": "partials/header.htm",
+						"variations": {
+							"error": "true"
+						}
+					}, {
+						"path": "partials/footer.htm"
+					}]
+				}
+			}
+		}]
+	},
 	"titlePage": "Cette page n'existe pas !",
 	"description": "Là, il semblerait que vous vous soyez égaré. Retournez donc à l'accueil.",
 	"opened": {

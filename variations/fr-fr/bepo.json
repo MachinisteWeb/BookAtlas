@@ -1,24 +1,24 @@
 {
-    "components": {
-        "content" : [{
-            "path": "partials/top-section.htm"
-        }, {
-            "path": "partials/section-bepo.htm"
-        }, {
-            "path": "partials/bottom-section.htm"
-        }, {
-            "path": "partials/presentation.htm",
-            "variations": {
+	"components": {
+		"content" : [{
+			"path": "partials/top-section.htm"
+		}, {
+			"path": "partials/section-bepo.htm"
+		}, {
+			"path": "partials/bottom-section.htm"
+		}, {
+			"path": "partials/presentation.htm",
+			"variations": {
 				"components": {
 					"content" : [{
-			            "path": "partials/header.htm"
-			        }, {
-			            "path": "partials/footer.htm"
-			        }]
-		        }
-            }
-        }]
-    },
+						"path": "partials/header.htm"
+					}, {
+						"path": "partials/footer.htm"
+					}]
+				}
+			}
+		}]
+	},
 	"titlePage": "Bruno Lesieur écrit en Bépo",
 	"description": "J'écris et je développe avec une disposition Bépo. Vous aussi procurez vous un clavier Bépo et écrivez !",
 	"opened": {

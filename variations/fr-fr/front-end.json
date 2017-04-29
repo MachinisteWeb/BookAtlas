@@ -1,24 +1,24 @@
 {
-    "components": {
-        "content" : [{
-            "path": "partials/top-section.htm"
-        }, {
-            "path": "partials/section-front-end.htm"
-        }, {
-            "path": "partials/bottom-section.htm"
-        }, {
-            "path": "partials/presentation.htm",
-            "variations": {
+	"components": {
+		"content" : [{
+			"path": "partials/top-section.htm"
+		}, {
+			"path": "partials/section-front-end.htm"
+		}, {
+			"path": "partials/bottom-section.htm"
+		}, {
+			"path": "partials/presentation.htm",
+			"variations": {
 				"components": {
 					"content" : [{
-			            "path": "partials/header.htm"
-			        }, {
-			            "path": "partials/footer.htm"
-			        }]
-		        }
-            }
-        }]
-    },
+						"path": "partials/header.htm"
+					}, {
+						"path": "partials/footer.htm"
+					}]
+				}
+			}
+		}]
+	},
 	"titlePage": "Front-end et Node.js Développeur en Haute-Savoie",
 	"description": "Vous ne savez pas ce qu'est un développeur Front-end ou ce qu'est le Node.js ? Vous êtes au bon endroit.",
 	"opened": {

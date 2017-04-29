@@ -1,24 +1,24 @@
 {
-    "components": {
-        "content" : [{
-            "path": "partials/top-section.htm"
-        }, {
-            "path": "partials/bottom-section.htm"
-        }, {
-            "path": "partials/section-contact-me.htm"
-        }, {
-            "path": "partials/presentation.htm",
-            "variations": {
+	"components": {
+		"content" : [{
+			"path": "partials/top-section.htm"
+		}, {
+			"path": "partials/bottom-section.htm"
+		}, {
+			"path": "partials/section-contact-me.htm"
+		}, {
+			"path": "partials/presentation.htm",
+			"variations": {
 				"components": {
 					"content" : [{
-			            "path": "partials/header.htm"
-			        }, {
-			            "path": "partials/footer.htm"
-			        }]
-		        }
-            }
-        }]
-    },
+						"path": "partials/header.htm"
+					}, {
+						"path": "partials/footer.htm"
+					}]
+				}
+			}
+		}]
+	},
 	"titlePage": "Besoin de contacter Bruno Lesieur ?",
 	"description": "Si vous souhaitez me contacter pour du développement, du conseil, savoir l'avenir ou devenir un super héros, c'est par ici.",
 	"opened": {

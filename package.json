@@ -1,25 +1,25 @@
 {
-  "name": "book-atlas",
-  "version": "0.24.0",
-  "author": "Bruno Lesieur <bruno.lesieur@gmail.com>",
-  "description": "Exemple de développement de site Node.js.",
-  "private": false,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Haeresis/BookAtlas.git"
-  },
-  "license": "GPL-2.0",
-  "bugs": {
-    "url": "https://github.com/Haeresis/BookAtlas/issues"
-  },
-  "dependencies": {
-    "cookie": "0.3.x",
-    "socket.io": "1.5.x",
-    "nodemailer": "2.6.x",
-    "jshashes": "1.0.x"
-  },
-  "engines": {
-    "node": ">=0.10.10"
-  },
-  "readmeFilename": "README.md"
+	"name": "book-atlas",
+	"version": "0.26.0",
+	"author": "Bruno Lesieur <bruno.lesieur@gmail.com>",
+	"description": "Exemple de développement de site Node.js.",
+	"private": false,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Haeresis/BookAtlas.git"
+	},
+	"license": "GPL-2.0",
+	"bugs": {
+		"url": "https://github.com/Haeresis/BookAtlas/issues"
+	},
+	"dependencies": {
+		"cookie": "0.3.x",
+		"socket.io": "1.7.x",
+		"nodemailer": "2.6.x",
+		"jshashes": "1.0.x"
+	},
+	"engines": {
+		"node": ">=0.10.10"
+	},
+	"readmeFilename": "README.md"
 }

@@ -1,46 +1,46 @@
 {
-    "components": {
-        "content": [
-            {
-                "path": "partials/top-section.htm"
-            },
-            {
-                "path": "partials/bottom-section.htm"
-            },
-            {
-                "path": "partials/presentation.htm",
-                "variations": {
-                    "components": {
-                        "content": [
-                            {
-                                "path": "partials/header.htm"
-                            },
-                            {
-                                "path": "partials/footer.htm"
-                            }
-                        ]
-                    }
-                }
-            }
-        ]
-    },
-    "titlePage": "Bruno Lesieur (Haeresis), intégrateur web et développeur node.js sur Annecy",
-    "description": "Ce portail web est dédié à la présentation de mes projets et compétences, mais pas que ! Faites donc un tour.",
-    "opened": {
-        "main": "",
-        "bepo": "",
-        "offers": "",
-        "book": "",
-        "website": "",
-        "blog": "",
-        "front-end": "",
-        "unknown-top": "",
-        "unknown-bottom": "",
-        "websites": "",
-        "skills": "",
-        "contact-me": "",
-        "about-me": "",
-        "nodeatlas": "",
-        "games": ""
-    }
+	"components": {
+		"content": [
+			{
+				"path": "partials/top-section.htm"
+			},
+			{
+				"path": "partials/bottom-section.htm"
+			},
+			{
+				"path": "partials/presentation.htm",
+				"variations": {
+					"components": {
+						"content": [
+							{
+								"path": "partials/header.htm"
+							},
+							{
+								"path": "partials/footer.htm"
+							}
+						]
+					}
+				}
+			}
+		]
+	},
+	"titlePage": "Bruno Lesieur (Haeresis), intégrateur web et développeur node.js sur Annecy",
+	"description": "Ce portail web est dédié à la présentation de mes projets et compétences, mais pas que ! Faites donc un tour.",
+	"opened": {
+		"main": "",
+		"bepo": "",
+		"offers": "",
+		"book": "",
+		"website": "",
+		"blog": "",
+		"front-end": "",
+		"unknown-top": "",
+		"unknown-bottom": "",
+		"websites": "",
+		"skills": "",
+		"contact-me": "",
+		"about-me": "",
+		"nodeatlas": "",
+		"games": ""
+	}
 }

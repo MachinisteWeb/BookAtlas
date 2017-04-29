@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--[if lte 8]><html lang="<?- languageCode ?>" class="old-ie"><![endif]-->
 <!--[if IE 9]><html lang="<?- languageCode ?>" class="ie9"><![endif]-->
-<!--[if gt IE 9]><!--><html lang="<?- languageCode ?>" class="<?= webconfig._minified.replace(".", "") ?>"><!--<![endif]-->
+<!--[if gt IE 9]><!--><html lang="<?- languageCode ?>" class="<?= (webconfig._min) ? 'min' : '' ?>"><!--<![endif]-->
 	<head>
 		<meta charset="utf-8" />
 		<title><?= specific.titlePage ?></title>
@@ -16,8 +16,8 @@
 		<!--[if IE]><meta name="viewport" content="width=device-width, user-scalable=no" /><![endif]-->
 		<!--[if !IE]><!--><meta name="viewport" content="initial-scale=1.0, user-scalable=no" /><!--<![endif]-->
 
-		<? if (webconfig._minified) { ?>
-		<link rel="stylesheet" type="text/css" href="<?- urlBasePath ?>/stylesheets/common.min.css" />
+		<? if (webconfig._min) { ?>
+		<link rel="stylesheet" type="text/css" href="<?- urlBasePath ?>/stylesheets/common.<?= webconfig.version ?>.min.css" />
 		<? } else { ?>
 		<link rel="stylesheet" type="text/css" href="<?- urlBasePath ?>/stylesheets/edit-atlas.css" />
 		<link rel="stylesheet" type="text/css" href="<?- urlBasePath ?>/stylesheets/lato.css" />

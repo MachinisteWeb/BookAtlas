@@ -1,11 +1,10 @@
 		</div>
 		<?- include('edit-atlas.htm') ?>
 
-		<? if (webconfig._minified) { ?>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.5.1/socket.io.min.js"></script>
-		<script type="text/javascript" src="<?- urlBasePath ?>/javascripts/common.min.js"></script>
+		<? if (webconfig._min) { ?>
+		<script type="text/javascript" src="<?- urlBasePath ?>/javascripts/common.<?= webconfig.version ?>.min.js"></script>
 		<? } else { ?>
-		<script type="text/javascript" src="<?- urlBasePath ?>/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="<?- urlBasePath ?>/javascripts/socket.io.js"></script>
 		<script type="text/javascript" src="<?- urlBasePath ?>/node-atlas/socket.io.js"></script>
 		<script type="text/javascript" src="<?- urlBasePath ?>/javascripts/modernizr.js"></script>
 		<script type="text/javascript" src="<?- urlBasePath ?>/javascripts/jquery.js"></script>

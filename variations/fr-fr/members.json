@@ -1,22 +1,22 @@
 {
-    "components": {
-        "content" : [{
-            "path": "partials/presentation.htm",
-            "variations": {
-	            "componentName": "members",
+	"components": {
+		"content" : [{
+			"path": "partials/presentation.htm",
+			"variations": {
+				"componentName": "members",
 				"components": {
 					"content" : [{
-			            "path": "partials/header.htm"
-			        }, {
-			            "path": "partials/footer.htm",
-			            "variations": {
-			            	"members": "true"
-			            }
-			        }]
-		        }
-            }
-        }]
-    },
+						"path": "partials/header.htm"
+					}, {
+						"path": "partials/footer.htm",
+						"variations": {
+							"members": "true"
+						}
+					}]
+				}
+			}
+		}]
+	},
 	"titlePage": "Connectez vous, Bruno Lesieur",
 	"description": "Espace de connexion à votre interface d'édition.",
 	"opened": {

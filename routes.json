@@ -1,135 +1,135 @@
 {
-  "/bepo/": {
-    "view": "simple.htm",
-    "variation": "bepo.json"
-  },
-  "/bepo": {
-    "redirect": "/bepo/",
-    "statusCode": 301
-  },
-  "/edition/": {
-    "view": "simple.htm",
-    "variation": "offers.json"
-  },
-  "/edition": {
-    "redirect": "/offres/",
-    "statusCode": 301
-  },
-  "/portfolio/": {
-    "view": "simple.htm",
-    "variation": "book.json"
-  },
-  "/portfolio": {
-    "redirect": "/portfolio/",
-    "statusCode": 301
-  },
-  "/bienvenue/": {
-    "view": "simple.htm",
-    "variation": "website.json"
-  },
-  "/bienvenue": {
-    "redirect": "/bienvenue/",
-    "statusCode": 301
-  },
-  "/blog/": {
-    "view": "simple.htm",
-    "variation": "blog.json"
-  },
-  "/blog": {
-    "redirect": "/blog/",
-    "statusCode": 301
-  },
-  "/metiers/": {
-    "view": "simple.htm",
-    "variation": "front-end.json"
-  },
-  "/metiers": {
-    "redirect": "/metiers/",
-    "statusCode": 301
-  },
-  "/en-cours-haut/": {
-    "view": "simple.htm",
-    "variation": "unknown-top.json"
-  },
-  "/en-cours-haut": {
-    "redirect": "/en-cours-haut/",
-    "statusCode": 301
-  },
-  "/en-cours-bas/": {
-    "view": "simple.htm",
-    "variation": "unknown-bottom.json"
-  },
-  "/en-cours-bas": {
-    "redirect": "/en-cours-bas/",
-    "statusCode": 301
-  },
-  "/communautes/": {
-    "view": "simple.htm",
-    "variation": "websites.json"
-  },
-  "/communautes": {
-    "redirect": "/communautes/",
-    "statusCode": 301
-  },
-  "/competences/": {
-    "view": "simple.htm",
-    "variation": "skills.json"
-  },
-  "/competences": {
-    "redirect": "/competences/",
-    "statusCode": 301
-  },
-  "/me-contacter/": {
-    "view": "simple.htm",
-    "variation": "contact-me.json"
-  },
-  "/me-contacter": {
-    "redirect": "/me-contacter/",
-    "statusCode": 301
-  },
-  "/a-propos/": {
-    "view": "simple.htm",
-    "variation": "about-me.json"
-  },
-  "/a-propos": {
-    "redirect": "/a-propos/",
-    "statusCode": 301
-  },
-  "/node-atlas/": {
-    "view": "simple.htm",
-    "variation": "nodeatlas.json"
-  },
-  "/node-atlas": {
-    "redirect": "/node-atlas/",
-    "statusCode": 301
-  },
-  "/hobbies/": {
-    "view": "simple.htm",
-    "variation": "games.json"
-  },
-  "/hobbies": {
-    "redirect": "/hobbies/",
-    "statusCode": 301
-  },
-  "/espace-membres/": {
-    "view": "simple.htm",
-    "variation": "members.json"
-  },
-  "/espace-membres": {
-    "redirect": "/espace-membres/",
-    "statusCode": 301
-  },
-  "/page-inexistante/": {
-    "view": "simple.htm",
-    "variation": "error.json",
-    "statusCode": 404
-  },
-  "/": {
-    "view": "simple.htm",
-    "variation": "index.json"
-  },
-  "": {
-    "redirect": "/",
-    "statusCode": 301
-  }
+	"/bepo/": {
+		"view": "simple.htm",
+		"variation": "bepo.json"
+	},
+	"/bepo": {
+		"redirect": "/bepo/",
+		"statusCode": 301
+	},
+	"/edition/": {
+		"view": "simple.htm",
+		"variation": "offers.json"
+	},
+	"/edition": {
+		"redirect": "/offres/",
+		"statusCode": 301
+	},
+	"/portfolio/": {
+		"view": "simple.htm",
+		"variation": "book.json"
+	},
+	"/portfolio": {
+		"redirect": "/portfolio/",
+		"statusCode": 301
+	},
+	"/bienvenue/": {
+		"view": "simple.htm",
+		"variation": "website.json"
+	},
+	"/bienvenue": {
+		"redirect": "/bienvenue/",
+		"statusCode": 301
+	},
+	"/blog/": {
+		"view": "simple.htm",
+		"variation": "blog.json"
+	},
+	"/blog": {
+		"redirect": "/blog/",
+		"statusCode": 301
+	},
+	"/metiers/": {
+		"view": "simple.htm",
+		"variation": "front-end.json"
+	},
+	"/metiers": {
+		"redirect": "/metiers/",
+		"statusCode": 301
+	},
+	"/en-cours-haut/": {
+		"view": "simple.htm",
+		"variation": "unknown-top.json"
+	},
+	"/en-cours-haut": {
+		"redirect": "/en-cours-haut/",
+		"statusCode": 301
+	},
+	"/en-cours-bas/": {
+		"view": "simple.htm",
+		"variation": "unknown-bottom.json"
+	},
+	"/en-cours-bas": {
+		"redirect": "/en-cours-bas/",
+		"statusCode": 301
+	},
+	"/communautes/": {
+		"view": "simple.htm",
+		"variation": "websites.json"
+	},
+	"/communautes": {
+		"redirect": "/communautes/",
+		"statusCode": 301
+	},
+	"/competences/": {
+		"view": "simple.htm",
+		"variation": "skills.json"
+	},
+	"/competences": {
+		"redirect": "/competences/",
+		"statusCode": 301
+	},
+	"/me-contacter/": {
+		"view": "simple.htm",
+		"variation": "contact-me.json"
+	},
+	"/me-contacter": {
+		"redirect": "/me-contacter/",
+		"statusCode": 301
+	},
+	"/a-propos/": {
+		"view": "simple.htm",
+		"variation": "about-me.json"
+	},
+	"/a-propos": {
+		"redirect": "/a-propos/",
+		"statusCode": 301
+	},
+	"/node-atlas/": {
+		"view": "simple.htm",
+		"variation": "nodeatlas.json"
+	},
+	"/node-atlas": {
+		"redirect": "/node-atlas/",
+		"statusCode": 301
+	},
+	"/hobbies/": {
+		"view": "simple.htm",
+		"variation": "games.json"
+	},
+	"/hobbies": {
+		"redirect": "/hobbies/",
+		"statusCode": 301
+	},
+	"/espace-membres/": {
+		"view": "simple.htm",
+		"variation": "members.json"
+	},
+	"/espace-membres": {
+		"redirect": "/espace-membres/",
+		"statusCode": 301
+	},
+	"/page-inexistante/": {
+		"view": "simple.htm",
+		"variation": "error.json",
+		"statusCode": 404
+	},
+	"/": {
+		"view": "simple.htm",
+		"variation": "index.json"
+	},
+	"": {
+		"redirect": "/",
+		"statusCode": 301
+	}
 }
