@@ -164,6 +164,14 @@
 		content: "\f121";
 	}
 
+	&.cogs:before {
+		content: "\f085";
+	}
+
+	&.euro:before {
+		content: "\f153";
+	}
+
 	&.mail:before {
 		content: "\f0e0";
 	}
@@ -362,7 +370,7 @@
 						width 1s ease;
 }
 
-.start .about.website .intro strong {
+.start .about.home .intro strong {
 	display: inline-block;
 	padding: 0px;
 	border: solid 1px rgba(0, 0, 0, 0);
@@ -407,6 +415,8 @@
 
 .about-me .background-image .left,
 .about-me .background-image .right,
+.skills .background-image .left,
+.skills .background-image .right,
 .nodeatlas .background-image .left,
 .nodeatlas .background-image .right,
 .games .background-image .left,
@@ -415,16 +425,18 @@
 .blog .background-image .right,
 .book .background-image .left,
 .book .background-image .right,
+.edit-me .background-image .left,
+.edit-me .background-image .right,
 .offers .background-image .left,
 .offers .background-image .right,
-.skills .background-image .left,
-.skills .background-image .right,
-.website .background-image .left,
-.website .background-image .right,
+.home .background-image .left,
+.home .background-image .right,
 .contact-me .background-image .left,
 .contact-me .background-image .right,
-.front-end .background-image .left,
-.front-end .background-image .right,
+.jobs .background-image .left,
+.jobs .background-image .right,
+.zetetic .background-image .left,
+.zetetic .background-image .right,
 .websites .background-image .left,
 .websites .background-image .right,
 .bepo .background-image .left,
@@ -439,11 +451,19 @@
   -webkit-transition: opacity .5s ease;
   transition: opacity .5s ease;
 }
-.front-end .background-image {
+.jobs .background-image {
+  background-image: url('../media/images/animate-front-end.jpg');
+  opacity: .5;
+}
+.zetetic .background-image {
   background-image: url('../media/images/animate-front-end.jpg');
   opacity: .5;
 }
 .about-me .background-image {
+  background-image: url('../media/images/animate-about-me.jpg');
+  opacity: .5;
+}
+.skills .background-image {
   background-image: url('../media/images/animate-about-me.jpg');
   opacity: .5;
 }
@@ -471,16 +491,16 @@
   background-image: url('../media/images/animate-contact-me.jpg');
   opacity: .5;
 }
-.website .background-image {
+.home .background-image {
   background-image: url('../media/images/animate-website.jpg');
+  opacity: .5;
+}
+.edit-me .background-image {
+  background-image: url('../media/images/animate-offers.jpg');
   opacity: .5;
 }
 .offers .background-image {
   background-image: url('../media/images/animate-offers.jpg');
-  opacity: .5;
-}
-.skills .background-image {
-  background-image: url('../media/images/animate-skills.jpg');
   opacity: .5;
 }
 .bepo .background-image {
@@ -1164,12 +1184,13 @@ a:hover {
 }
 
 .websites .after.panel,
+.skills .after.panel,
 .games .before.panel,
 .nodeatlas .before.panel {
 	top: 136px;
 }
 
-.skills .before.panel,
+.offers .before.panel,
 .about-me .after.panel {
 	top: 88px;
 }
@@ -1184,32 +1205,36 @@ a:hover {
 	}
 
 	.main.to.bottom .sections .section.open .bepo .scrollable,
-	.main.to.bottom .sections .section.open .offers .scrollable,
+	.main.to.bottom .sections .section.open .edit-me .scrollable,
 	.main.to.bottom .sections .section.open .blog .scrollable,
 	.main.to.top .sections .section.open .websites .scrollable,
-	.main.to.top .sections .section.open .about-me .scrollable {
+	.main.to.top .sections .section.open .about-me .scrollable,
+	.main.to.top .sections .section.open .skills .scrollable {
 		margin-right: 108px;
 	}
 
-	.main.to.bottom .sections .section.open .front-end .scrollable,
+	.main.to.bottom .sections .section.open .zetitic .scrollable,
+	.main.to.bottom .sections .section.open .jobs .scrollable,
 	.main.to.top .sections .section.open .games .scrollable,
-	.main.to.top .sections .section.open .skills .scrollable {
+	.main.to.top .sections .section.open .offers .scrollable {
 		margin-left: 108px;
 	}
 
-	.section.open .front-end .before.panel,
-	.section.open .skills .before.panel,
+	.section.open .zetetic .before.panel,
+	.section.open .jobs .before.panel,
+	.section.open .offers .before.panel,
 	.section.open .games .before.panel,
 	.section.open .nodeatlas .before.panel {
 		left: 8px;
 		opacity: 1;
 	}
 
-	.section.open .offers .after.panel,
+	.section.open .edit-me .after.panel,
 	.section.open .bepo .after.panel,
 	.section.open .blog .after.panel,
 	.section.open .websites .after.panel,
-	.section.open .about-me .after.panel {
+	.section.open .about-me .after.panel,
+	.section.open .skills .after.panel {
 		right: 8px;
 		opacity: 1;
 	}
@@ -1221,9 +1246,10 @@ a:hover {
 	}
 
 	.nodeatlas .before.panel,
-	.skills .before.panel,
+	.offers .before.panel,
 	.games .before.panel,
 	.about-me .after.panel,
+	.skills .after.panel,
 	.websites .after.panel {
 		top: 16px;
 	}
@@ -1784,7 +1810,7 @@ button:hover, input[type=button]:hover, input[type=submit]:hover {
 		display: inline-block;
 	}
 	.main .bepo .complete > :last-child,
-	.main .front-end .complete > :last-child {
+	.main .jobs .complete > :last-child {
 		padding-bottom: 56px;
 	}
 }
@@ -1938,16 +1964,18 @@ button:hover, input[type=button]:hover, input[type=submit]:hover {
 	}
 
 	.main.to.bottom .sections .section.open .bepo .scrollable,
-	.main.to.bottom .sections .section.open .offers .scrollable,
+	.main.to.bottom .sections .section.open .edit-me .scrollable,
 	.main.to.bottom .sections .section.open .blog .scrollable,
 	.main.to.top .sections .section.open .websites .scrollable,
-	.main.to.top .sections .section.open .about-me .scrollable {
+	.main.to.top .sections .section.open .about-me .scrollable,
+	.main.to.top .sections .section.open .skills .scrollable {
 		margin-right: 188px;
 	}
 
-	.main.to.bottom .sections .section.open .front-end .scrollable,
+	.main.to.bottom .sections .section.open .zetetic .scrollable,
+	.main.to.bottom .sections .section.open .jobs .scrollable,
 	.main.to.top .sections .section.open .games .scrollable,
-	.main.to.top .sections .section.open .skills .scrollable {
+	.main.to.top .sections .section.open .offers .scrollable {
 		margin-left: 188px;
 	}
 

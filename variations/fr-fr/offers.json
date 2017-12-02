@@ -3,9 +3,9 @@
 		"content" : [{
 			"path": "partials/top-section.htm"
 		}, {
-			"path": "partials/section-offers.htm"
-		}, {
 			"path": "partials/bottom-section.htm"
+		}, {
+			"path": "partials/section-offers.htm"
 		}, {
 			"path": "partials/presentation.htm",
 			"variations": {
@@ -19,20 +19,20 @@
 			}
 		}]
 	},
-	"titlePage": "Bruno Lesieur peut-il vous proposer ses services ?",
-	"description": "Besoin d'un services ? Développement JavaScript, Front-end, conseil d'architecture web ? On est partis !",
+	"titlePage": "Bruno Lesieur est peut-être un développeur ninja",
+	"description": "Voici la liste de toutes les technologies web auxquelles j'ai pu toucher de prèt ou de loin.",
 	"opened": {
-		"main": "to bottom",
+		"main": "to top",
 		"bepo": "",
-		"offers": "open",
+		"edit-me": "",
 		"book": "",
-		"website": "",
+		"home": "",
 		"blog": "",
-		"front-end": "",
-		"unknown-top": "",
-		"unknown-bottom": "",
-		"websites": "",
+		"jobs": "",
+		"zetetic": "",
 		"skills": "",
+		"websites": "",
+		"offers": "open",
 		"contact-me": "",
 		"about-me": "",
 		"nodeatlas": "",

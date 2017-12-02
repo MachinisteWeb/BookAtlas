@@ -1,22 +1,18 @@
-		<li class="small section <?= specific.opened.offers ?>" data-url="<?= common.url.offers ?>">
+		<li class="large section <?= specific.opened.offers ?>" data-url="<?= common.url.offers ?>">
 			<section class="about offers content">
 				<h1>
-					<ins class="collapse icon edit"></ins>
+					<ins class="collapse icon euro"></ins>
 					<span><?- et(common, ['aboutOffers.title', fc]) ?></span>
 				</h1>
 
-
 				<div class="vertical scrollable">
-					<div class="after panel">
-						<h2><?- et(common, ['aboutOffers.afterPanel.title', fc]) ?></h2>
-						<p class="toggle checkbox">
-			          		<input type="radio" name="edit">
-			          		<label><?- et(common, ['aboutOffers.afterPanel.radioButton', fc]) ?></label>
-						</p>
-						<p class="horizontal divider">
-							<?- et(common, ['aboutOffers.afterPanel.separator', fc]) ?>
-						</p>
-						<?- eh(common, ['aboutOffers.afterPanel.content', fc]) ?>
+					<div class="intro">
+						<?- eh(common, ['aboutOffers.intro', fc]) ?>
+					</div>
+
+					<div class="before panel">
+						<h2><?- et(common, ['aboutOffers.beforePanel.title', fc]) ?></h2>
+						<?- eh(common, ['aboutOffers.beforePanel.content', fc]) ?>
 					</div>
 
 					<div class="complete">

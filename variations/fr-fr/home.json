@@ -3,7 +3,7 @@
 		"content" : [{
 			"path": "partials/top-section.htm"
 		}, {
-			"path": "partials/section-front-end.htm"
+			"path": "partials/section-home.htm"
 		}, {
 			"path": "partials/bottom-section.htm"
 		}, {
@@ -19,20 +19,20 @@
 			}
 		}]
 	},
-	"titlePage": "Front-end et Node.js Développeur en Haute-Savoie",
-	"description": "Vous ne savez pas ce qu'est un développeur Front-end ou ce qu'est le Node.js ? Vous êtes au bon endroit.",
+	"titlePage": "Bienvenue chez Bruno Lesieur",
+	"description": "Besoin d'un développeur HTML, CSS, JavaScript pour une intégration web ou bien vous ne savez pas à quoi sert un développeur Front-end ou Node.js, vous êtes au bon endroit.",
 	"opened": {
 		"main": "to bottom",
 		"bepo": "",
-		"offers": "",
+		"edit-me": "",
 		"book": "",
-		"website": "",
+		"home": "open",
 		"blog": "",
-		"front-end": "open",
-		"unknown-top": "",
-		"unknown-bottom": "",
-		"websites": "",
+		"jobs": "",
+		"zetetic": "",
 		"skills": "",
+		"websites": "",
+		"offers": "",
 		"contact-me": "",
 		"about-me": "",
 		"nodeatlas": "",

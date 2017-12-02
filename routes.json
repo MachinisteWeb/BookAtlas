@@ -9,10 +9,10 @@
 	},
 	"/edition/": {
 		"view": "simple.htm",
-		"variation": "offers.json"
+		"variation": "edit-me.json"
 	},
 	"/edition": {
-		"redirect": "/offres/",
+		"redirect": "/edition/",
 		"statusCode": 301
 	},
 	"/portfolio/": {
@@ -25,7 +25,7 @@
 	},
 	"/bienvenue/": {
 		"view": "simple.htm",
-		"variation": "website.json"
+		"variation": "home.json"
 	},
 	"/bienvenue": {
 		"redirect": "/bienvenue/",
@@ -41,26 +41,18 @@
 	},
 	"/metiers/": {
 		"view": "simple.htm",
-		"variation": "front-end.json"
+		"variation": "jobs.json"
 	},
 	"/metiers": {
 		"redirect": "/metiers/",
 		"statusCode": 301
 	},
-	"/en-cours-haut/": {
+	"/competences/": {
 		"view": "simple.htm",
-		"variation": "unknown-top.json"
+		"variation": "skills.json"
 	},
-	"/en-cours-haut": {
-		"redirect": "/en-cours-haut/",
-		"statusCode": 301
-	},
-	"/en-cours-bas/": {
-		"view": "simple.htm",
-		"variation": "unknown-bottom.json"
-	},
-	"/en-cours-bas": {
-		"redirect": "/en-cours-bas/",
+	"/competences": {
+		"redirect": "/competences/",
 		"statusCode": 301
 	},
 	"/communautes/": {
@@ -71,12 +63,12 @@
 		"redirect": "/communautes/",
 		"statusCode": 301
 	},
-	"/competences/": {
+	"/offres/": {
 		"view": "simple.htm",
-		"variation": "skills.json"
+		"variation": "offers.json"
 	},
-	"/competences": {
-		"redirect": "/competences/",
+	"/offres": {
+		"redirect": "/offres/",
 		"statusCode": 301
 	},
 	"/me-contacter/": {
@@ -101,6 +93,14 @@
 	},
 	"/node-atlas": {
 		"redirect": "/node-atlas/",
+		"statusCode": 301
+	},
+	"/zetetique/": {
+		"view": "simple.htm",
+		"variation": "zetetic.json"
+	},
+	"/zetetique": {
+		"redirect": "/zetetique/",
 		"statusCode": 301
 	},
 	"/hobbies/": {

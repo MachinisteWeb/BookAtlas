@@ -3,7 +3,7 @@
 		"content" : [{
 			"path": "partials/top-section.htm"
 		}, {
-			"path": "partials/section-website.htm"
+			"path": "partials/section-zetetic.htm"
 		}, {
 			"path": "partials/bottom-section.htm"
 		}, {
@@ -19,20 +19,20 @@
 			}
 		}]
 	},
-	"titlePage": "Bienvenue chez Bruno Lesieur",
-	"description": "Besoin d'un développeur HTML, CSS, JavaScript pour une intégration web ou bien vous ne savez pas à quoi sert un développeur Front-end ou Node.js, vous êtes au bon endroit.",
+	"titlePage": "Bruno Lesieur c'est pas encore à quoi sert cette page.",
+	"description": "Contenu prochainement disponible.",
 	"opened": {
 		"main": "to bottom",
 		"bepo": "",
-		"offers": "",
+		"edit-me": "",
 		"book": "",
-		"website": "open",
+		"home": "",
 		"blog": "",
-		"front-end": "",
-		"unknown-top": "",
-		"unknown-bottom": "",
-		"websites": "",
+		"jobs": "",
+		"unknown-top": "open",
 		"skills": "",
+		"websites": "",
+		"offers": "",
 		"contact-me": "",
 		"about-me": "",
 		"nodeatlas": "",

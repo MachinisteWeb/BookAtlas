@@ -3,9 +3,9 @@
 		"content" : [{
 			"path": "partials/top-section.htm"
 		}, {
-			"path": "partials/bottom-section.htm"
+			"path": "partials/section-edit-me.htm"
 		}, {
-			"path": "partials/section-unknown-bottom.htm"
+			"path": "partials/bottom-section.htm"
 		}, {
 			"path": "partials/presentation.htm",
 			"variations": {
@@ -19,20 +19,20 @@
 			}
 		}]
 	},
-	"titlePage": "Bruno Lesieur c'est pas encore à quoi sert cette page.",
-	"description": "Contenu prochainement disponible.",
+	"titlePage": "Bruno Lesieur peut-il vous proposer ses services ?",
+	"description": "Besoin d'un services ? Développement JavaScript, Front-end, conseil d'architecture web ? On est partis !",
 	"opened": {
-		"main": "to top",
+		"main": "to bottom",
 		"bepo": "",
-		"offers": "",
+		"edit-me": "open",
 		"book": "",
-		"website": "",
+		"home": "",
 		"blog": "",
-		"front-end": "",
-		"unknown-top": "",
-		"unknown-bottom": "open",
-		"websites": "",
+		"jobs": "",
+		"zetetic": "",
 		"skills": "",
+		"websites": "",
+		"offers": "",
 		"contact-me": "",
 		"about-me": "",
 		"nodeatlas": "",

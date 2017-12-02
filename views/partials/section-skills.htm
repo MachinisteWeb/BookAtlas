@@ -1,4 +1,4 @@
-		<li class="large section <?= specific.opened.skills ?>" data-url="<?= common.url.skills ?>">
+		<li class="small section <?= specific.opened.skills ?>" data-url="<?= common.url.skills ?>">
 			<section class="about skills content">
 				<h1>
 					<ins class="collapse icon code"></ins>
@@ -6,13 +6,9 @@
 				</h1>
 
 				<div class="vertical scrollable">
-					<div class="intro">
-						<?- eh(common, ['aboutSkills.intro', fc]) ?>
-					</div>
-
-					<div class="before panel">
-						<h2><?- et(common, ['aboutSkills.beforePanel.title', fc]) ?></h2>
-						<?- eh(common, ['aboutSkills.beforePanel.content', fc]) ?>
+					<div class="after panel">
+						<h2><?- et(common, ['aboutSkills.afterPanel.title', fc]) ?></h2>
+						<?- eh(common, ['aboutSkills.afterPanel.content', fc]) ?>
 					</div>
 
 					<div class="complete">
@@ -20,7 +16,7 @@
 					</div>
 
 					<nav class="return">
-						<a href="javascript:;" title="<?- ea(common, ['menu.title', fc, 'title']) ?>"><?- et(common, ['menu.content', fc]) ?></a>
+						<a href="javascript:;" title="<?- ea(common,['menu.title', fc, 'title']) ?>"><?- et(common, ['menu.content', fc]) ?></a>
 					</nav>
 				</div>
 			</section>

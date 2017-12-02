@@ -1,362 +1,378 @@
 {
-	"components": {
-		"head": [
-			{
-				"path": "partials/master-head.htm"
-			},
-			{
-				"path": "partials/master-content.htm"
-			}
-		],
-		"foot": [
-			{
-				"path": "partials/master-foot.htm"
-			}
-		]
-	},
-	"email": {
-		"from": "\"Lesieur.name\" <postmaster@lesieur.name>",
-		"to": "bruno.lesieur@gmail.com",
-		"subject": {
-			"anonyme": "Une personne souhaite te contacter depuis www.lesieur.name",
-			"auth": "souhaite te contacter depuis www.lesieur.name",
-			"reply": "souhaite te contacter depuis www.lesieur.name"
-		},
-		"replyTo": {
-			"anonyme": "\"Anonyme\" <no-reply@lesieur.name>"
-		}
-	},
-	"placename": "Annecy, Haute-Savoie, France",
-	"javascriptDisable": "Votre JavaScript est désactivé aussi toutes les fonctionalités de ce site ne seront pas disponibles.",
-	"permalink": "Permalien :",
-	"skipLink": {
-		"title": "Accès aux sections",
-		"items": [
-			{
-				"content": "Allez en corps de page",
-				"title": "Allez en corps de page",
-				"href": "#content"
-			},
-			{
-				"content": "Allez au menu de navigation",
-				"title": "Allez au menu de navigation",
-				"href": "#menu"
-			},
-			{
-				"content": "Allez au crédits",
-				"title": "Allez au au crédits",
-				"href": "#footer"
-			}
-		]
-	},
-	"menu": {
-		"content": "Menu",
-		"title": "Menu"
-	},
-	"editableArea": {
-		"close": "Fermer",
-		"switchBlock": "Contenu<br>complet",
-		"switchInline": "Annuler les modifications",
-		"wysiwyg": "(Éditeur)",
-		"plainText": "(Source)",
-		"dockLeft": "⇤",
-		"dockRight": "⇥",
-		"anchor": "<ins>⚓</ins><del>X</del>",
-		"cancelUpdate": "Annuler",
-		"sourceInfo": "Cette valeur provenant du serveur, un rechargement de page peut-être nécessaire.",
-		"title": "Zone d'édition de contenu",
-		"next": "Continuer avant d'envoyer",
-		"submit": "Modifier"
-	},
-	"logo": {
-		"content": "<span class=\"first\">Bruno Lesieur</span> <span class=\"second\">Haeresis</span>",
-		"title": "Bruno Lesieur",
-		"href": "./"
-	},
-	"aboutSite": {
-		"title": "Bienvenue",
-		"intro": "<p>Présentation rapide de mon portail</p>\n\n<p><strong>Cliquez sur un onglet pour l'ouvrir</strong></p>",
-		"content": "<h2>Présentation</h2>\n<p>Je suis architecte web entre la Haute-Savoie et la Suisse Romande et je développe dans les règles de l'art. Ici exit le patchwork de code à n'en plus finir, les balises et attributs qui usurpent le travail du CSS ou encore les morceaux de JavaScript en plein milieu de la sémantique. Non, ici on travail de manière pragmatique mais structuré. Mes amis s'appellent HTML5, CSS3, ES6, Node.js, Websocket, Stylus et j'en passe ! Ils œuvrent pour deux choses communes :</p>\n\n<ul>\n\t<li>Être au service du référencement et de l'ergonomie pour que le contenu soit indexable et accessible quel que soit la plateforme d'affichage ou les mécanismes d'animations.</li>\n\t<li>Être au service de la maintenabilité et de la lisibilité pour garder un site actualisable et aux normes du web dans un souci de productivité, sécurité et de performance.</li>\n</ul>\n\n<h2>Visite guidé</h2>\n<p>Ce portail présente avant tous les projets dans lesquels je me suis investi hors de mon cadre professionnel. Ce sont eux qui m'ont permis d'acquérir des connaissances sur le web ancestral et de rester à l'écoute des dernières avancées.</p>\n\n<p>Ce portail présente également celui que je suis devenu après 5 ans d'études supérieures et plus de 7 ans d'expériences professionnelles m'ayant données des clés en ergonomie, en référencement, en qualité de code, et en architecture web.</p>\n\n\t<p>Vous trouverez de quoi me suivre moi et mes projets dans « À propos » ainsi que tout ce qu'il faut savoir sur mes développements dans les autres sections.</p>\n\n<h2>Technos utilisées</h2>\n<p> <a class=\"external\" href=\"http://www.w3.org/TR/html5/\" title=\"HTML5\">HTML5</a>, <a class=\"external\" href=\"http://www.w3.org/Style/CSS/current-work/\" title=\"CSS3\">CSS3</a>, <a class=\"external\" href=\"hhttp://stylus-lang.com/\" title=\"Stylus\">Stylus</a>, <a class=\"external\" href=\"http://www.ecma-international.org/publications/standards/Ecma-262.htm\" title=\"JavaScript\">JavaScript</a>, <a class=\"external\" href=\"http://jquery.com/\" title=\"jQuery\">jQuery</a>, <a class=\"external\" href=\"http://nodejs.org/\" title=\"Node.js\">Node.js</a>, <a href=\"http://www.sonarqube.org/\" title=\"SonarQube\">Code Quality</a>, <a class=\"external\" href=\"http://www.w3.org/TR/XMLHttpRequest/\" title=\"Cross Domain\">Cross Domain</a>, <a class=\"external\" href=\"http://api.jquery.com/jquery.ajax/\" title=\"AJAX\">AJAX</a>, <a class=\"external\" href=\"http://socket.io/\" title=\"Websocket\">Websocket</a>, <a class=\"external\" href=\"http://www.json.org/\" title=\"JSON\">JSON</a>, <a class=\"external\" href=\"http://threejs.org/\" title=\"Canvas\">Canvas</a>, <a class=\"external\" href=\"http://dev.mysql.com/doc/refman/5.0/fr/\" title=\"SQL\">SQL</a>, <a class=\"external\" href=\"http://www.mongodb.org/\" title=\"NoSQL\">NoSQL</a>, <a class=\"external\" href=\"http://www.php.net/manual/en/index.php\" title=\"PHP\">PHP</a>, <a class=\"external\" href=\"http://www.microsoft.com/net\" title=\".NET\">.NET</a> </p>\n\n<h2>Un problème technique ?</h2>\n<p>Si vous rencontrez un quelconque problème contactez-moi via mon adresse email <a href=\"javascript:;\" class=\"link generate-email\">en la générant en cliquant ici</a>.</p>"
-	},
-	"aboutOffers": {
-		"title": "Édition",
-		"content": "<h2>Avez-vous déjà édité dans un Front-office ?</h2><p>Le principe de l'édition Front-office est de voir en temps réel les modifications de rendu de ce que l'on édite. Quoi de mieux que de vérifier dans la vrai zone ou doit apparaître le texte quel va être son rendu ?</p>\n\n<p>Bien entendu, cette possibilité d'édition doit être offerte uniquement quand l'utilisateur est loggué et en a les droits. J'ai implémenté un mécanisme vous permettant de tester l'édition Front-office sans vous logguer pour que vous puissiez tester ici mais rassuré vous, les textes que vous changez ici redeviendront ceux initiaux en rechargeant la page.</p>",
-		"afterPanel": {
-			"separator": "ou",
-			"radioButton": "<ins>Activer</ins><del>Désactiver</del> le <b>mode édition</b>",
-			"title": "Éditer du contenu",
-			"content": "<p>Appuyez sur <strong>ctrl + s</strong> !</p>"
-		}
-	},
-	"aboutBook": {
-		"title": "Portfolio",
-		"content": "<div class=\"row\">\n\t<div class=\"column\">\n\t\t<h3>Blogs et Portfolios</h3>\n\t\t<div class=\"zoom-image\"><a href=\"https://blog.haeresis.fr/\"><img src=\"./media/images/blogs.png\" width=\"600\" height=\"341\"  width=\"600\" height=\"341\" alt=\"Blogs\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li>Ce Portfolio en Node.js</li>\n\t\t\t<li><a href=\"https://blog.lesieur.name/\">Mon Blog en Node.js</a></li>\n\t\t\t<li><a href=\"http://www.haeresis.fr/\">Ex-Portfolio en PHP</a></li>\n\t\t\t<li><a href=\"https://blog.haeresis.fr/\">Ex-Blog en PHP</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"column\">\n\t\t<h3>Réalisation Web Complète</h3>\n\t\t<div class=\"zoom-image\"><a href=\"http://www.compilation-of-ff7.com/\"><img src=\"./media/images/sites.png\"  width=\"600\" height=\"341\" alt=\"Site Web Complet\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li><a href=\"http://www.compilation-of-ff7.com/\">Compilation of FFVII : site web communautaire en PHP</a></li>\n\t\t\t<li><a href=\"http://www.communaute-avatar.fr/\">Communauté Avatar : site web communautaire en PHP</a></li>\n\t\t\t<li><a href=\"http://www.haeresis.fr/media/image/old.jpg\">Offline : Progrimm, Relooking, Dav, Scara, Gallus, MAH...</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"column\">\n\t\t<h3>Interfaces et Intégrations Web</h3>\n\t\t<div class=\"zoom-image\"><a href=\"https://www.purina-felix.fr/\"><img src=\"./media/images/interfaces.png\"  width=\"600\" height=\"341\" alt=\"Interfaces et Intégrations Web\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li>Vitrines pour marques : <a href=\"https://www.purina.co.uk/cat/gourmet/\">Ici</a>, <a href=\"https://www.purina.pl/catchow/\">Là</a>, <a href=\"https://www.purina-one.fr/theone/comment-ca-marche\">ou ici</a>, <a href=\"https://www.purina-one.fr/\">où là</a>, ...</li>\n\t\t\t<li>App pour marques : <a href=\"https://www.purina.co.uk/commitment\">Générateur de GIF</a>, <a href=\"https://www.google.fr/search?q=purina+saint+felix&amp;safe=off&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjh39f2lcjOAhVBCBoKHS20C2wQ_AUICigD&amp;biw=1600&amp;bih=808&amp;dpr=2\">Parc de Jeux (offline)</a></li>\n\t\t\t<li>Interface hybride Android/IOS (offline)</li>\n\t\t\t<li>Data Binding : <a href=\"https://blog.lesieur.name/liste-des-cartes-munchkin-editions-francaises/\">Vue.js</a>, <a href=\"https://blog.lesieur.name/utiliser-angularjs-en-respectant-les-recommandations-w3c-et-seo/\">AngularJS</a>, <a href=\"https://www.purina.fr/\">Aurelia.io</a></li>\n\t\t\t<li><a href=\"http://www.haeresis.fr/\">Projets plus anciens par ici</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"column\">\n\t\t<h3>Framework, Module, Librairie, API REST</h3>\n\t\t<div class=\"zoom-image\"><a href=\"https://www.npmjs.com/package/node-atlas\"><img src=\"./media/images/framework.png\"  width=\"600\" height=\"341\" alt=\"Framework, Module, API\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li><a href=\"https://www.npmjs.com/package/node-atlas\">NodeAtlas, Moteur de site Node.js</a></li>\n\t\t\t<li><a href=\"https://www.npmjs.com/package/vanilla-js-dom\">Vanilla JS, manipulation de DOM</a></li>\n\t\t\t<li><a href=\"https://blog.lesieur.name/des-easter-eggs-avec-konami-code-js/\">Konami Code, injection d'Easter Eggs</a></li>\n\t\t\t<li><a href=\"https://www.lesieur.name/api/\">API REST, Moteur d'API Node.js</a></li>\n\t\t\t<li><a href=\"https://github.com/Haeresis?tab=repositories\">Toutes mes sources Github</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"column\">\n\t\t<h3>Documentations</h3>\n\t\t<div class=\"zoom-image\"><a href=\"https://blog.lesieur.name/vanilla-js-france/\"><img src=\"./media/images/documentation.png\"  width=\"600\" height=\"341\" alt=\"Documentations\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li><a href=\"https://www.lesieur.name/test-case-atlas/\">Documentation de Site Web</a> (<a href=\"https://www.lesieur.name/test-case-atlas/documentation/design/index.html\">UI</a> et <a href=\"https://www.lesieur.name/test-case-atlas/documentation/behaviors/index.html\">UX</a>)</li>\n\t\t\t<li><a href=\"https://github.com/Haeresis/NodeAtlas#readme\">Documentation de Framework</a></li>\n\t\t\t<li><a href=\"https://github.com/Haeresis/konami-code-js#readme\">Documentation d'API</a></li>\n\t\t\t<li><a href=\"https://blog.lesieur.name/vanilla-js-france/\">Documentation de Bonnes Pratiques</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"column\">\n\t\t<h3>Code Quality</h3>\n\t\t<div class=\"zoom-image\"><a href=\"https://github.com/Haeresis/konami-code-js/blob/master/src/konami-code.js\"><img src=\"./media/images/codes.png\"  width=\"600\" height=\"341\" alt=\"Code Quality\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li><a href=\"https://blog.lesieur.name/coder-proprement-en-javascript-par-l-exemple-upload-d-image/\">Papiers sur la qualité JavaScript</a></li>\n\t\t\t<li><a href=\"https://plus.google.com/communities/108339567460701736369\">Modérateur de « Revu de Code »</a></li>\n\t\t\t<li>Utilisateur de <a href=\"http://www.sonarqube.org/\">Sonarqube</a>, <a href=\"https://developers.google.com/speed/pagespeed/\">Page Speed</a>, <a href=\"https://gtmetrix.com/\">GTMetrix</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"column\">\n\t\t<h3>Jeux et POC HTML</h3>\n\t\t<div class=\"zoom-image\"><a href=\"http://www.haeresis.fr/\"><img src=\"./media/images/jeux.png\"  width=\"600\" height=\"341\" alt=\"Jeux et POC HTML\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li>DOM : <a href=\"http://www.haeresis.fr/\">Shoot Mot Clé</a>, Pêche aux Canards (Offline), Attrape Ponpon (Offline), Simon (Offline)</li>\n\t\t\t<li>Canvas : Jeté de balle dans boîte (Offline)</li>\n\t\t\t<li>POC : <a href=\"http://codepen.io/Haeresis/pens/public/\">Divers Codepen</a> et  <a href=\"https://blog.lesieur.name/version-mobile-et-version-desktop-ca-n-existe-pas/\">Articles</a></li>\n\t\t</ul>\n\t</div>\n</div>",
-		"image": {
-			"alt": "Portfolio",
-			"src": "./media/images/portfolio.png",
-			"width": "305",
-			"height": "163"
-		}
-	},
-	"aboutNodeAtlas": {
-		"title": "NodeAtlas",
-		"image": {
-			"alt": "NodeAtlas",
-			"src": "./media/images/node-atlas.png"
-		},
-		"content": "<iframe class=\"scrollable\" src=\"https://blog.lesieur.name/nodeatlas-le-framework-nodejs-mvc2-oriente-front-end/\"></iframe>",
-		"beforePanel": {
-			"title": "Sur Google+",
-			"content": "<h3>Modérateur de</h3>\n<ul>\n\t<li><a class=\"external\" href=\"https://plus.google.com/communities/108339567460701736369\" title=\"Google+\">Revue de code</a></li>\n</ul>\n<h3>Membre de</h3>\n<ul>\n\t<li><a class=\"external\" href=\"https://plus.google.com/communities/111367038232031168926\" title=\"Google+\">Front-end Development</a></li>\n\t<li><a class=\"external\" href=\"https://plus.google.com/communities/112532197223923020885\" title=\"Google+\">HTML &amp; CSS</a></li>\n\t<li><a class=\"external\" href=\"https://plus.google.com/communities/100532928242153969507\" title=\"Google+\">JavaScript</a></li>\n</ul>"
-		}
-	},
-	"aboutBlog": {
-		"title": "Blog",
-		"image": {
-			"alt": "Quelques #ID et beaucoup de .CLASS",
-			"src": "./media/images/blog.png",
-			"width": "305",
-			"height": "163"
-		},
-		"articles": {
-			"title": "Quelques #ID et beaucoup de .CLASS",
-			"content": "<p>Mon blog est majoritairement consacré à l'aspect Front-end du développement web, on discute :</p>\n\n<ul>\n    <li>de HTML avec par exemple cet article à propos <a href=\"https://blog.lesieur.name/les-balises-h1-multiples-autorisees-en-html5/\" title=\"Les balises h1 multiples autorisées en HTML5\">des multiples balises h1 dans une même page</a>,</li>\n    <li>de CSS comme vous pouvez le lire avec cet article expliquant <a href=\"https://blog.lesieur.name/centrer-verticalement-n-importe-quel-element-en-quelques-lignes-css/\" title=\"Centrer verticalement n'importe quel élément\">centrer verticalement n'importe quel élément</a> ou </li>\n    <li>de JavaScript avec des explications plus techniques pour <a href=\"https://blog.lesieur.name/les-types-en-javascript-pour-tout-savoir/\" title=\"Les types en JavaScript : pour tout savoir !\">tout savoir sur les diférents types de variable</a>.</li>\n </ul>\n\n <p>Côté Back-end, on parle de <a href=\"https://blog.lesieur.name/developper-en-javascript-cote-serveur-avec-nodejs/\" title=\"Développer en JavaScript côté serveur avec Node.js\">développement JavaScript côté serveur avec Node.js</a> et comment <a href=\"https://blog.lesieur.name/node-js-le-guide-pour-convaincre-son-boss/\" title=\"Node.js : le guide pour convaincre son Boss\">précher la bonne parole sur cette technologie d'avenir</a> !</p>\n\n <p>Vous trouverez également diverses astuces (comme <a href=\"https://blog.lesieur.name/une-alternative-au-switch-c-est-possible-en-javascript/\" title=\"Une alternative au Switch, c'est possible en JavaScript\">une alternative au Switch</a>) et réflexions (comme savoir <a href=\"https://blog.lesieur.name/structurer-le-javascript-de-son-site-avec-ou-sans-framework/\">structurer le JavaScript de son site</a>) autour des bonnes pratiques comme par exemple celle <a href=\"https://blog.lesieur.name/eviter-les-multiples-jquery-document-ready-dans-vos-pages-web/\" title=\"Éviter les multiples $(document).ready() dans vos pages web\">d'éviter les multiples $(document).ready()</a>.</p>\n\n <p>Côté serveur, on parle de Node.js et de <a href=\"https://blog.lesieur.name/des-sites-web-nodejs-pour-les-debutants-en-javascript-avec-nodeatlas/\" title=\"NodeAtlas\">NodeAtlas</a>.</p>\n\n <p>Pour finir, au dela de ces aspects techniques, le site traite également de tous types d'articles touchant de près ou de loin à la webosphère.</p>"
-		},
-		"goTo": {
-			"title": "Accueil du Blog",
-			"content": "<p><a href=\"https://blog.lesieur.name/\" title=\"Visiter le blog Quelques #ID et beaucoup de .CLASS\">Visiter le blog Quelques #ID et beaucoup de .CLASS</a></p>"
-		},
-		"afterPanel": {
-			"title": "À lire absoluement",
-			"content": "<ul>\n\t<li><a class=\"external\" href=\"https://blog.lesieur.name/bootstrap-est-une-regression-pour-un-developpement-front-end-de-qualite/\" title=\"Bootstrap est une régression pour un développement Front-end de qualité\">Bootstrap est une régression pour un développement Front-end de qualité</a></li>\n\t<li><a class=\"external\" href=\"https://blog.lesieur.name/conventions-html-et-css-orientes-composants/\" title=\"Conventions HTML et CSS orientés composants\">Conventions HTML et CSS orientés composants</a></li>\n\t<li><a class=\"external\" href=\"https://blog.lesieur.name/les-concepts-autour-du-responsive-web-design/\" title=\"Les concepts autour du Responsive Web Design\">Les concepts autour du Responsive Web Design</a></li>\n</ul>\n\n<p><a class=\"external\" href=\"https://blog.lesieur.name/archives/\" title=\"Liste complète\">Liste de tous les articles</a></p>"
-		},
-		"content": "<h2>Quelques #ID et beaucoup de .CLASS</h2>\n<p>Mon blog personnel est majoritairement consacré à l'aspect Front-end du développement web mais également à Node.js.</p>\n\n<p><strong><a href=\"https://blog.lesieur.name/\" title=\"Visiter le blog Quelques #ID et beaucoup de .CLASS\">Visiter le blog</a></strong></p>\n\n<p>On y discute :</p>\n\n<ul>\n\t<li>de HTML avec par exemple cet article à propos <a href=\"https://blog.lesieur.name/les-balises-h1-multiples-autorisees-en-html5/\" title=\"Les balises h1 multiples autorisées en HTML5\">des multiples balises h1 dans une même page</a>,</li>\n\t<li>de CSS comme vous pouvez le lire avec cet article expliquant <a href=\"https://blog.lesieur.name/centrer-verticalement-n-importe-quel-element-en-quelques-lignes-css/\" title=\"Centrer verticalement n'importe quel élément\">centrer verticalement n'importe quel élément</a> ou </li>\n\t<li>de JavaScript avec des explications plus techniques pour <a href=\"https://blog.lesieur.name/les-types-en-javascript-pour-tout-savoir/\" title=\"Les types en JavaScript : pour tout savoir !\">tout savoir sur les diférents types de variable</a>.</li>\n</ul>\n\n<p>Côté Back-end, on parle de <a href=\"https://blog.lesieur.name/developper-en-javascript-cote-serveur-avec-nodejs/\" title=\"Développer en JavaScript côté serveur avec Node.js\">développement JavaScript côté serveur avec Node.js</a> et comment <a href=\"https://blog.lesieur.name/node-js-le-guide-pour-convaincre-son-boss/\" title=\"Node.js : le guide pour convaincre son Boss\">précher la bonne parole sur cette technologie d'avenir</a> !</p>\n\n<p>Vous trouverez également diverses astuces (comme <a href=\"https://blog.lesieur.name/une-alternative-au-switch-c-est-possible-en-javascript/\" title=\"Une alternative au Switch, c'est possible en JavaScript\">une alternative au Switch</a>) et réflexions (comme savoir <a href=\"https://blog.lesieur.name/structurer-le-javascript-de-son-site-avec-ou-sans-framework/\">structurer le JavaScript de son site</a>) autour des bonnes pratiques comme par exemple celle <a href=\"https://blog.lesieur.name/eviter-les-multiples-jquery-document-ready-dans-vos-pages-web/\" title=\"Éviter les multiples $(document).ready() dans vos pages web\">d'éviter les multiples $(document).ready()</a> ainsi que des articles sur <a href=\"https://blog.lesieur.name/coder-proprement-en-javascript-par-l-exemple-upload-d-image/\" title=\"Coder proprement en JavaScript par l'exemple : Upload d'image\">la Qualité de code JavaScript</a>.</p>\n\n<p>Dans les Clients on parle également de Framework JavaScript avec du <a href=\"https://blog.lesieur.name/utiliser-angularjs-en-respectant-les-recommandations-w3c-et-seo/\" title=\"Utiliser AngularJS en respectant les recommandations W3C et SEO\">Data Binding référençable</a> et d'Ergonomie avec tout <a href=\"https://blog.lesieur.name/version-mobile-et-version-desktop-ca-n-existe-pas/\" title=\"Version Mobile et Version Desktop : Ça n existe pas !\">ce qu'il faut faire pour bien adapter son site aux mobiles</a> ! En revanche, sur les Serveurs, on parle de Node.js et de <a href=\"https://blog.lesieur.name/des-sites-web-nodejs-pour-les-debutants-en-javascript-avec-nodeatlas/\" title=\"NodeAtlas\">NodeAtlas</a>.</p>\n\n<p>Pour finir, au dela de ces aspects techniques, le site traite également de tous types d'articles touchant de près ou de loin à la webosphère.</p>"
-	},
-	"aboutWebsite": {
-		"title": "Communautés",
-		"content": "<h2>Créateur des sites communautaires :</h2>\n<div class=\"row right\">\n\t<div class=\"column\">\n\t\t<h3><a href=\"http://www.compilation-of-ff7.com/\">Compilation of FFVII</a></h3>\n\t\t<p>Compilation of Final Fantasy VII est un site communautaire autour de l'univers de Final Fantasy VII. Ce site regroupe des masses de textes et d'informations sur la Compilation of Final Fantasy VII, directement depuis le Japon et en français.</p>\n\t</div>\n\t<div class=\"column\">\n\t\t<div class=\"zoom-image large\"><a href=\"http://www.compilation-of-ff7.com/\"><img src=\"./media/images/sites.png\" width=\"600\" height=\"341\" alt=\"Site Web Complet\"></a></div>\n\t</div>\n</div>\n<div class=\"row left\">\n\t<div class=\"column\">\n\t\t<h3><a href=\"http://www.communaute-avatar.fr/\">Communauté Avatar</a></h3>\n\t\t<p>Communauté Avatar est une plateforme communautaire à mi-chemin entre un site web et un forum. Elle permet d'échanger autour de l'univers Avatar de James Cameron.</p>\n\t</div>\n\t<div class=\"column\">\n\t\t<div class=\"zoom-image large\"><a href=\"http://www.communaute-avatar.fr/\"><img src=\"./media/images/sites2.png\" width=\"600\" height=\"341\" alt=\"Blogs\"></a></div>\n\t</div>\n</div>",
-		"image": {
-			"alt": "Communautés",
-			"src": "./media/images/communautes.png",
-			"width": "305",
-			"height": "163"
-		}
-	},
-	"aboutSkills": {
-		"title": "Compétences",
-		"intro": "<p>Mes techniques et technos préférés</p>",
-		"content": "<h2>À savoir</h2><p>Les mots-clés ci-dessous vous permettent de connaître les aspects de chaque technologie mise en oeuvre sur mes projets ou au quotidien. </p>\n\n<p> Il faut garder à l'esprit que plus une compétence/technique est basse dans cette liste, plus ma veille technologique sur l'évolution de cette technique est espacée dans le temps. Ainsi je suis totalement à jour sur l'aspect Frond-End des sites Internet d'aujourd'hui ainsi qu'en JavaScript et opérationnel pour travailler sur les autres points cités. </p><h2>Client-side</h2><h3>HTML5 / xHTML - Sémantique</h3>\n\n<ul>\n    <li><strong>Rendu dynamique :</strong> Vue, Pug, EJS, Markdown, Smarty, ASP.NET, Razor</li>\n    <li><strong>Interopérabilité :</strong> DocType, Classes CSS conditionnelles, Commentaires conditionnelles IE, Jeu de caractères, Hack CSS, CORS</li>\n    <li><strong>Référencement :</strong> Balises sémantiques, Microdata, RFDa, Sitemap, Flux XML, Lien canonique, Géolocalisation</li>\n    <li><strong>iFrame :</strong> Cross-domain, Autosize</li>\n    <li><strong>Canvas :</strong> Police, Animation, Moteur Physique</li>\n</ul>\n\n<h3>CSS3 / CSS2.1 - Design</h3>\n\n<ul>\n    <li><strong>Guide de style :</strong> Typographie, Couleurs, Iconographie, Grille, Médias, Intéractions</li>\n    <li><strong>Positionnements :</strong> Block, Inline, Float, Relatif, Absolute, Fixed, Table, Flex, Grid</li>\n    <li><strong>Sélecteurs :</strong> +/~, ::before / ::after, :first-child / :last-child, :nth-child, :focus / :hover / :active / :visited, :lang()</li>\n    <li><strong>Polices embarquées :</strong> @font-face (.eot / .ttf / .woff(2) / .svg), Icônes</li>\n    <li><strong>Animation :</strong> CSS Sprite, Base64, Propriété transform, Propriété transition, Propriété animation/@keyframes</li>\n    <li><strong>Portabilité :</strong> Responsive Web Design, Media Queries, Meta viewport, Propriété box-sizing, CSS conditionnelles, calc()</li>\n    <li><strong>Philosophies :</strong> CSS-driven —BEM— (Site originaux / sites vitrinnes / Sites performants, Standard W3C), HTML-driven —OOCSS— (Back-office / Application web, Framework CSS), TABLE-driven —HTML4— (Habillage email, Style inline/Vieux attributs)</li>\n</ul>\n\n<h3>JavaScript - Développement / Animation</h3>\n\n<ul>\n    <li><strong>Interface riche :</strong> Vue.js, Support HTML5 (vieux navigateurs), Manipulation CSS/DOM, Animation, Expression régulières, Fallback/Polyfill, Scripts/Plugins, Prototype, Publics/Privates self-made</li>\n    <li><strong>Actions asynchrones :</strong> Promise, async, xmlHttpRequest2 (AJAX), Socket.IO, JSON / XML, Callback</li>\n    <li><strong>Cross-domain :</strong> cookie/session, postMessage Transport / hash Transport / window.name Transport, JSONP, xmlHttpRequest2, XDoc, Contrat P3P</li>\n    <li><strong>Documentation :</strong> Node.js module JSDoc et JSDoc tags</li>\n</ul><h2>Référencement / Performances</h2><ul>\n    <li> <strong>SEO :</strong> Vue-Server-Renderer, Vue-Router, Ré-écriture d'url, Redirections serveur, AJAX/escaped_fragment, pushState/replaceState, Réseaux sociaux </li>\n    <li> <strong>Compression :</strong> gzip / deflate, file minified / obfuscated, CSS sprite, Base64, Image compression (Lossy / Lossless) </li>\n    <li> <strong>Chargement :</strong> Prioriser ressources (ordre de placement, ordre d'appel), Différer ressources (attribut defer, yepnope.js), Paralléliser ressources (async, async.js), éviter phénomène de FOUC</li>\n    <li> <strong>Outils :</strong> SonarQube, Validator HTML W3C, Validator CSS, Page Speed Insight, GTMetrix, Google Analytics, jsHint/jsLint, StrongLoop</li>\n</ul><h2>Server-side</h2><h3>Node.js</h3>\n\n<ul>\n    <li> <strong>Usage :</strong> npm module et package.json, require / exports / module, NodeAtlas, Express, middleware, EJS, Socket.IO, JSDoc, async, commander, JSON, mongoose </li>\n    <li> <strong>Architecture MVC2 :</strong> Model / View / Controller / Rewriting, NodeAtlas </li>\n    <li> <strong>NoSql :</strong> MongoDB, Redis </li>\n    <li> <strong>IDE :</strong> Sublim Text 3, Cloud9, Visual Studio + Node.js Tool </li> </ul> <h3>PHP</h3> <ul> <li> <strong>Usage :</strong> POO, Namespace, webconfig.xml, .htaccess </li>\n    <li> <strong>Architecture MVC2 :</strong> Model / View / Controller / Rewriting, HaeresisFramework, API REST </li>\n    <li> <strong>IDE :</strong> NetBean, Eclipse </li>\n</ul>\n\n<h3>ASP / Razor / C#</h3>\n\n<ul>\n    <li> <strong>Usage :</strong> LifeCycle, ViewState, POO, LINQ, Héritage, Polymorphisme, Interface, Générique, Scriptlet, Web.config, UpdatePanel </li>\n    <li> <strong>Architecture 3 Tiers avec UrlRewriting :</strong> User Interface /BussinessObject /DataAccess, .NET </li>\n    <li> <strong>Architecture MVC2 :</strong> Model / View / Controller / Rewriting, .NET MVC </li>\n    <li> <strong>IDE :</strong> Visual Studio + Web Essentials </li> </ul>\n\n<h3>SQL</h3>\n<ul>\n    <li> <strong>Usage :</strong> Clé primaire, Index, Clés étrangères (Update / Delete, Cascade / Restrict), Jointure (Inner / Outer left / right), Recherche (Like / Regexp), Procédures Stockées </li>\n    <li> <strong>Variantes :</strong> MySQL, SQL Server </li>\n    <li> <strong>IDE :</strong> phpMyAdmin, SQL Server Management Studio </li>\n</ul><h2>Framework / Librairie / API / CMS</h2><ul>\n    <li> <strong>CSS :</strong> Reset/Normalize, Bootstrap / KNACSS / SemanticUI, Less, Stylus </li>\n    <li> <strong>JavaScript :</strong> Vue, Vanilla JS, jQuery, Modernizr, jQuery UI, async.js, AngularJS, Responsive.js, Relocate.js, Intro.js, Impress.js, ckEditor, Google Maps, Google Drive etc. </li>\n    <li> <strong>ASP.NET C#.NET :</strong> Linq </li>\n    <li> <strong>PHP :</strong> MediaWiki, PHPBB3, Drupal, WordPress, Joomla! </li>\n</ul><h2>Web server</h2><ul>\n    <li> <strong>Node.js :</strong> node-atlas, forever, hexo, bouncy, strong-pm, gulp, stylus </li>\n    <li> <strong>Apache dans wamp :</strong> mod_rewrite, mod_proxy_wstunnel, Virtual Directory, changement de port </li>\n    <li> <strong>Apache OVH :</strong> Administration web, DNS, Email </li>\n    <li> <strong>ISS6 et 7 :</strong> Pool, Integrated / Classic Mode, Rewrite Module, Virtual Directory, Application </li> <li> <strong>IIS8 et Node.js :</strong> iisnode, Websocket, Application Request Routing </li>\n    <li> <strong>Versionning / mise en prod :</strong> Git, SVN, Filezilla, Interface OVH, GitHub, Bitbucket </li>\n</ul><h2>Outils - Conception / Debug</h2><ul>\n    <li> <strong>Code :</strong> Sublim Text, Chrome / Firefox / IE / Opera / Safari (Developer Tools / Firebug / Firebug Lite) </li>\n    <li> <strong>Conception :</strong> Moqups, Balsamiq, NodeAtlas</li>\n    <li> <strong>Media :</strong> Photoshop CS, Paint .NET, Audition CS, Audacity </li>\n    <li> <strong>Gestion :</strong> LiquidPlaner, Asana, Trello, Harvest </li> <li> <strong>Disposition clavier :</strong> Bépo, Azerty </li>\n</ul>",
-		"beforePanel": {
-			"title": "En un coup d'oeil",
-			"content": "<ul>\n    <li>HTML5</li>\n    <li>CSS3</li>\n    <li>JavaScript</li>\n    <li>Responsive Web Design</li>\n    <li>Web Standard &amp; Performance Quality</li>\n    <li>Node.js</li>\n    <li>Gestion de projet</li>\n</ul>"
-		}
-	},
-	"contactMe": {
-		"title": "Contact",
-		"image": {
-			"alt": "Me contacter",
-			"src": "./media/images/contact-me.png",
-			"width": "160",
-			"height": "140"
-		},
-		"content": "<h2>Formulaire de contact</h2>\n<p>Si vous souhaitez me contacter par email sans communiquer le votre ou si vous voulez être sûr d'obtenir une réponse, vous pouvez remplir le formulaire ci-dessous.</p>",
-		"address": "<h2>Adresse Postale</h2><p>M. Bruno Lesieur<br><ins class=\"add7\"></ins> avenue de Genève<br>74000 Annecy<br>France</p>",
-		"detail": {
-			"title": "Que souhaitez-vous me dire ?",
-			"placeholder": "Bonjour Bruno, ..."
-		},
-		"name": {
-			"title": "À qui ais-je l'honneur ?",
-			"placeholder": "Envoi Anonyme"
-		},
-		"email": {
-			"title": "À quel email dois-je répondre ?",
-			"placeholder": "me@repondre.ici"
-		},
-		"validation": {
-			"title": "Envoyer<span class=\"contact--tip--reply\"><span class=\"contact--tip--anonyme\"> Anonymement</span><br>(je ne pourrais pas vous répondre)</span>"
-		}
-	},
-	"aboutMe": {
-		"title": "À propos",
-		"intro": "<p>En savoir plus sur moi et mes réseaux</p>",
-		"content": "<h2>Description</h2>\n\n<p>Développeur Web spécialiste JavaScript entre Annecy et Genève, je vis chaque jour ma passion nageant parmi les techniques actuelles et d'avenir en matière de Front-end et de Node.js. C'est pourquoi tous les jours au petit déjeuner (mais pas seulement), je prépare de quoi satisfaire ma faim de Responsive Web Design, de performances web, de respect des standards, de bonnes pratiques, de POC HTML5/CSS3, d'accessibilité web, de factorisation, d'automatisation, de partage, de casse-tête en tout genre et ce à travers des projets et prototypes toujours plus appétissants.</p> <p>Dernier gros plats en date ? <a href=\"https://github.com/Haeresis/vanilla-js\">Vanilla JS</a>, le fr@m€w#rk JavaScript le plus rapide au monde et <a href=\"https://github.com/Haeresis/NodeAtlas\">NodeAtlas</a>, du JavaScript W3C et SEO compliant côté serveur !</p>\n\n<h2>Mon Curriculum Vitae</h2>\n\n<p><a class=\"external\" href=\"https://www.linkedin.com/in/brunolesieur\" title=\"Consultez mon CV à jour\">Consultez mon CV à jour</a> et mes avancées professionnelles en rejoignant le réseau LinkedIn. Vous pouvez également voir <a class=\"external\" href=\"http://bruno.lesieur.name/\" title=\"CV version web et papier\">mon CV version web et papier</a>.</p>\n\n<h2>Mes passions et mes envies</h2>\n\n<p>Encerclez <a class=\"external\" href=\"https://plus.google.com/u/0/+BrunoLesieur/\" title=\"+Bruno Lesieur\">+Bruno Lesieur</a> sur le réseau social Google+ pour en savoir plus sur qui je suis, ce qui me fait vibrer et partager avec moi.</p>\n\n<h2>Mes travaux et la Webosphère</h2>\n\n<p>Suivez moi et suivez l'actualité de mes projets et les actus web, PCs, mobiles, sociales et mes coups de coeur avec <a class=\"external\" href=\"https://twitter.com/MachinisteWeb\" title=\"@MachinisteWeb\">@MachinisteWeb</a>.</p>\n\n<h2>Me contacter par Email</h2>\n\n<p>Si vous souhaitez me contacter par email, vous pouvez le faire via mon adresse personnelle <a class=\"link generate-email\" href=\"javascript:;\">en la générant en cliquant ici</a>.</p>",
-		"afterPanel": {
-			"title": "Mes réseaux",
-			"content": "<ul><li><a class=\"external\" href=\"https://plus.google.com/u/0/+BrunoLesieur/\" title=\"Google+\">Google+</a></li><li><a class=\"external\" href=\"https://twitter.com/MachinisteWeb/\" title=\"Twitter\">Twitter</a></li><li><a class=\"external\" href=\"http://www.pinterest.com/haeresis/\" title=\"Pinterest\">Pinterest</a></li><li><a class=\"external\" href=\"https://www.linkedin.com/in/brunolesieur/\" title=\"LinkedIn\">LinkedIn</a></li><li><a class=\"external\" href=\"http://www.viadeo.com/fr/profile/bruno.lesieur1\" title=\"Viadeo\">Viadeo</a></li><li><a class=\"external\" href=\"https://disqus.com/HaeresisDotFr/\" title=\"Disqus\">Disqus</a></li><li><a class=\"external\" href=\"https://codepen.io/Haeresis\" title=\"Codepen\">Codepen</a></li><li><a class=\"external\" href=\"https://github.com/Haeresis/\" title=\"GitHub\">GitHub</a></li><li><a class=\"external\" href=\"https://bitbucket.org/Haeresis/\" title=\"Bitbucket\">Bitbucket</a></li><li><a class=\"external\" href=\"http://stackoverflow.com/users/2412797/haeresis/\" title=\"StackOverflow\">StackOverflow</a></li>\n<li><a class=\"external\" href=\"https://codefights.com/profile/Haeresis\" title=\"CodeFights\">CodeFights</a></li></ul>"
-		}
-	},
-	"aboutGames": {
-		"title": "Hobbies",
-		"content": "<h2>La vie avec ma Femme et mon Chien s'articule en majeure partie autour</h2>\n\n<p>De la consommation de <strong>culture numérique</strong> comme</p>\n\n<ul>\n    <li>Faire une soirée ciné ou Home Ciné pour mater un film profond, un Blockbuster ou un gros navet : je suis ouvert d'esprit et tolérant (enfin bon publique quoi),</li>\n    <li>Consommer des séries et animés d'une traite car le temps entre épisodes me grignote la mémoire et exacerbe mon cerveau —le problème est qu'il faut raser les murs pour éviter les spoils—,</li>\n    <li>Jouer à des jeux vidéos construits autour d'un scénario où d'un univers passionnant : principalement des (A/J/T/<em>Lettre souhaitée</em>...)RPGs, des jeux d'actions avec une bonne dose d'énigme, de challenge et de mécanique de jeu ludique. Mention spéciale pour les jeux flippants de ces dernières années.</li>\n    <li>Mettre à jour ma Culture G à l'aide de chaîne Internet, magasines où article de blog parce que... parce que ça m’intéresse !</li>\n</ul>\n\n<p>Mais j'aime également <strong>les choses plus terre à terre</strong> comme</p>\n\n<ul>\n    <li>Les restos, les BBQs ou les soirées entre amis.</li>\n    <li>Bouquiner quand y a pas de réseau où que mes yeux pleurs des pixels : principalement des livres à tome dont j'ai apprécié l'univers étendu via un autre média. Également des livres d'analyses sur des sujets de sciences humaines —comme la PNL ou le Hacking Social—, de sciences ou d’œuvres culturelles.</li>\n    <li>Jouer à des jeux de société fun ainsi que ceux où il y a bien un gagnant mais ou la réussite demande de collaborer avec des gentillesses et de belles crasses —Je ne suis pas mauvais perdant, encore moins quand je gagne—.</li>\n</ul>\n\n<p>Et <strong>pendant les congés</strong> j'aime</p>\n\n<ul>\n    <li>Me balader avec mes jambes, en Canoë ou en Cheval ou tout simplement me baigner,</li>\n    <li>Visiter des sites historiques ou naturels ainsi que m'amuser dans des parc aquatique ou d'attraction (ou les parcs avec de vrais Dinosaures... j'imagine).</li>\n</ul>",
-		"beforePanel": {
-			"content": "<h3>J'aime</h3>\n\n<ul><li><a class=\"external\" href=\"http://www.compilation-of-ff7.com/\" title=\"Final Fantasy VII\">Final Fantasy VII</a></li><li><a class=\"external\" href=\"http://www.communaute-avatar.fr/\" title=\"James Cameron's Avatar\">James Cameron's Avatar</a></li><li><a class=\"external\" href=\"https://blog.lesieur.name/liste-des-cartes-munchkin-editions-francaises/\" title=\"Jeu Munchkin\">Munchkin</a></li><li><a class=\"external\" href=\"https://github.com/Haeresis\" title=\"Le Partage\">Le Partage</a></li><li><a class=\"external\" href=\"https://www.paypal.me/BrunoLesieur/5\" title=\"Les Dons\">Les Dons</a></li></ul>\n\n<h3>Je déteste</h3>\n\n<ul><li><a class=\"external\" href=\"https://www.youtube.com/watch?v=IeTybKL1pM4\" title=\"Hadopi\">Hadopi</a></li></ul>"
-		},
-		"afterPanel": {
-			"title": "<a class=\"external\" href=\"http://www.zolieplante.fr/\" title=\"J'aime ma Femme\">Passionné par ma Femme</a>"
-		}
-	},
-	"aboutFrontend": {
-		"title": "Métiers",
-		"intro": "<p>I love JavaScript</p>",
-		"beforePanel": {
-			"title": "Mes métiers",
-			"content": "<ul> \n    <li>Développeur Front-end</li> \n    <li>Développeur Node.js</li> \n    <li>Développeur PHP</li> \n    <li>Développeur .NET</li> \n</ul>"
-		},
-		"content": "<h2>Qu’est-ce qu'un Développeur Full-stack JavaScript ?</h2>\n<p>Je suis développeur Full-Stack JavaScript. Cela regroupe les deux métiers de Développeur Front-end et Développeur Node.js.</p>\n\n<p>Je développe donc la partie cliente (ou Front-end) d’un site web qui fait le pont entre l’utilisateur et le serveur web. C’est la page web visible à l’écran et également les éléments la constituant avec lesquels vous interagissez :</p>\n\n<ul>\n    <li>le design graphique,</li> <li>les médias affichés,</li>\n    <li>les animations,</li>\n    <li>la saisie de formulaire,</li>\n    <li>le contrôle des erreurs,</li> <li>les mises à jour après chargement de page…</li>\n</ul>\n\n<p>Je développe également la partie serveur avec le même language que celui utilisé pour la partie cliente : le JavaScript.</p>\n\n<p>Pour comprendre l'utilité d'un tel profil, refaisons un petit bon dans le temps.</p>\n\n\n<h2>Naissance d’un métier</h2>\n\n<h3>Les balbutiements</h3>\n<p>\n\tLa réalisation de la partie Front-end était initialement faite :\n</p>\n<ul>\n\t<li>\n\t\tsoit par le Webdesigner qui touchait sa bille sur FrontPage ou Dreamweaver,\n\t</li>\n\t<li>\n\t\tsoit par le Développeur Back-end qui avait (web exige) des notions en rendu HTML (mon cas).\n\t</li>\n</ul>\n<p>\n\tDans les deux cas, la connaissance des standards n’était pas de mise et le chargé Front-end ou Client-side bricolait du mieux possible en empilant des\n\t<samp>&lt;table&gt;</samp>\n\tet en vérifiant que cela fonctionnait dans IE6.\n</p>\n\n<h3>Les Intégrateurs Web</h3>\n<p>\n\tPuis l’essor de CSS et des multiples navigateurs ont fait naître une spécialité parmi les métiers du web : celle d’Intégrateur Web ou Intégrateur HTML/CSS. Il convenait à cette personne —généralement un développeur Back-end à cheval sur le Webdesign (ou inversement)— de créer une structure aux normes du W3C, indexable dans les moteurs de recherche et maintenable (le design d’un site pouvant changer du tout au tout) avec du JavaScript récupéré de-ci de-là sur EditeurJavaScript.\n</p>\n<p>\n\tNous en sommes alors au stade des développeurs Back-end qui ont de fortes proportions aux développements et mécanismes Front-end.\n</p>\n\n<h3>Les Développeurs Front-end</h3>\n<p>Pour finir, avec l’arrivée :</p>\n<ul>\n\t<li>de technologies comme HTML5 et CSS3,</li>\n\t<li>des librairies comme jQuery,</li>\n\t<li>des requêtes asynchrones,</li>\n\t<li>\n\t\tdes recommandations en performances web,\n\t\t<br>\n\t\t<ul>\n\t\t\t<li>sur tous les navigateurs,</li>\n\t\t\t<li>toutes les versions de navigateur,</li>\n\t\t\t<li>tous les périphériques (Responsive Web Design),</li>\n\t\t</ul>\n\t</li>\n\t<li>les bonnes pratiques pour le référencement naturel…</li>\n</ul>\n<p>\n\tl’intégration web est devenue une affaire de spécialistes. La nécessité absolue d’avoir des connaissances sur l’architecture complète et les fonctionnements d’un site Internet ainsi que la connaissance poussée du JavaScript pour réaliser des interfaces riches font qu’à présent les experts actuels sont des développeurs Front-end qui ont de fortes proportions au développement et mécanismes Back-end.\n</p>\n\n<h2>Des compétences de professionnels</h2>\n<p>\n\tC’est donc avec l’essor d’Internet que les développeurs Client-side sont devenus indispensables :\n</p>\n<ul>\n\t<li> <strong>Référencement et SEO</strong>\n\t\t: le développeur Front-end transforme un visuel en balise sémantique HTML5 créant une structure « avec du sens » permettant une meilleure compréhension des moteurs de recherche ainsi qu’une meilleure hiérarchisation de l’information au sein des pages pour une visibilité accrue.\n\t</li>\n\t<li> <strong>Ergonomie visuelle</strong>\n\t\t: le développeur Front-end s’occupe de l’habillage visuel du site d’après des maquettes et guide de style ainsi que de l’animation des éléments grâce au CSS3.\n\t</li>\n\t<li>\n\t\t<strong>Ergonomie fonctionnelle</strong>\n\t\t: le développeur Front-end s’occupe des animations au passage/clique de la souris, des interactions avec le clavier, ou même au rapatriement de nouvelles informations après chargement grâce à AJAX.\n\t</li>\n\t<li>\n\t\t<strong>Interopérabilité et accessibilité</strong>\n\t\t: Il est indispensable que le développeur Front-end respecte les normes du W3C ainsi que les préconisations d’accessibilités du projet OpQuaSt et reste en veille des techniques de demain comme le Responsive Web Design. Respecter cela est le meilleur moyen d’assurer : le bon fonctionnement, la maintenabilité et l’évolutivité du site sur le maximum de périphériques et de navigateurs.\n\t</li>\n</ul>\n<p>\n\tAu final la Qualité Globale d’un site web passe avant tout par le travail du développeur Front-end qui veille à l’ergonomie du site pour l’utilisateur ainsi qu’à la compatibilité du site sur le terminal utilisé et ceci dans un souci de rapidité d’exécution et de performance au chargement.\n</p>\n\n<h2>Retour aux Sources</h2>\n<p>La facilité et la puissance de JavaScript ne nous encourage pas à revenir de l'autre côté, sur le serveur, qui se développe dans d'autres langages. Se pencher sur la partie serveur force à connaître tout d'autres technologies qui en font un métier à part entier. Seulement toutes ses technologies peuvent alternativement être maîtrisées avec un seul langage grâce à Node.js : le JavaScript côté serveur.</p>\n\n<h3>Les Développeurs Full-stack</h3>\n<p>Et c'est ici que, grâce au JavaScript, le métier de Front-end développeur s'étend au côté serveur, aux API, aux bases de données et même aux applications mobile, aux plugins pour navigateur et j'en passe ! Le nouveau nom de ces développeurs est devenu celui de Développeur Full-stack JavaScript.</p>\n<p>Grâce à Node.js et ses multiples modules, à MongoDB ou d'autres bases NoSQL et au format JSON, un développeur JavaScript peut maintenant :</p>\n<ul>\n\t<li>créer des interfaces graphiques riches pour les navigateurs (HTML/CSS)</li>\n\t<li>gérer des requêtes HTTP (Node.js)</li>\n\t<li>créer des applications mobiles (App Hybride)</li>\n\t<li>stocker des informations dans des fichiers (JSON)</li>\n\t<li>faire des appels aux bases de données (NoSQL)</li>\n\t<li>faire des jeux vidéos (Canvas)</li>\n\t<li>...</li>\n</ul>\n\n<h3>L'Avenir du JavaScript ?</h3>\n<p>Il ne fait aucun doute que la puissance de JavaScript couplé aux languages HTML et CSS permet et permettra de plus en plus de réalisations diverses dans le futur et c'est pour cela que je vais continuer à oeuvrer dans ce sens avec ce language.</p>"
-	},
-	"aboutBepo": {
-		"title": "Bépo",
-		"intro": "<p>Envie d'écrire ?</p>",
-		"content": "<h2>Qu’est-ce que la disposition Bépo ?</h2><p>Le <a href=\"http://bepo.fr/wiki/Accueil\">site officiel</a> vous dira tout cela bien mieux que moi mais pour résumer : la disposition Bépo est une autre manière d’agencer l’ordre des touches de votre clavier de manière à rendre le chemin parcouru par les doigts le plus court possible lors de la saisie d’une phrase en français. Les touches de ponctuation française et les accents sont également plus accessibles et rangés intelligemment. La disposition s’avère également très véloce pour le développement et agréable à la rédaction anglaise. Ainsi, les 4 premières touches sont les b, é, p et o.</p> \n\n<p><img src=\"media/images/carte-bepo-complete.png\" width=\"800\" height=\"276\" alt=\"La disposition des touches en Bépo\" title=\"\"></p><h2>Rapidité, accessibilité, confort et apprentissage</h2><p>Il existe <a href=\"http://typematrix.com/bepo/\">des claviers Bépo très utile</a>, surtout lors de l’apprentissage. Cependant, je conseille d’en profiter pour apprendre à écrire à 10 doigts et sans les yeux. Quitte à devoir ré-apprendre à écrire, autant le faire bien ! Actuellement, n’ayant pas besoin de mes yeux pour écrire, je tape en Bépo sur un clavier Azerty. De plus, avec la combinaison de touche « Window + Espace » je peux switcher de la disposition Bépo à Azerty en un clin d’œil pour laisser les non Bépoiste taper sur mon clavier. La disposition s’installe sur n’importe quel OS avec un simple driver.</p>\n\n<p><img src=\"media/images/flat.png\" width=\"360\" height=\"382\" alt=\"L’efficacité Bépo\" title=\"\"></p> \n\n<p>Bien que vous allez perdre votre rapidité d’écriture dans un premier temps, vous reprendrez la main en quelque mois et finirez par dépasser votre ancienne rapidité de frappe d’ici 6 à 9 mois. Tout est fait pour que vous puissiez écrire aussi vite que possible et sans effort comme vous pouvez le voir sur l’image ci-dessus.</p><h2>Pourquoi je suis passé en Bépo ?</h2><h3>État des lieux</h3>\n<p>Quand je me suis mis sur un ordinateur, à un très jeune age, j’ai commencé à chercher mes touches avec les yeux sur une disposition Azerty. Curieuse cette disposition ? Pourquoi pas l’ordre de l’alphabet ? Je la connais par cœur celle là ! J’ai fini par connaître par cœur les touches sans pour autant pouvoir appuyer dessus sans faire d’erreur si je ne les regardait pas. À tout casser, je devais écrire avec 4 doigts et quitter quelque fois mon clavier des yeux pour voir ce que j’avais écrit. Cependant je rêvais de pouvoir dégager mes yeux de mon clavier pour en faire autre chose pendant que j’écrivais et surtout écrire avec mes 10 doigts pour gagner en rapidité, vous savez, comme les experts en informatique dans les films !</p>\n\n<h3>Le Bépo, même plus pratique que l’Azerty</h3>\n<p>Je me suis dit que si je devais perdre du temps à chercher mes touches avec les doigts et à en apprendre la disposition dans l’espace par cœur (sans utiliser mes yeux) pour une question de confort et de rapidité, autant prendre la disposition la plus rapide et la plus confortable ! Et écrire en Bépo m’a beaucoup aidé car ce n’était pas ma première tentative d'écrire à 10 doigts et à l'aveugle ; j’avais déjà tenté l’aventure en Azerty mais « Comment s’empêcher de jeter un œil pour s’aider à aller plus vite ? ». La réponse est simple, faire en sorte que jeter un œil sur votre clavier ne vous avance pas plus que si vous ne le faisiez pas. Cela est chose faites puisque vous ne connaissez pas la disposition Bépo.</p><h2>L’apprentissage</h2><p>J’ai donc commencé par des exercices de dactylographie en Bépo avec le logiciel <a href=\"http://klavaro.sourceforge.net/fr/\">Klavaro</a> plusieurs fois par semaine pour apprendre mes touches. Durant cette phase, je continuais à écrire en Azerty en dehors de mon logiciel.</p>\n\n<p>Quand j’ai fini par plus ou moins connaître les lettres les plus usuelles, je me suis lancé dans le grand bain ! Fini l’Azerty ! Je développais, rédigeais mes docs, écrivais mes mails et mes articles en Bépo ! Et là je suis devenu une vrai limace. Cependant cet apprentissage à concorder avec ma monté en maîtrise de l’éditeur Sublime Text qui via ses divers plugin à réussi à masquer mon handicape. En un mois seulement j’ai réussi à obtenir une vitesse de production normale avec tous mes outils d’assisté. L’écriture des programmes web m’a permis d’apprendre le reste de la disposition, notamment au niveau de la ponctuation, souvent utile pour le développement.</p>\n\n<p>En environs 6 mois je suis passé à une vitesse de frappe de 30 mots minutes et j’en suis actuellement à 56 mots minutes. Mon premier palier d’objectif n’a pas encore été atteint puisque j’espérais en commençant mon apprentissage atteindre les 60 mots minutes soit 1 mot par seconde. C’est encore loin des records de 180 mots minutes mais j’arrive, j’arrive ! Work in progress…</p>",
-		"afterPanel": {
-			"title": "Je veux apprendre !",
-			"content": "<ul>\n    <li><a href=\"http://bepo.fr/wiki/Accueil\" title=\"Bépo\">Tout savoir sur le Bépo</a></li>\n    <li><a href=\"http://www.typematrix.com/shop/\" title=\"Available in AZERTY, QWERTY, DVORAK, BLANK, or BÉPO\">Obtenir un clavier</a></li>\n    <li><a href=\"http://klavaro.sourceforge.net/fr/\" title=\"Klavaro\">Logiciel de dactylographie</a></li>\n</ul>"
-		}
-	},
-	"aboutAuthor": {
-		"title": "À propos de l'auteur",
-		"image": {
-			"src": "./media/images/bw-author.png",
-			"alt": "Bruno Lesieur",
-			"width": "96",
-			"height": "96"
-		},
-		"content": "Bonjour, je suis Bruno Lesieur, architecte web basé sur Annecy. Intégrateur HTML5, CSS3 et JavaScript ou encore développeur Front-End ; appelez moi comme vous le voulez mais sachez que je suis très friand de performance web, de Responsive Web Design, d'accessibilité web, de bonnes pratiques, de techniques et d'outils de gestion web, de factorisation et d'automatisation, de partage et casse-tête en tout genre ainsi que de boissons gazeuses."
-	},
-	"mainMenu": {
-		"title": {
-			"content": "Accueil",
-			"title": "Accueil du site",
-			"href": "./"
-		},
-		"section": [
-			{
-				"content": "Catégories",
-				"title": "Tous les billets par catégories",
-				"href": "./categories/",
-				"class": "category"
-			},
-			{
-				"content": "Archives",
-				"title": "Tous les billets par année",
-				"href": "./archives/",
-				"class": "archive"
-			},
-			{
-				"content": "À propos",
-				"title": "À propos du site et de l'auteur",
-				"href": "http://www.haeresis.fr/",
-				"class": "about"
-			},
-			{
-				"content": "RSS",
-				"title": "Suivre le flux RSS",
-				"href": "./rss.xml",
-				"class": "about"
-			}
-		]
-	},
-	"url": {
-		"bepo": "bepo",
-		"offers": "edition",
-		"book": "portfolio",
-		"website": "bienvenue",
-		"blog": "blog",
-		"front-end": "metiers",
-		"unknown-top": "en-cours-haut",
-		"unknown-bottom": "en-cours-bas",
-		"websites": "communautes",
-		"skills": "competences",
-		"contact-me": "me-contacter",
-		"about-me": "a-propos",
-		"nodeatlas": "node-atlas",
-		"games": "hobbies"
-	},
-	"error404": "<span class=\"first\">Erreur 404</span> <span class=\"second\">Cette page n'existe pas.</span>",
-	"main": "<strong>Site presque achevé : pour ce qu'il manque rdv sur <a href=\"http://www.haeresis.fr/\" title=\"Site de Bruno Lesieur, Développeur web spécialiste Front-End\">Haeresis.fr</a></strong>",
-	"copyright": "©2012-2017 <a href=\"https://www.lesieur.name/\" title=\"Site de Bruno Lesieur, Développeur web spécialiste Front-End / Node.js\">Lesieur.name</a>",
-	"engine": "Site développé en <a href=\"http://nodejs.org/\" title=\"node.js, le moteur JavaScript côté serveur\">node.js</a> avec <a href=\"https://haeresis.github.io/NodeAtlas/\" title=\"Le Framework node.js NodeAtlas\">NodeAtlas</a>",
-	"listDate": {
-		"startingYear": "2012",
-		"titleYear": "Année",
-		"titleMonth": "Mois",
-		"linkYear": {
-			"href": "./archives/%year%",
-			"title": "Archives de l'année %year%"
-		},
-		"linkMonth": {
-			"href": "./archives/%year%/%month%/",
-			"title": "Archives du mois de %month% de l'année %year%"
-		}
-	},
-	"dates": {
-		"toHour": "à",
-		"toDate": "Le",
-		"unitHours": "h",
-		"months": [
-			"Janvier",
-			"Février",
-			"Mars",
-			"Avril",
-			"Mai",
-			"Juin",
-			"Juillet",
-			"Août",
-			"Septembre",
-			"Octobre",
-			"Novembre",
-			"Décembre"
-		]
-	},
-	"comments": {
-		"title": "Nombre de commentaires",
-		"commentSimple": "commentaire<ins data-ins=\"s\"></ins>",
-		"commentMultiple": "commentaire<ins data-ins=\"s\">s</ins>",
-		"commentSentence": "Aller aux commentaires"
-	},
-	"categories": {
-		"title": "Toutes les categories",
-		"title2": "Catégorisé dans",
-		"link": {
-			"title": "Tous les articles de la categorie",
-			"href": "./categories/%urn%/"
-		}
-	},
-	"summary": {
-		"title": "Dans cette article"
-	},
-	"archives": {
-		"title": "Toutes les dates",
-		"startingYear": 2012,
-		"startingMonth": 11,
-		"linkYear": {
-			"title": "Tous les articles de l'année %year%",
-			"href": "./archives/%year%/"
-		},
-		"linkMonth": {
-			"title": "Tous les articles du mois de %month% de l'année %year%",
-			"href": "./archives/%year%/%month%/"
-		}
-	},
-	"articles": {
-		"updateArticle": "Modifier l'article",
-		"uploadAvatar": {
-			"button": "Uploader Avatar",
-			"alt": "Avatar"
-		},
-		"readMore": {
-			"href": "./%urn%/",
-			"content": "Lire la suite"
-		}
-	},
-	"rss": {
-		"title": "Quelques #ID et beaucoup de .CLASS",
-		"description": "Ce blog est une compilation d'articles sur le développement JavaScript Front-end jQuery, Back-end Node.js ou développement web en général.",
-		"feedUrl": "rss.xml",
-		"author": "Bruno Lesieur",
-		"copyright": "2012-2017",
-		"language": "fr",
-		"url": "%urn%/"
-	}
+    "components": {
+        "head": [
+            {
+                "path": "partials/master-head.htm"
+            },
+            {
+                "path": "partials/master-content.htm"
+            }
+        ],
+        "foot": [
+            {
+                "path": "partials/master-foot.htm"
+            }
+        ]
+    },
+    "email": {
+        "from": "\"Lesieur.name\" <postmaster@lesieur.name>",
+        "to": "bruno.lesieur@gmail.com",
+        "subject": {
+            "anonyme": "Une personne souhaite te contacter depuis www.lesieur.name",
+            "auth": "souhaite te contacter depuis www.lesieur.name",
+            "reply": "souhaite te contacter depuis www.lesieur.name"
+        },
+        "replyTo": {
+            "anonyme": "\"Anonyme\" <no-reply@lesieur.name>"
+        }
+    },
+    "placename": "Annecy, Haute-Savoie, France",
+    "javascriptDisable": "Votre JavaScript est désactivé aussi toutes les fonctionalités de ce site ne seront pas disponibles.",
+    "permalink": "Permalien :",
+    "skipLink": {
+        "title": "Accès aux sections",
+        "items": [
+            {
+                "content": "Allez en corps de page",
+                "title": "Allez en corps de page",
+                "href": "#content"
+            },
+            {
+                "content": "Allez au menu de navigation",
+                "title": "Allez au menu de navigation",
+                "href": "#menu"
+            },
+            {
+                "content": "Allez au crédits",
+                "title": "Allez au au crédits",
+                "href": "#footer"
+            }
+        ]
+    },
+    "menu": {
+        "content": "Menu",
+        "title": "Menu"
+    },
+    "editableArea": {
+        "close": "Fermer",
+        "switchBlock": "Contenu<br>complet",
+        "switchInline": "Annuler les modifications",
+        "wysiwyg": "(Éditeur)",
+        "plainText": "(Source)",
+        "dockLeft": "⇤",
+        "dockRight": "⇥",
+        "anchor": "<ins>⚓</ins><del>X</del>",
+        "cancelUpdate": "Annuler",
+        "sourceInfo": "Cette valeur provenant du serveur, un rechargement de page peut-être nécessaire.",
+        "title": "Zone d'édition de contenu",
+        "next": "Continuer avant d'envoyer",
+        "submit": "Modifier"
+    },
+    "logo": {
+        "content": "<span class=\"first\">Bruno Lesieur</span> <span class=\"second\">MachinisteWeb</span>",
+        "title": "Bruno Lesieur",
+        "href": "./"
+    },
+    "aboutSite": {
+        "title": "Bienvenue",
+        "intro": "<p>Présentation rapide de mon portail</p>\n\n<p><strong>Cliquez sur un onglet pour l'ouvrir</strong></p>",
+        "content": "<h2>Présentation</h2>\n\n<p>Je suis <a href=\"https://bruno.lesieur.name/\" target=\"_blank\">architecte web entre la Annecy et Genève</a> et je développe dans les <a href=\"https://blog.lesieur.name/conventions-html-css-js-et-architecture-front-end/\" target=\"_blank\">règles de l'art</a>. Ici exit le patchwork de code à n'en plus finir, les balises et attributs qui usurpent le travail du <a href=\"https://blog.lesieur.name/recherche/?query=CSS\" target=\"_blank\">CSS</a> ou encore les morceaux de <a href=\"https://blog.lesieur.name/recherche/?query=JavaScript\" target=\"_blank\">JavaScript</a> en plein milieu de la sémantique. Non, ici on travail de manière pragmatique mais structurée. Mes amis s'appellent <a href=\"https://blog.lesieur.name/recherche/?query=HTML5\" target=\"_blank\">HTML5</a>, <a href=\"https://blog.lesieur.name/recherche/?query=CSS3\">CSS3</a>, <a href=\"https://blog.lesieur.name/recherche/?query=ES6\" target=\"_blank\">ES6</a>, <a href=\"https://blog.lesieur.name/recherche/?query=Node.js\" target=\"_blank\">Node.js</a>, <a href=\"https://blog.lesieur.name/recherche/?query=Vue.js\" target=\"_blank\">Vue.js</a>,&nbsp;<a href=\"https://blog.lesieur.name/recherche/?query=WebSockets\" target=\"_blank\">WebSockets</a>, <a href=\"https://blog.lesieur.name/recherche/?query=Stylus\" target=\"_blank\">Stylus</a> et j'en passe ! Ils œuvrent pour deux choses communes :</p>\n\n<ul>\n\t<li>Être au service du <a href=\"https://blog.lesieur.name/recherche/?query=SEO\" target=\"_blank\">référencement</a> et de l'<a href=\"https://blog.lesieur.name/recherche/?query=ergonomie\" target=\"_blank\">ergonomie</a> pour que votre contenu soit <a href=\"https://blog.lesieur.name/les-balises-h1-multiples-autorisees-en-html5/\" target=\"_blank\">indexable</a> et <a href=\"https://blog.lesieur.name/version-mobile-et-version-desktop-ca-n-existe-pas/\" target=\"_blank\">accessible</a> quel que soit la <a href=\"https://blog.lesieur.name/les-concepts-autour-du-responsive-web-design/\" target=\"_blank\">plateforme d'affichage</a> ou les <a href=\"https://blog.lesieur.name/recherche/?query=animation\" target=\"_blank\">mécanismes d'animation</a>.</li>\n\t<li>Être au service de la <a href=\"https://blog.lesieur.name/categories/bonnes-pratiques/\" target=\"_blank\">maintenabilité</a> et de la <a href=\"https://blog.lesieur.name/coder-proprement-en-javascript-par-l-exemple-upload-d-image/\" target=\"_blank\">lisibilité</a> pour garder votre site actualisable et aux <a href=\"https://blog.lesieur.name/recherche/?query=W3C\" target=\"_blank\">normes du web</a> dans un souci de <a href=\"https://blog.lesieur.name/recherche/?query=productivit%C3%A9\" target=\"_blank\">productivité</a>, <a href=\"https://blog.lesieur.name/recherche/?query=s%C3%A9curit%C3%A9\" target=\"_blank\">sécurité</a> et de <a href=\"https://blog.lesieur.name/recherche/?query=performance\" target=\"_blank\">performance</a>.</li>\n</ul>\n\n<h2>Visite guidée</h2>\n\n<p>Ce portail présente avant tous<a href=\"/portfolio/\"> les projets</a> dans lesquels je m'investi hors de mon cadre professionnel. Ce sont eux qui m'ont permis d'acquérir des <a href=\"https://blog.lesieur.name/\" target=\"_blank\">connaissances pratiques sur le web</a> et de rester à<a href=\"https://blog.lesieur.name/\" target=\"_blank\"> l'écoute des dernières avancées</a>.</p>\n\n<p>Ce portail présente également celui que je suis devenu <a href=\"https://bruno.lesieur.name/#zetetic\" target=\"_blank\">après 5 ans d'études supérieures</a> et plus de <a href=\"https://bruno.lesieur.name/#zetetic\" target=\"_blank\">10 ans d'expériences professionnelles</a> m'ayant données <a href=\"https://www.youtube.com/user/fauxsceptique\" target=\"_blank\">les bons réflexes</a> en <a href=\"https://medium.com/@OrchardID/ux-comment-communiquer-sur-limportance-de-l-%C3%A9tude-utilisateurs-7514bcedcb1d\" target=\"_blank\">expérience utilisateur</a>, en <a href=\"https://blog.lesieur.name/categories/seo/\" target=\"_blank\">référencement</a>, en <a href=\"https://blog.lesieur.name/recherche/?query=qualit%C3%A9+de+code\" target=\"_blank\">qualité de code</a>&nbsp;et en <a href=\"https://node-atlas.js.org/\" target=\"_blank\">architecture web</a>.</p>\n\n<p>Vous trouverez de quoi <a href=\"/a-propos/\">me suivre</a> moi et<a href=\"/portfolio/\">&nbsp;mes projets</a>&nbsp;dans « À propos » ainsi que tout ce qu'il faut savoir sur mes développements dans les autres sections.</p>\n\n<h2>Mes technos du quotidien</h2>\n\n<p><a class=\"external\" href=\"https://blog.lesieur.name/recherche/?query=HTML5\" target=\"_blank\" title=\"HTML5\">HTML5</a>, <a class=\"external\" href=\"https://blog.lesieur.name/recherche/?query=CSS3\" target=\"_blank\" title=\"CSS3\">CSS3</a>, <a class=\"external\" href=\"https://blog.lesieur.name/recherche/?query=Stylus\" target=\"_blank\" title=\"Stylus\">Stylus</a>, <a href=\"https://blog.lesieur.name/recherche/?query=JavaScript\" target=\"_blank\">JavaScript</a>,&nbsp;<a href=\"https://blog.lesieur.name/recherche/?query=Vanilla+JS\" target=\"_blank\">Vanilla JS</a>, <a href=\"https://blog.lesieur.name/recherche/?query=Vue.js\" target=\"_blank\">Vue.js</a>,&nbsp;<a class=\"external\" href=\"http://nodejs.org/\" title=\"Node.js\">Node.js</a>, <a href=\"https://blog.lesieur.name/recherche/?query=NodeAtlas\" target=\"_blank\">NodeAtlas</a>, <a class=\"external\" href=\"https://blog.lesieur.name/recherche/?query=JSON\" target=\"_blank\" title=\"JSON\">JSON</a>, <a class=\"external\" href=\"https://blog.lesieur.name/recherche/?query=MySQL\" target=\"_blank\" title=\"SQL\">MySQL</a>, <a href=\"https://blog.lesieur.name/recherche/?query=MongoDB\" target=\"_blank\">MongoDB</a>,&nbsp;<a class=\"external\" href=\"http://www.php.net/manual/en/index.php\" title=\"PHP\">PHP</a>.</p>\n\n<h2>Un problème technique ?</h2>\n\n<p>Si vous rencontrez un quelconque problème contactez-moi via mon adresse email <a class=\"link generate-email\" href=\"javascript:;\">en la générant en cliquant ici</a>.</p>"
+    },
+    "aboutEdit": {
+        "title": "Édition",
+        "content": "<h2>Avez-vous déjà édité dans un front-office ?</h2>\n\n<p>Le principe de l'édition front-office est de voir en temps réel les modifications de rendu de ce que l'on édite. Quoi de mieux que de vérifier dans la vrai zone ou doit apparaître le texte quel va être son rendu ?</p>\n\n<p>Bien entendu, cette possibilité d'édition doit être offerte uniquement quand l'utilisateur est loggué et en a les droits. J'ai implémenté un mécanisme vous permettant de tester l'édition front-office sans vous logguer pour que vous puissiez tester ici mais rassuré vous, les textes que vous changez ici redeviendront ceux initiaux en rechargeant la page.</p>\n\n<h2>Modifications en temps réel</h2>\n\n<p>Passez en mode édition en appuyant simultanément sur Ctrl + C. Vous obtiendrez alors la source HTML de ce que vous souhaitez modifier. Vous pourrez constater que toute modification de cette source est automatiquement répercutée dans la zone de texte correspondante ! Et pour plus de confort, les zones de textes enrichies peuvent être éditées dans un éditeur de texte en cliquant sur <code>(Êditeur)</code>.</p>\n\n<h2>Modifications dans toutes les fenêtres</h2>\n\n<p>Ouvrez donc un nouvel onglet. Faites quelques modifications et cliquez sur <code>Modifier</code>. Retournez dans l'onglet précédent et constatez alors que le contenu à également changé !</p>",
+        "afterPanel": {
+            "separator": "ou",
+            "radioButton": "<ins>Activer</ins><del>Désactiver</del> le <b>mode édition</b>",
+            "title": "Éditer du contenu",
+            "content": "<p>Appuyez sur <strong>ctrl + s</strong> !</p>"
+        }
+    },
+    "aboutBook": {
+        "title": "Portfolio",
+        "content": "<div class=\"row\">\n\t<div class=\"column\">\n\t\t<h3>Blogs et Portfolios</h3>\n\t\t<div class=\"zoom-image\"><a href=\"https://blog.haeresis.fr/\"><img src=\"./media/images/blogs.png\" width=\"600\" height=\"341\"  width=\"600\" height=\"341\" alt=\"Blogs\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li>Ce Portfolio en Node.js</li>\n\t\t\t<li><a href=\"https://blog.lesieur.name/\">Mon Blog en Node.js</a></li>\n\t\t\t<li><a href=\"http://www.haeresis.fr/\">Ex-Portfolio en PHP</a></li>\n\t\t\t<li><a href=\"https://blog.haeresis.fr/\">Ex-Blog en PHP</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"column\">\n\t\t<h3>Réalisation Web Complète</h3>\n\t\t<div class=\"zoom-image\"><a href=\"http://www.compilation-of-ff7.com/\"><img src=\"./media/images/sites.png\"  width=\"600\" height=\"341\" alt=\"Site Web Complet\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li><a href=\"http://www.compilation-of-ff7.com/\">Compilation of FFVII : site web communautaire en PHP</a></li>\n\t\t\t<li><a href=\"http://www.communaute-avatar.fr/\">Communauté Avatar : site web communautaire en PHP</a></li>\n\t\t\t<li><a href=\"http://www.haeresis.fr/media/image/old.jpg\">Offline : Progrimm, Relooking, Dav, Scara, Gallus, MAH...</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"column\">\n\t\t<h3>Interfaces et Intégrations Web</h3>\n\t\t<div class=\"zoom-image\"><a href=\"https://www.purina-felix.fr/\"><img src=\"./media/images/interfaces.png\"  width=\"600\" height=\"341\" alt=\"Interfaces et Intégrations Web\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li>Vitrines pour marques : <a href=\"https://www.purina.co.uk/cat/gourmet/\">Ici</a>, <a href=\"https://www.purina.pl/catchow/\">Là</a>, <a href=\"https://www.purina-one.fr/theone/comment-ca-marche\">ou ici</a>, <a href=\"https://www.purina-one.fr/\">où là</a>, ...</li>\n\t\t\t<li>App pour marques : <a href=\"https://www.purina.co.uk/commitment\">Générateur de GIF</a>, <a href=\"https://www.google.fr/search?q=purina+saint+felix&amp;safe=off&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwjh39f2lcjOAhVBCBoKHS20C2wQ_AUICigD&amp;biw=1600&amp;bih=808&amp;dpr=2\">Parc de Jeux (offline)</a></li>\n\t\t\t<li>Interface hybride Android/IOS (offline)</li>\n\t\t\t<li>Data Binding : <a href=\"https://blog.lesieur.name/liste-des-cartes-munchkin-editions-francaises/\">Vue.js</a>, <a href=\"https://blog.lesieur.name/utiliser-angularjs-en-respectant-les-recommandations-w3c-et-seo/\">AngularJS</a>, <a href=\"https://www.purina.fr/\">Aurelia.io</a></li>\n\t\t\t<li><a href=\"http://www.haeresis.fr/\">Projets plus anciens par ici</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"column\">\n\t\t<h3>Framework, Module, Librairie, API REST</h3>\n\t\t<div class=\"zoom-image\"><a href=\"https://www.npmjs.com/package/node-atlas\"><img src=\"./media/images/framework.png\"  width=\"600\" height=\"341\" alt=\"Framework, Module, API\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li><a href=\"https://www.npmjs.com/package/node-atlas\">NodeAtlas, Moteur de site Node.js</a></li>\n\t\t\t<li><a href=\"https://www.npmjs.com/package/vanilla-js-dom\">Vanilla JS, manipulation de DOM</a></li>\n\t\t\t<li><a href=\"https://blog.lesieur.name/des-easter-eggs-avec-konami-code-js/\">Konami Code, injection d'Easter Eggs</a></li>\n\t\t\t<li><a href=\"https://www.lesieur.name/api/\">API REST, Moteur d'API Node.js</a></li>\n\t\t\t<li><a href=\"https://github.com/Haeresis?tab=repositories\">Toutes mes sources Github</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"column\">\n\t\t<h3>Documentations</h3>\n\t\t<div class=\"zoom-image\"><a href=\"https://blog.lesieur.name/vanilla-js-france/\"><img src=\"./media/images/documentation.png\"  width=\"600\" height=\"341\" alt=\"Documentations\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li><a href=\"https://www.lesieur.name/test-case-atlas/\">Documentation de Site Web</a> (<a href=\"https://www.lesieur.name/test-case-atlas/documentation/design/index.html\">UI</a> et <a href=\"https://www.lesieur.name/test-case-atlas/documentation/behaviors/index.html\">UX</a>)</li>\n\t\t\t<li><a href=\"https://github.com/Haeresis/NodeAtlas#readme\">Documentation de Framework</a></li>\n\t\t\t<li><a href=\"https://github.com/Haeresis/konami-code-js#readme\">Documentation d'API</a></li>\n\t\t\t<li><a href=\"https://blog.lesieur.name/vanilla-js-france/\">Documentation de Bonnes Pratiques</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"column\">\n\t\t<h3>Code Quality</h3>\n\t\t<div class=\"zoom-image\"><a href=\"https://github.com/Haeresis/konami-code-js/blob/master/src/konami-code.js\"><img src=\"./media/images/codes.png\"  width=\"600\" height=\"341\" alt=\"Code Quality\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li><a href=\"https://blog.lesieur.name/coder-proprement-en-javascript-par-l-exemple-upload-d-image/\">Papiers sur la qualité JavaScript</a></li>\n\t\t\t<li><a href=\"https://plus.google.com/communities/108339567460701736369\">Modérateur de « Revu de Code »</a></li>\n\t\t\t<li>Utilisateur de <a href=\"http://www.sonarqube.org/\">Sonarqube</a>, <a href=\"https://developers.google.com/speed/pagespeed/\">Page Speed</a>, <a href=\"https://gtmetrix.com/\">GTMetrix</a></li>\n\t\t</ul>\n\t</div>\n\t<div class=\"column\">\n\t\t<h3>Jeux et POC HTML</h3>\n\t\t<div class=\"zoom-image\"><a href=\"http://www.haeresis.fr/\"><img src=\"./media/images/jeux.png\"  width=\"600\" height=\"341\" alt=\"Jeux et POC HTML\"></a></div>\n\t\t<ul class=\"small-text\">\n\t\t\t<li>DOM : <a href=\"http://www.haeresis.fr/\">Shoot Mot Clé</a>, Pêche aux Canards (Offline), Attrape Ponpon (Offline), Simon (Offline)</li>\n\t\t\t<li>Canvas : Jeté de balle dans boîte (Offline)</li>\n\t\t\t<li>POC : <a href=\"http://codepen.io/Haeresis/pens/public/\">Divers Codepen</a> et  <a href=\"https://blog.lesieur.name/version-mobile-et-version-desktop-ca-n-existe-pas/\">Articles</a></li>\n\t\t</ul>\n\t</div>\n</div>",
+        "image": {
+            "alt": "Portfolio",
+            "src": "./media/images/portfolio.png",
+            "width": "305",
+            "height": "163"
+        }
+    },
+    "aboutNodeAtlas": {
+        "title": "NodeAtlas",
+        "image": {
+            "alt": "NodeAtlas",
+            "src": "./media/images/node-atlas.png"
+        },
+        "content": "<iframe class=\"scrollable\" src=\"https://blog.lesieur.name/nodeatlas-le-framework-nodejs-mvc2-oriente-front-end/\"></iframe>",
+        "beforePanel": {
+            "title": "Dans le web",
+            "content": "<h3>Responsable Vuejs-FR</h3>\n\n<ul>\n\t<li><a href=\"https://fr.vuejs.org/\" target=\"_blank\">Traduit&nbsp;Vue&nbsp;en français</a></li>\n\t<li><a href=\"https://fr.nuxtjs.org/\" target=\"_blank\">Traduit Nuxt en français</a></li>\n</ul>\n\n<h3>Modérateur sur G+</h3>\n\n<ul>\n\t<li><a class=\"external\" href=\"https://plus.google.com/communities/108339567460701736369\" title=\"Google+\">Revue de code​</a></li>\n</ul>"
+        }
+    },
+    "aboutBlog": {
+        "title": "Blog",
+        "image": {
+            "alt": "Quelques #ID et beaucoup de .CLASS",
+            "src": "./media/images/blog.png",
+            "width": "305",
+            "height": "163"
+        },
+        "articles": {
+            "title": "Quelques #ID et beaucoup de .CLASS",
+            "content": "<p>Mon blog est majoritairement consacré à l'aspect Front-end du développement web, on discute :</p>\n\n<ul>\n    <li>de HTML avec par exemple cet article à propos <a href=\"https://blog.lesieur.name/les-balises-h1-multiples-autorisees-en-html5/\" title=\"Les balises h1 multiples autorisées en HTML5\">des multiples balises h1 dans une même page</a>,</li>\n    <li>de CSS comme vous pouvez le lire avec cet article expliquant <a href=\"https://blog.lesieur.name/centrer-verticalement-n-importe-quel-element-en-quelques-lignes-css/\" title=\"Centrer verticalement n'importe quel élément\">centrer verticalement n'importe quel élément</a> ou </li>\n    <li>de JavaScript avec des explications plus techniques pour <a href=\"https://blog.lesieur.name/les-types-en-javascript-pour-tout-savoir/\" title=\"Les types en JavaScript : pour tout savoir !\">tout savoir sur les diférents types de variable</a>.</li>\n </ul>\n\n <p>Côté Back-end, on parle de <a href=\"https://blog.lesieur.name/developper-en-javascript-cote-serveur-avec-nodejs/\" title=\"Développer en JavaScript côté serveur avec Node.js\">développement JavaScript côté serveur avec Node.js</a> et comment <a href=\"https://blog.lesieur.name/node-js-le-guide-pour-convaincre-son-boss/\" title=\"Node.js : le guide pour convaincre son Boss\">précher la bonne parole sur cette technologie d'avenir</a> !</p>\n\n <p>Vous trouverez également diverses astuces (comme <a href=\"https://blog.lesieur.name/une-alternative-au-switch-c-est-possible-en-javascript/\" title=\"Une alternative au Switch, c'est possible en JavaScript\">une alternative au Switch</a>) et réflexions (comme savoir <a href=\"https://blog.lesieur.name/structurer-le-javascript-de-son-site-avec-ou-sans-framework/\">structurer le JavaScript de son site</a>) autour des bonnes pratiques comme par exemple celle <a href=\"https://blog.lesieur.name/eviter-les-multiples-jquery-document-ready-dans-vos-pages-web/\" title=\"Éviter les multiples $(document).ready() dans vos pages web\">d'éviter les multiples $(document).ready()</a>.</p>\n\n <p>Côté serveur, on parle de Node.js et de <a href=\"https://blog.lesieur.name/des-sites-web-nodejs-pour-les-debutants-en-javascript-avec-nodeatlas/\" title=\"NodeAtlas\">NodeAtlas</a>.</p>\n\n <p>Pour finir, au dela de ces aspects techniques, le site traite également de tous types d'articles touchant de près ou de loin à la webosphère.</p>"
+        },
+        "goTo": {
+            "title": "Accueil du Blog",
+            "content": "<p><a href=\"https://blog.lesieur.name/\" title=\"Visiter le blog Quelques #ID et beaucoup de .CLASS\">Visiter le blog Quelques #ID et beaucoup de .CLASS</a></p>"
+        },
+        "afterPanel": {
+            "title": "À lire absoluement",
+            "content": "<ul>\n\t<li><a href=\"https://blog.lesieur.name/pourquoi-vous-ne-comprenez-rien-au-javascript/\" target=\"_blank\">Pourquoi vous ne comprenez rien au JavaScript ?</a></li>\n\t<li><a href=\"https://blog.lesieur.name/coder-proprement-en-javascript-par-l-exemple-upload-d-image/\" target=\"_blank\">Coder proprement en JavaScript par l'exemple&nbsp;: upload d'image​​</a></li>\n\t<li><a href=\"https://blog.lesieur.name/conventions-html-css-js-et-architecture-front-end/\" target=\"_blank\">Séparations et mise en application des rôles du HTML / CSS / JavaScript</a></li>\n\t<li><a class=\"external\" href=\"https://blog.lesieur.name/les-concepts-autour-du-responsive-web-design/\" title=\"Les concepts autour du Responsive Web Design\">Les concepts autour du Responsive Web Design</a></li>\n\t<li><a href=\"https://blog.lesieur.name/les-contextes-d-execution/\" target=\"_blank\">ES3 dans le détail</a></li>\n</ul>\n\n<p><a class=\"external\" href=\"https://blog.lesieur.name/archives/\" title=\"Liste complète\">Liste de tous les articles</a></p>"
+        },
+        "content": "<h2>Quelques #ID et beaucoup de .CLASS</h2>\n\n<p>Mon blog personnel est majoritairement consacré à l'aspect front-end du développement web mais également à Node.js.</p>\n\n<p><strong><a href=\"https://blog.lesieur.name/\" target=\"_blank\" title=\"Visiter le blog Quelques #ID et beaucoup de .CLASS\">Visiter le blog</a></strong></p>\n\n<p>On y discute :</p>\n\n<ul>\n\t<li>de HTML avec par exemple cet article à propos <a href=\"https://blog.lesieur.name/les-balises-h1-multiples-autorisees-en-html5/\" target=\"_blank\" title=\"Les balises h1 multiples autorisées en HTML5\">des multiples balises h1 dans une même page</a>,</li>\n\t<li>de CSS comme vous pouvez le lire avec cet article expliquant comment&nbsp;<a href=\"https://blog.lesieur.name/centrer-verticalement-n-importe-quel-element-en-quelques-lignes-css/\" target=\"_blank\" title=\"Centrer verticalement n'importe quel élément\">centrer verticalement n'importe quel élément</a> ou</li>\n\t<li>de JavaScript avec des explications plus techniques pour <a href=\"https://blog.lesieur.name/les-types-en-javascript-pour-tout-savoir/\" target=\"_blank\" title=\"Les types en JavaScript : pour tout savoir !\">tout savoir sur les diférents types de variable</a>.</li>\n</ul>\n\n<p>Côté back-end, on parle de <a href=\"https://blog.lesieur.name/developper-en-javascript-cote-serveur-avec-nodejs/\" target=\"_blank\" title=\"Développer en JavaScript côté serveur avec Node.js\">développement JavaScript côté serveur avec Node.js</a> et comment <a href=\"https://blog.lesieur.name/node-js-le-guide-pour-convaincre-son-boss/\" target=\"_blank\" title=\"Node.js : le guide pour convaincre son Boss\">précher la bonne parole sur cette technologie d'avenir</a> !</p>\n\n<p>Vous trouverez également diverses astuces (comme <a href=\"https://blog.lesieur.name/une-alternative-au-switch-c-est-possible-en-javascript/\" target=\"_blank\" title=\"Une alternative au Switch, c'est possible en JavaScript\">une alternative au Switch</a>) et réflexions (comme savoir <a href=\"https://blog.lesieur.name/structurer-le-javascript-de-son-site-avec-ou-sans-framework/\" target=\"_blank\">structurer le JavaScript de son site</a>) autour des bonnes pratiques comme par exemple celle <a href=\"https://blog.lesieur.name/eviter-les-multiples-jquery-document-ready-dans-vos-pages-web/\" target=\"_blank\" title=\"Éviter les multiples $(document).ready() dans vos pages web\">d'éviter les multiples $(document).ready()</a> ainsi que des articles sur <a href=\"https://blog.lesieur.name/coder-proprement-en-javascript-par-l-exemple-upload-d-image/\" target=\"_blank\" title=\"Coder proprement en JavaScript par l'exemple : Upload d'image\">la Qualité de code JavaScript</a>.</p>\n\n<p>Dans les navigateurs clients on parle également de framework JavaScript avec du <a href=\"https://blog.lesieur.name/utiliser-angularjs-en-respectant-les-recommandations-w3c-et-seo/\" target=\"_blank\" title=\"Utiliser AngularJS en respectant les recommandations W3C et SEO\">MVVM référençable</a> et d'ergonomie avec tout <a href=\"https://blog.lesieur.name/version-mobile-et-version-desktop-ca-n-existe-pas/\" target=\"_blank\" title=\"Version Mobile et Version Desktop : Ça n existe pas !\">ce qu'il faut faire pour bien adapter son site aux mobiles</a> ! En revanche, sur les serveurs, on parle de Node.js et de <a href=\"https://blog.lesieur.name/des-sites-web-nodejs-pour-les-debutants-en-javascript-avec-nodeatlas/\" target=\"_blank\" title=\"NodeAtlas\">NodeAtlas</a>.<br />\n<br />\nPour les plus experts, on entre également dans les méandres<a href=\"https://blog.lesieur.name/apprendre-et-comprendre-javascript-version-es6/\" target=\"_blank\">&nbsp;de JavaScript en profondeur et d'ECMAScript</a> !</p>\n\n<p>Pour finir, au dela de ces aspects techniques, le site traite également de tous types d'articles touchant de près ou de loin à la webosphère.</p>"
+    },
+    "aboutWebsite": {
+        "title": "Communautés",
+        "content": "<h2>Créateur des sites communautaires :</h2>\n<div class=\"row right\">\n\t<div class=\"column\">\n\t\t<h3><a href=\"http://www.compilation-of-ff7.com/\">Compilation of FFVII</a></h3>\n\t\t<p>Compilation of Final Fantasy VII est un site communautaire autour de l'univers de Final Fantasy VII. Ce site regroupe des masses de textes et d'informations sur la Compilation of Final Fantasy VII, directement depuis le Japon et en français.</p>\n\t</div>\n\t<div class=\"column\">\n\t\t<div class=\"zoom-image large\"><a href=\"http://www.compilation-of-ff7.com/\"><img src=\"./media/images/sites.png\" width=\"600\" height=\"341\" alt=\"Site Web Complet\"></a></div>\n\t</div>\n</div>\n<div class=\"row left\">\n\t<div class=\"column\">\n\t\t<h3><a href=\"http://www.communaute-avatar.fr/\">Communauté Avatar</a></h3>\n\t\t<p>Communauté Avatar est une plateforme communautaire à mi-chemin entre un site web et un forum. Elle permet d'échanger autour de l'univers Avatar de James Cameron.</p>\n\t</div>\n\t<div class=\"column\">\n\t\t<div class=\"zoom-image large\"><a href=\"http://www.communaute-avatar.fr/\"><img src=\"./media/images/sites2.png\" width=\"600\" height=\"341\" alt=\"Blogs\"></a></div>\n\t</div>\n</div>",
+        "image": {
+            "alt": "Communautés",
+            "src": "./media/images/communautes.png",
+            "width": "305",
+            "height": "163"
+        }
+    },
+    "aboutOffers": {
+        "title": "Offres",
+        "intro": "<p>Besoin d'un site, d'une app, d'un expert ?</p>",
+        "content": "<h2>Besoin d'un site, d'une app web ou d'un expert ?</h2>\n\n<p>Ici on ne fait pas un éniemè site identique. On produit votre site ou app sûr mesure&nbsp;adapté(e) à vos besoins. Les stars ce sont vos contenus et vos fonctionnalités ; c'est eux que nous allons travailler ensemble pour rendre service à vos visiteurs et utilisateurs.</p>\n\n<p>Pour ce faire, je suis armé de ma société libérée <a href=\"https://www.orchard-id.fr/\" target=\"_blank\">Orchard ID</a> qui prend soin de moi et de vos projets en&nbsp;les renforçant d'une direction artistique et d'un pannel d'offres complémentaires comme la conception de votre identité de marque&nbsp;ou de votre communication.</p>\n\n<p>Si vous avez déjà tout ça, je peux intervenir directement sur les sites existants pour raffraichir l'interface utilisateur ou alimenter de mes connaissances vos équipes au besoin. Faisons un petit tour plus détaillé.</p>\n\n<h2>Des interfaces pour petit et grand</h2>\n\n<p>Écran HD, portable, notebook, smartphone ou tablette ? Plus besoin de choisir ou de faire plusieurs sites, je vous propose d'adapter les dimensions ou le design de votre site pour tous les supports qu'il soit standard ou plus petit !</p>\n\n<h2>« C'est une autre culture »</h2>\n\n<p>Même si vous êtes attaché à la langue de Molière, il est parfois nécessaire de permettre à d'autres cultures et pays de consulter vos pages. Je permet de partager la même page en plusieurs langues : par exemple une version française et une version anglaise et bien d'autres !</p>\n\n<h2>Faire bonne impression</h2>\n\n<p>Parce qu'un rendu sur écran n'est pas la même chose qu'un rendu sur papier, je peux proposer pour chaque page une feuille de style dédiée à l'impression pour ne conserver que la partie utile du contenu afin d'imprimer un document clair et concis.</p>\n\n<h2>Vue, je l'avais pas vu !</h2>\n\n<p>La librairie Vue.js à laquelle je collabore est taillée pour rendre vos sites réactifs et dynamiques. Plus de chargement entre page. La possibilité d'animation entre chaque page et les formulaires intéractifs vous tendent les bras.</p>\n\n<h2>Écrire ce qui nous chante</h2>\n\n<p>Grâce au système temps réel couplé à un outil d'édition, vous pouvez éditer n'importe quelle zone de texte établie comme « éditable » sur n'importe quelle page ! Il vous suffit de passer une page en mode édition et d'éditer les zones souhaitées pour qu'elles actualisent les fichiers de langues ou base de données associées.</p>\n\n<h2>Faire référence</h2>\n\n<p>À quoi sert un site qui n'est pas référençable ? Je vous assure grâce à ma maitrise du rendu côté serveur avec NodeAtlas et mes bonnes pratiques HTML et CSS que votre site sera techniquement taillé&nbsp;pour rendre heureux les moteurs de recherche. Ça sera alors à votre contenu de jouer pour envoyer votre site dans les premiers résultats sinon au sommet.</p>\n\n<h2>Chapeautage et chipotage</h2>\n\n<p>Je peux également intervenir comme guide pour vos projets déjà existant en formant vos équipes dans mes domaines d'expertises, en relisant le code sur GitHub où en émettant des recommandations et bonnes pratiques pour la phase d'architecture ou le suivi technique du projet.</p>\n\n<h2>Maîtrise maitrisée</h2>\n\n<p>Que vous arriviez avec des spécifications longues comme le bras et établies pour des mois ou avec une idée à travailler, la conception se ferra sous un principe d'itération de livraison fonctionnelle. Avant d'atteindre l'objectif fixé, votre produit sera progressivement améliorée permetant à chaque étape d'ajuster les attentes en fonction des retours et offrant un résultat exploitable. On maitrise le temps, le coût et le résultat.</p>\n\n<h2>Type de réalisation</h2>\n\n<p>Tout ce que vous êtes capable d'imaginer !</p>",
+        "beforePanel": {
+            "title": "Tarifs",
+            "content": "<ul>\n\t<li>Taux horraire : 125€</li>\n\t<li>TJM&nbsp;: 1000€/jour</li>\n\t<li>En télétravail\n\t<ul>\n\t\t<li><a href=\"https://appear.in/orchard-id\">dans mes locaux virtuelles</a></li>\n\t</ul>\n\t</li>\n</ul>"
+        }
+    },
+    "aboutSkills": {
+        "title": "Compétences",
+        "content": "<h2>À savoir</h2>\n\n<p>Les mots-clés ci-dessous vous permettent de connaître les aspects de chaque technologie mise en œuvre sur mes projets ou au quotidien.</p>\n\n<p>Il faut garder à l'esprit que plus une compétence / technique est basse dans cette liste ou loin dans la ligne, plus ma veille technologique sur l'évolution de cette technique est espacée dans le temps. Ainsi je suis totalement à jour sur l'aspect frond-end des sites Internet d'aujourd'hui ainsi qu'en JavaScript et opérationnel pour travailler sur les autres points cités.</p>\n\n<h2>Client-side</h2>\n\n<h3>HTML5 / xHTML - Sémantique</h3>\n\n<ul>\n\t<li><strong>Rendu dynamique :</strong> Vue, Pug, EJS, Markdown, Smarty, ASP.NET, Razor</li>\n\t<li><strong>Interopérabilité :</strong> DocType, classes CSS conditionnelles, commentaires conditionnelles IE, jeu de caractères, hack CSS, CORS</li>\n\t<li><strong>Référencement :</strong>&nbsp;balises sémantiques, Microdata, RFDa, sitemap, flux XML, liens canoniques, géolocalisation</li>\n\t<li><strong>iFrame :</strong>&nbsp;cross-domain, autosize</li>\n\t<li><strong>Canvas :</strong> police d'écriture, animation, moteur physique</li>\n</ul>\n\n<h3>CSS3 / CSS2.1 - Design</h3>\n\n<ul>\n\t<li><strong>Guide de style :</strong>&nbsp;typographie, coloriemétrie, iconographie, grilles, médias, intéractions</li>\n\t<li><strong>Positionnements :</strong> block, inline, float, relatif, absolute, fixed, sticky, table, flex, grid</li>\n\t<li><strong>Sélecteurs :</strong> +/~, ::before / ::after, :first-child / :last-child, :nth-child, :focus / :hover / :active / :visited, :lang()</li>\n\t<li><strong>Polices embarquées :</strong> @font-face (.eot / .ttf / .woff(2) / .svg), Glyphicons, Font Awesome</li>\n\t<li><strong>Animation :</strong> CSS Sprite, Base64, propriété transform,&nbsp;transition, animation, @keyframes</li>\n\t<li><strong>Portabilité :</strong> Responsive Web Design, Media Queries, Meta Viewport, propriété box-sizing, CSS conditionnelles, calc()</li>\n\t<li><strong>Philosophies :</strong> CSS-driven —BEM— (site originaux / sites vitrinnes / sites performants, standard W3C), HTML-driven —OOCSS— (Édition de contenu, Back-office / Application web, framework CSS), TABLE-driven —HTML4— (habillage email, style inline / vieux attributs)</li>\n</ul>\n\n<h3>JavaScript - Intéractivité</h3>\n\n<ul>\n\t<li><strong>Interface riche :</strong> Vue.js, support HTML5 (vieux navigateurs), localStorage, manipulation CSS / DOM, animation, expression régulières, fallback / polyfill, scripts / plugins, prototype, publics, privates</li>\n\t<li><strong>Actions asynchrones :</strong>&nbsp;Promise, async / defer, XMLHttpRequest2 (AJAX), Socket.IO (WebSockets), JSON / XML, callback</li>\n\t<li><strong>Cross-domain :</strong> cookie / session, postMessage Transport / hash Transport / window.name Transport, JSONP, XMLHttpRequest2, XDoc, Contrat P3P</li>\n\t<li><strong>Documentation :</strong> Node.js module, JSDoc et JSDoc tags</li>\n</ul>\n\n<h2>Référencement / Performances</h2>\n\n<ul>\n\t<li><strong>SEO :</strong> Vue-Server-Renderer, Vue-Router, ré-écriture d'URL, redirections serveur, AJAX / escaped_fragment, pushState / replaceState, réseaux sociaux</li>\n\t<li><strong>Compression :</strong> gzip / deflate, file minified / obfuscated, CSS sprite, Base64, image compression (Lossy / Lossless)</li>\n\t<li><strong>Chargement :</strong> prioriser ressources (ordre de placement, ordre d'appel), différer ressources (attribut defer, yepnope.js), paralléliser ressources (async, defer, async.js), éviter phénomène de FOUC</li>\n\t<li><strong>Outils :</strong> SonarQube, Validator HTML W3C, Validator CSS, Page Speed Insight, GTMetrix, Google Analytics, jsHint / jsLint, StrongLoop</li>\n</ul>\n\n<h2>Server-side</h2>\n\n<h3>Node.js</h3>\n\n<ul>\n\t<li><strong>Usage :</strong> npm module, package.json, require / import / exports, NodeAtlas, Express, middleware, EJS, Socket.IO, JSDoc, async, commander, JSON, mongoose</li>\n\t<li><strong>Architecture MVC2 :</strong> Model / View / Controller / Rewriting, NodeAtlas</li>\n\t<li><strong>NoSql :</strong> MongoDB, Redis</li>\n\t<li><strong>IDE :</strong> Sublim Text 3, Cloud9, Visual Studio + Node.js Tool</li>\n</ul>\n\n<h3>PHP</h3>\n\n<ul>\n\t<li><strong>Usage :</strong> POO, Namespace, webconfig.xml, .htaccess</li>\n\t<li><strong>Architecture MVC2 :</strong> Model / View / Controller / Rewriting, Slim, CodeIgniter, API REST</li>\n\t<li><strong>IDE :</strong> NetBean, Eclipse</li>\n</ul>\n\n<h3>ASP / Razor / C#</h3>\n\n<ul>\n\t<li><strong>Usage :</strong> LifeCycle, ViewState, POO, LINQ, héritage, polymorphisme, interface, générique, Scriptlet, web.config, UpdatePanel</li>\n\t<li><strong>Architecture 3 Tiers avec URLRewriting :</strong> User Interface /BussinessObject /DataAccess, .NET</li>\n\t<li><strong>Architecture MVC2 :</strong> Model / View / Controller / Rewriting, .NET MVC</li>\n\t<li><strong>IDE :</strong> Visual Studio + Web Essentials</li>\n</ul>\n\n<h3>SQL</h3>\n\n<ul>\n\t<li><strong>Usage :</strong>&nbsp;clé primaire, index, clés étrangères (Update / Delete, Cascade / Restrict / No Action), jointure (Inner / Outer left / right), recherche (Like / Regexp), procédures stockées</li>\n\t<li><strong>Variantes :</strong> MySQL, SQL Server</li>\n\t<li><strong>IDE :</strong> phpMyAdmin, SQL Server Management Studio</li>\n</ul>\n\n<h2>Framework / Librairie / API / CMS</h2>\n\n<ul>\n\t<li><strong>CSS :</strong> Reset / Normalize, Bootstrap / KNACSS / SemanticUI, Less, Stylus</li>\n\t<li><strong>JavaScript :</strong> Vue, Vanilla JS, jQuery, Modernizr, jQuery UI, async.js, AngularJS, Responsive.js, Relocate.js, Intro.js, Impress.js, CKEditor, Google Maps, Google Drive etc.</li>\n\t<li><strong>ASP.NET C#.NET :</strong> LINQ</li>\n\t<li><strong>PHP :</strong> MediaWiki, PHPBB3, Drupal, WordPress, Joomla!</li>\n</ul>\n\n<h2>Web server</h2>\n\n<ul>\n\t<li><strong>Node.js :</strong> node-atlas, forever, hexo, bouncy, strong-pm, gulp, stylus</li>\n\t<li><strong>Apache dans wamp :</strong> mod_rewrite, mod_proxy_wstunnel, Virtual Directory, changement de port</li>\n\t<li><strong>Apache OVH :</strong> administration web, DNS, Email</li>\n\t<li><strong>IIS6 et 7 :</strong> Pool, Integrated / Classic Mode, Rewrite Module, Virtual Directory, Application</li>\n\t<li><strong>IIS8 et Node.js :</strong> iisnode, WebSockets, Application Request Routing</li>\n\t<li><strong>Versionning / mise en prod :</strong> Git, GitHub, Bitbucket, Filezilla, SVN, Interface OVH / Infomaniak</li>\n</ul>\n\n<h2>Outils - Conception / Debug</h2>\n\n<ul>\n\t<li><strong>Code :</strong> Sublim Text, Chrome / Firefox / IE / Opera / Safari (Developer Tools / Firebug / Firebug Lite)</li>\n\t<li><strong>Conception :</strong> Moqups, Balsamiq, NodeAtlas</li>\n\t<li><strong>Media :</strong> Photoshop CS, Paint .NET, Audition CS, Audacity</li>\n\t<li><strong>Gestion :</strong> LiquidPlaner, Asana, Trello, Harvest, Zoho Invoice</li>\n\t<li><strong>Disposition clavier :</strong> Bépo, Azerty</li>\n</ul>",
+        "afterPanel": {
+            "title": "En un coup dœil",
+            "content": "<ul>\n    <li>HTML5</li>\n    <li>CSS3</li>\n    <li>JavaScript</li>\n    <li>Responsive Web Design</li>\n    <li>Web Standard &amp; Performance Quality</li>\n    <li>Node.js</li>\n    <li>Gestion de projet</li>\n</ul>"
+        }
+    },
+    "contactMe": {
+        "title": "Contact",
+        "image": {
+            "alt": "Me contacter",
+            "src": "./media/images/contact-me.png",
+            "width": "160",
+            "height": "140"
+        },
+        "content": "<h2>Formulaire de contact</h2>\n<p>Si vous souhaitez me contacter par email sans communiquer le votre ou si vous voulez être sûr d'obtenir une réponse, vous pouvez remplir le formulaire ci-dessous.</p>",
+        "address": "<h2>Adresse Postale</h2><p>M. Bruno Lesieur<br><ins class=\"add7\"></ins> avenue de Genève<br>74000 Annecy<br>France</p>",
+        "detail": {
+            "title": "Que souhaitez-vous me dire ?",
+            "placeholder": "Bonjour Bruno, ..."
+        },
+        "name": {
+            "title": "À qui ais-je l'honneur ?",
+            "placeholder": "Envoi Anonyme"
+        },
+        "email": {
+            "title": "À quel email dois-je répondre ?",
+            "placeholder": "me@repondre.ici"
+        },
+        "validation": {
+            "title": "Envoyer<span class=\"contact--tip--reply\"><span class=\"contact--tip--anonyme\"> Anonymement</span><br>(je ne pourrais pas vous répondre)</span>"
+        }
+    },
+    "aboutMe": {
+        "title": "À propos",
+        "intro": "<p>En savoir plus sur moi et mes réseaux</p>",
+        "content": "<h2>Description</h2>\n\n<p>Je suis <a href=\"https://app.pluralsight.com/profile/bruno-lesieur\" target=\"_blank\">développeur web spécialiste JavaScript</a>&nbsp;en <a href=\"https://appear.in/orchard-id\">télétravail</a> ! Je vis chaque jour ma passion nageant parmi les techniques actuelles et d'avenir en matière de front-end et de Node.js. C'est pourquoi tous les jours au petit déjeuner (mais pas seulement), je prépare de quoi satisfaire ma faim de Responsive Web Design, de performances web, de respect des standards, de bonnes pratiques, de POC HTML5 / CSS3, d'accessibilité web, de factorisation, d'automatisation, de partage, de casse-tête en tout genre et ce&nbsp;à travers des projets et prototypes toujours plus appétissants.</p>\n\n<p>Dernier gros plats en date ?</p>\n\n<ul>\n\t<li><a href=\"https://github.com/Haeresis/vanilla-js\" target=\"_blank\">Vanilla JS</a>&nbsp;le fr@m€w#rk JavaScript le plus rapide au monde,</li>\n\t<li><a href=\"https://github.com/NodeAtlas/node-atlas\" target=\"_blank\">NodeAtlas</a>&nbsp;pour des sites W3C&nbsp;et SEO délicieux en JS côté serveur et</li>\n\t<li>La <a href=\"https://fr.vuejs.org/\" target=\"_blank\">traduction</a> et la <a href=\"https://github.com/vuejs-fr\" target=\"_blank\">gestion communautaire</a> française de <a href=\"https://vuejs.org/v2/guide/team.html\">Vue.js</a> !</li>\n</ul>\n\n<h2>Mon Curriculum Vitae</h2>\n\n<p><a class=\"external\" href=\"https://www.linkedin.com/in/brunolesieur\" target=\"_blank\" title=\"Consultez mon CV à jour\">Consultez mon CV à jour</a> et mes avancées professionnelles en rejoignant le réseau LinkedIn. Vous pouvez également voir <a class=\"external\" href=\"https://bruno.lesieur.name/\" target=\"_blank\" title=\"CV version web et papier\">mon CV avec informations sourcées en</a>&nbsp;en version web et pdf.</p>\n\n<h2>Mes travaux et la webosphère</h2>\n\n<p>Encerclez <a class=\"external\" href=\"https://plus.google.com/u/0/+BrunoLesieur/\" target=\"_blank\" title=\"+Bruno Lesieur\">+Bruno Lesieur</a> sur le réseau social Google+ pour suivre l'actualité de mes projets et mes actus web, mobiles, IT, sociales. Découvrez ce qui me fait vibrer, mes coups de cœur&nbsp;et partagez avec moi&nbsp;.</p>\n\n<h2>Mes passions et mes envies</h2>\n\n<p>Suivez &nbsp;<a class=\"external\" href=\"https://twitter.com/MachinisteWeb\" target=\"_blank\" title=\"@MachinisteWeb\">@MachinisteWeb</a>&nbsp;sur Twitter&nbsp;et&nbsp;plongez dans la découverte de la <a href=\"http://menace-theoriste.fr/\" target=\"_blank\">zététique</a> ou la méthode scientifique dite du doute méthodique appliquée au quotidien pour avoir de l'esprit critique, éviter les <a href=\"https://www.youtube.com/user/TroncheEnBiais\" target=\"_blank\">biais cognitifs</a> et avoir une bonne <a href=\"https://www.youtube.com/user/fauxsceptique\" target=\"_blank\">hygienne mentale</a>.</p>\n\n<h2>Me contacter par Email</h2>\n\n<p>Si vous souhaitez me contacter par email, vous pouvez le faire via mon adresse personnelle <a class=\"link generate-email\" href=\"javascript:;\">en la générant en cliquant ici</a>.</p>",
+        "afterPanel": {
+            "title": "Mes réseaux",
+            "content": "<ul>\n\t<li><a class=\"external\" href=\"https://plus.google.com/u/0/+BrunoLesieur/\" target=\"_blank\" title=\"Google+\">Google+</a></li>\n\t<li><a class=\"external\" href=\"https://twitter.com/MachinisteWeb/\" target=\"_blank\" title=\"Twitter\">Twitter</a></li>\n\t<li><a class=\"external\" href=\"http://www.pinterest.com/haeresis/\" target=\"_blank\" title=\"Pinterest\">Pinterest</a></li>\n\t<li><a class=\"external\" href=\"https://www.linkedin.com/in/brunolesieur/\" target=\"_blank\" title=\"LinkedIn\">LinkedIn</a></li>\n\t<li><a class=\"external\" href=\"http://www.viadeo.com/fr/profile/bruno-lesieur\" target=\"_blank\" title=\"Viadeo\">Viadeo</a></li>\n\t<li><a class=\"external\" href=\"https://disqus.com/by/MachinisteWeb/\" target=\"_blank\" title=\"Disqus\">Disqus</a></li>\n\t<li><a class=\"external\" href=\"https://codepen.io/Haeresis\" target=\"_blank\" title=\"Codepen\">Codepen</a></li>\n\t<li><a class=\"external\" href=\"https://github.com/Haeresis/\" target=\"_blank\" title=\"GitHub\">GitHub</a></li>\n\t<li><a class=\"external\" href=\"https://bitbucket.org/Haeresis/\" target=\"_blank\" title=\"Bitbucket\">Bitbucket</a></li>\n\t<li><a class=\"external\" href=\"http://stackoverflow.com/users/2412797/haeresis/\" target=\"_blank\" title=\"StackOverflow\">StackOverflow</a></li>\n\t<li><a class=\"external\" href=\"https://codefights.com/profile/Haeresis\" target=\"_blank\" title=\"CodeFights\">CodeFights</a></li>\n</ul>"
+        }
+    },
+    "aboutGames": {
+        "title": "Hobbies",
+        "content": "<h2>Ma vie avec ma Femme, mon Chien et mes Chats s'articule en majeure partie autour</h2>\n\n<p>De la consommation de <strong>culture numérique</strong> comme</p>\n\n<ul>\n\t<li>Faire une soirée ciné ou Netflix pour mater un film profond, un blockbuster ou un gros navet : je suis ouvert d'esprit et tolérant (enfin bon publique quoi),</li>\n\t<li>Consommer des séries et animés d'une traite car le temps entre épisodes me grignote la mémoire et exacerbe mon cerveau —le problème est qu'il faut raser les murs pour éviter les spoils—,</li>\n\t<li>Jouer à des jeux vidéos construits autour d'un scénario où d'un univers passionnant : principalement des (A/J/T/<em>Lettre souhaitée</em>...)RPGs, des jeux d'actions avec une bonne dose d'énigme, de challenge et de mécanique de jeu ludique. Mention spéciale pour les jeux flippants de ces dernières années (Je pense à vous Outlast, PT et Alien Isolation).</li>\n\t<li>Mettre à jour ma culture G à l'aide de chaîne Internet de vulgarisation, magasines où article de blog parce que... parce que ça m’intéresse !</li>\n</ul>\n\n<p>Mais j'aime également <strong>les choses plus terre à terre</strong> comme</p>\n\n<ul>\n\t<li>Les restos, les BBQs ou les soirées entre amis.</li>\n\t<li>Bouquiner quand y a pas de réseau où que mes yeux pleurs des pixels : principalement des livres à tome dont j'ai apprécié l'univers étendu via un autre média. Également des livres d'analyses sur des sujets de sciences&nbsp;humaines —comme la le hacking Social—, de sciences —comme l'étude de la zététique— ou d’œuvres culturelles —comme les réflexions philosophiques qu'on peut tirer des œuvres—.</li>\n\t<li>Jouer à des jeux de société fun ainsi que ceux où il y a bien un gagnant mais ou la réussite demande de collaborer avec des gentillesses et de belles salopries —Je ne suis pas mauvais perdant, encore moins quand je gagne—.</li>\n</ul>\n\n<p>Et <strong>pendant les congés</strong> j'aime</p>\n\n<ul>\n\t<li>Me balader avec mes jambes, en canoë ou en cheval ou tout simplement me baigner,</li>\n\t<li>Visiter des sites historiques ou naturels ainsi que m'amuser dans des parcs aquatiques ou d'attractions (ou les parcs avec de vrais dinosaures... j'imagine).</li>\n</ul>",
+        "beforePanel": {
+            "content": "<h3>J'aime</h3>\n\n<ul>\n\t<li><a href=\"https://www.youtube.com/channel/UCMFcMhePnH4onVHt2-ItPZw\" target=\"_blank\">La zététique</a></li>\n\t<li><a href=\"https://labdsurlholacracy.com/bande-dessinee-holacracy\" target=\"_blank\">L'holacratie</a></li>\n\t<li><a class=\"external\" href=\"http://www.compilation-of-ff7.com/\" target=\"_blank\" title=\"Final Fantasy VII\">Final Fantasy VII</a></li>\n\t<li><a class=\"external\" href=\"http://www.communaute-avatar.fr/\" target=\"_blank\" title=\"James Cameron's Avatar\">James Cameron's Avatar</a></li>\n\t<li><a class=\"external\" href=\"https://blog.lesieur.name/liste-des-cartes-munchkin-editions-francaises/\" target=\"_blank\" title=\"Jeu Munchkin\">Munchkin</a>&nbsp;/ <a href=\"https://zombicide.com/fr/\" target=\"_blank\">Zombicide</a></li>\n\t<li><a class=\"external\" href=\"https://github.com/Haeresis\" target=\"_blank\" title=\"Le Partage\">Le partage</a></li>\n\t<li><a class=\"external\" href=\"https://www.paypal.me/BrunoLesieur/5\" target=\"_blank\" title=\"Les Dons\">Les dons</a></li>\n</ul>\n\n<h3>Je déteste</h3>\n\n<ul>\n\t<li><a class=\"external\" href=\"https://www.youtube.com/watch?v=IeTybKL1pM4\" title=\"Hadopi\">Hadopi</a></li>\n</ul>"
+        },
+        "afterPanel": {
+            "title": "<a class=\"external\" href=\"http://www.zolieplante.fr/\" title=\"J'aime ma Femme\">Passionné par ma Femme</a>"
+        }
+    },
+    "aboutJobs": {
+        "title": "Métiers",
+        "intro": "<p>I love JavaScript</p>",
+        "beforePanel": {
+            "title": "Mes métiers",
+            "content": "<ul>\n\t<li><a href=\"https://blog.lesieur.name/\" target=\"_blank\">Développeur front-end</a></li>\n\t<li><a href=\"https://blog.lesieur.name/vanilla-js-france/\" target=\"_blank\">Développeur JavaScript</a></li>\n\t<li><a href=\"https://fr.vuejs.org/\" target=\"_blank\">Développeur Vue.js</a></li>\n\t<li><a href=\"https://node-atlas.js.org/\" target=\"_blank\">Développeur Node.js</a></li>\n\t<li><a href=\"https://www.orchard-id.fr/\" target=\"_blank\">Développeur full-stack</a></li>\n</ul>"
+        },
+        "content": "<h2>Qu’est-ce qu'un développeur full-stack JavaScript ?</h2>\n\n<p>Je suis développeur full-stack JavaScript. Cela regroupe les deux métiers de développeur front-end et développeur Node.js.</p>\n\n<p>Je développe donc la partie cliente (ou front-end) d’un site web qui fait le pont entre l’utilisateur et le serveur web. C’est la page web visible à l’écran et également les éléments la constituant avec lesquels vous interagissez :</p>\n\n<ul>\n\t<li>la présentation graphique,</li>\n\t<li>les médias affichés,</li>\n\t<li>les animations,</li>\n\t<li>la saisie des formulaires,</li>\n\t<li>le contrôle des erreurs,</li>\n\t<li>les mises à jour après chargement de page…</li>\n</ul>\n\n<p>Je développe également la partie serveur avec le même language que celui utilisé pour la partie cliente : le JavaScript.</p>\n\n<p>Pour comprendre l'utilité d'un tel profil, refaisons un petit bon dans le temps.</p>\n\n<h2>Naissance d’un métier</h2>\n\n<h3>Les balbutiements</h3>\n\n<p>La réalisation de la partie front-end était initialement faite :</p>\n\n<ul>\n\t<li>soit par le webdesigner qui touchait sa bille sur FrontPage ou Dreamweaver,</li>\n\t<li>soit par le développeur back-end qui avait (web exige) des notions en rendu HTML (mon cas).</li>\n</ul>\n\n<p>Dans les deux cas, la connaissance des standards n’était pas de mise et le chargé front-end ou client-side bricolait du mieux possible en empilant des <samp>&lt;table&gt;</samp> et en vérifiant que cela fonctionnait dans IE6.</p>\n\n<h3>Les intégrateurs web</h3>\n\n<p>Puis l’essor de CSS et des multiples navigateurs ont fait naître une spécialité parmi les métiers du web : celle d’intégrateur web ou intégrateur HTML / CSS. Il convenait à cette personne —généralement un développeur back-end à cheval sur le webdesign (ou inversement)— de créer une structure aux normes du W3C, indexable dans les moteurs de recherche et maintenable (l'apparence d’un site pouvant changer du tout au tout) avec du JavaScript récupéré de-ci de-là sur EditeurJavaScript.</p>\n\n<p>Nous en sommes alors au stade des développeurs back-end qui ont de fortes proportions aux développements et mécanismes front-end.</p>\n\n<h3>Les développeurs front-end</h3>\n\n<p>Avec l’arrivée :</p>\n\n<ul>\n\t<li>de technologies comme HTML5 et CSS3,</li>\n\t<li>des librairies comme jQuery, AngularJS,</li>\n\t<li>des requêtes asynchrones,</li>\n\t<li>des recommandations en performances web,\n\t<ul>\n\t\t<li>sur tous les navigateurs,</li>\n\t\t<li>toutes les versions de navigateurs,</li>\n\t\t<li>tous les périphériques et résolutions (Responsive Web Design),</li>\n\t</ul>\n\t</li>\n\t<li>les bonnes pratiques pour le référencement naturel…</li>\n</ul>\n\n<p>l’intégration web est devenue une affaire de spécialistes. La nécessité absolue d’avoir des connaissances sur l’architecture complète et les fonctionnements d’un site Internet ainsi que la connaissance poussée du JavaScript pour réaliser des interfaces riches font qu’à présent les experts en sites et applications web sont des développeurs front-end qui ont de fortes proportions au développement et mécanismes Back-end.</p>\n\n<h2>Des compétences de professionnels</h2>\n\n<p>C’est donc avec l’essor d’Internet que les développeurs client-side sont devenus indispensables :</p>\n\n<ul>\n\t<li><strong>Référencement et SEO</strong> : le développeur front-end transforme un visuel en balises sémantiques HTML5 créant une structure « avec du sens » permettant une meilleure compréhension des moteurs de recherche ainsi qu’une meilleure hiérarchisation de l’information au sein des pages pour une visibilité accrue.</li>\n\t<li><strong>Ergonomie visuelle</strong> : le développeur front-end s’occupe de l’habillage visuel du site d’après des maquettes et guide de style ainsi que de l’animation des éléments grâce au CSS3.</li>\n\t<li><strong>Ergonomie fonctionnelle</strong> : le développeur front-end s’occupe des animations au passage / clique de la souris, des interactions avec le clavier, ou même du rapatriement de nouvelles informations après chargement grâce à AJAX ou aux WebSockets.</li>\n\t<li><strong>Interopérabilité et accessibilité</strong> : il est indispensable que le développeur front-end respecte les normes du W3C ainsi que les préconisations d’accessibilités du projet OpQuaSt et reste en veille des techniques de demain comme le Responsive Web Design. Respecter cela est le meilleur moyen d’assurer : le bon fonctionnement, la maintenabilité et l’évolutivité sur le long terme d'un site sur le maximum de périphériques et de navigateurs.</li>\n</ul>\n\n<p>Au final la qualité globale d’un site web passe avant tout par le travail du développeur front-end qui veille à l’ergonomie du site pour l’utilisateur ainsi qu’à la compatibilité du site sur le terminal utilisé et ceci dans un souci de rapidité d’exécution et de performance au chargement.</p>\n\n<h2>Retour aux sources</h2>\n\n<p>La facilité et la puissance de JavaScript ne nous encourage pas à revenir de l'autre côté, sur le serveur, qui se développe dans d'autres langages. Se pencher sur la partie serveur force à connaître d'autres technologies qui en font un métier à part entier. Seulement toutes ses technologies peuvent alternativement être maîtrisées avec un seul langage grâce à Node.js : le JavaScript côté serveur.</p>\n\n<h3>Les développeurs full-stack</h3>\n\n<p>Et c'est ici que, grâce au JavaScript, que le métier de front-end développeur peu s'étendre au côté serveur, aux API, aux bases de données et même aux applications mobiles, aux plugins pour navigateur et j'en passe ! Le nouveau nom de ces développeurs est devenu celui de développeur full-stack JavaScript.</p>\n\n<p>Grâce à Node.js et ses multiples modules, à MongoDB ou d'autres bases NoSQL et au format JSON, un développeur JavaScript peut maintenant :</p>\n\n<ul>\n\t<li>créer des interfaces graphiques riches pour les navigateurs (HTML / CSS)</li>\n\t<li>gérer des requêtes HTTP (Node.js)</li>\n\t<li>créer des applications mobiles (NativesScript)</li>\n\t<li>stocker des informations dans des fichiers (JSON)</li>\n\t<li>faire des appels aux bases de données (NoSQL)</li>\n\t<li>faire des jeux vidéos (Canvas)</li>\n\t<li>...</li>\n</ul>\n\n<h3>L'avenir du JavaScript ?</h3>\n\n<p>Il ne fait aucun doute que la puissance de JavaScript couplé aux languages HTML et CSS permet et permettra de plus en plus de réalisations diverses dans le futur et c'est pour cela que je vais continuer à œuvrer dans ce sens avec ce language.</p>"
+    },
+    "aboutBepo": {
+        "title": "Bépo",
+        "intro": "<p>Envie d'écrire ?</p>",
+        "content": "<h2>Qu'est-ce que la disposition Bépo ?</h2>\n\n<p>Le <a href=\"http://bepo.fr/wiki/Accueil\">site officiel</a> vous dira tout cela bien mieux que moi mais pour résumer : la disposition Bépo est une autre manière d’agencer l’ordre des touches de votre clavier de manière à rendre le chemin parcouru par les doigts le plus court possible lors de la saisie d’une phrase en français. Les touches de ponctuation française et les accents sont également plus accessibles et rangés intelligemment. La disposition s’avère également très véloce pour le développement et agréable à la rédaction anglaise. Ainsi, les 4 premières touches sont les b, é, p et o.</p>\n\n<p><img alt=\"La disposition des touches en Bépo\" src=\"media/images/carte-bepo-complete.png\" style=\"height:276px; width:800px\" title=\"\"></p>\n\n<h2>Rapidité, accessibilité, confort et apprentissage</h2>\n\n<p>Il existe <a href=\"http://typematrix.com/bepo/\">des claviers Bépo très utile</a>, surtout lors de l’apprentissage. Cependant, je conseille d’en profiter pour apprendre à écrire à 10 doigts et sans les yeux. Quitte à devoir ré-apprendre à écrire, autant le faire bien ! Actuellement, n’ayant pas besoin de mes yeux pour écrire, je tape en Bépo sur un clavier Azerty. De plus, avec la combinaison de touche « Window + Espace » je peux switcher de la disposition Bépo à Azerty en un clin d’œil pour laisser les non Bépoiste taper sur mon clavier. La disposition s’installe sur n’importe quel OS avec un simple pilote (aussi j'écris en Bépo sur mon mobile, pratique à deux doigts).</p>\n\n<p><img alt=\"L’efficacité Bépo\" src=\"media/images/flat.png\" style=\"height:382px; width:360px\" title=\"\"></p>\n\n<p>Bien que vous allez perdre votre rapidité d’écriture dans un premier temps, vous reprendrez la main en quelque mois et finirez par dépasser votre ancienne rapidité de frappe d’ici 6 à 9 mois. Tout est fait pour que vous puissiez écrire aussi vite que possible et sans effort comme vous pouvez le voir sur l’image ci-dessus.</p>\n\n<h2>Pourquoi je suis passé en Bépo ?</h2>\n\n<h3>État des lieux</h3>\n\n<p>Quand je me suis mis sur un ordinateur, à un très jeune age, j’ai commencé à chercher mes touches avec les yeux sur une disposition Azerty. Curieuse cette disposition ? Pourquoi pas l’ordre de l’alphabet ? Je la connais par cœur celle là ! J’ai fini par connaître par cœur les touches sans pour autant pouvoir appuyer dessus sans faire d’erreur si je ne les regardait pas. À tout casser, je devais écrire avec 4 doigts et quitter quelque fois mon clavier des yeux pour voir ce que j’avais écrit. Cependant je rêvais de pouvoir dégager mes yeux de mon clavier pour en faire autre chose pendant que j’écrivais et surtout écrire avec mes 10 doigts pour gagner en rapidité, vous savez, comme les experts en informatique dans les films !</p>\n\n<h3>Le Bépo, même plus pratique que l’Azerty</h3>\n\n<p>Je me suis dit que si je devais perdre du temps à chercher mes touches avec les doigts et à en apprendre la disposition dans l’espace par cœur (sans utiliser mes yeux) pour une question de confort et de rapidité, autant prendre la disposition la plus rapide et la plus confortable ! Et écrire en Bépo m’a beaucoup aidé car ce n’était pas ma première tentative d'écrire à 10 doigts et à l'aveugle ; j’avais déjà tenté l’aventure en Azerty mais « Comment s’empêcher de jeter un œil pour s’aider à aller plus vite ? ». La réponse est simple, faire en sorte que jeter un œil sur votre clavier ne vous avance pas plus que si vous ne le faisiez pas. Cela est chose faites puisque vous ne connaissez pas la disposition Bépo.</p>\n\n<h2>L’apprentissage</h2>\n\n<p>J’ai donc commencé par des exercices de dactylographie en Bépo avec le logiciel <a href=\"http://klavaro.sourceforge.net/fr/\">Klavaro</a> plusieurs fois par semaine pour apprendre mes touches. Durant cette phase, je continuais à écrire en Azerty en dehors de mon logiciel.</p>\n\n<p>Quand j’ai fini par plus ou moins connaître les lettres les plus usuelles, je me suis lancé dans le grand bain ! Fini l’Azerty ! Je développais, rédigeais mes docs, écrivais mes mails et mes articles en Bépo ! Et là je suis devenu une vrai limace. Cependant cet apprentissage à concorder avec ma monté en maîtrise de l’éditeur Sublime Text qui via ses divers plugin à réussi à masquer mon handicape. En un mois seulement j’ai réussi à obtenir une vitesse de production normale avec tous mes outils d’assisté. L’écriture des programmes web m’a permis d’apprendre le reste de la disposition, notamment au niveau de la ponctuation, souvent utile pour le développement.</p>\n\n<p>En environs 6 mois je suis passé à une vitesse de frappe de 30 mots minutes et j’en suis actuellement à 56 mots minutes. Mon premier palier d’objectif n’a pas encore été atteint puisque j’espérais en commençant mon apprentissage atteindre les 60 mots minutes soit 1 mot par seconde. C’est encore loin des records de 180 mots minutes mais j’arrive, j’arrive ! Work in progress…</p>",
+        "afterPanel": {
+            "title": "Je veux apprendre !",
+            "content": "<ul>\n    <li><a href=\"http://bepo.fr/wiki/Accueil\" title=\"Bépo\">Tout savoir sur le Bépo</a></li>\n    <li><a href=\"http://www.typematrix.com/shop/\" title=\"Available in AZERTY, QWERTY, DVORAK, BLANK, or BÉPO\">Obtenir un clavier</a></li>\n    <li><a href=\"http://klavaro.sourceforge.net/fr/\" title=\"Klavaro\">Logiciel de dactylographie</a></li>\n</ul>"
+        }
+    },
+    "aboutAuthor": {
+        "title": "À propos de l'auteur",
+        "image": {
+            "src": "./media/images/bw-author.png",
+            "alt": "Bruno Lesieur",
+            "width": "96",
+            "height": "96"
+        },
+        "content": "Bonjour, je suis Bruno Lesieur, architecte web basé sur Annecy. Intégrateur HTML5, CSS3 et JavaScript ou encore développeur Front-End ; appelez moi comme vous le voulez mais sachez que je suis très friand de performance web, de Responsive Web Design, d'accessibilité web, de bonnes pratiques, de techniques et d'outils de gestion web, de factorisation et d'automatisation, de partage et casse-tête en tout genre ainsi que de boissons gazeuses."
+    },
+    "mainMenu": {
+        "title": {
+            "content": "Accueil",
+            "title": "Accueil du site",
+            "href": "./"
+        },
+        "section": [
+            {
+                "content": "Catégories",
+                "title": "Tous les billets par catégories",
+                "href": "./categories/",
+                "class": "category"
+            },
+            {
+                "content": "Archives",
+                "title": "Tous les billets par année",
+                "href": "./archives/",
+                "class": "archive"
+            },
+            {
+                "content": "À propos",
+                "title": "À propos du site et de l'auteur",
+                "href": "http://www.haeresis.fr/",
+                "class": "about"
+            },
+            {
+                "content": "RSS",
+                "title": "Suivre le flux RSS",
+                "href": "./rss.xml",
+                "class": "about"
+            }
+        ]
+    },
+    "url": {
+        "bepo": "bepo",
+        "edit-me": "edition",
+        "book": "portfolio",
+        "home": "bienvenue",
+        "blog": "blog",
+        "jobs": "metiers",
+        "zetetic": "zetetique",
+        "skills": "competences",
+        "websites": "communautes",
+        "offers": "offres",
+        "contact-me": "me-contacter",
+        "about-me": "a-propos",
+        "nodeatlas": "node-atlas",
+        "games": "hobbies"
+    },
+    "error404": "<span class=\"first\">Erreur 404</span> <span class=\"second\">Cette page n'existe pas.</span>",
+    "main": "<strong>Suivez mes recherches actuelles en consultant <a href=\"https://blog.lesieur.name/\" title=\"Quelques #ID et beaucoup de .CLASS\" target=\"_blank\"> mon blog</a>.</strong>",
+    "copyright": "©2012-2017 <a href=\"https://www.lesieur.name/\" title=\"Site de Bruno Lesieur, Développeur web spécialiste Front-End / Node.js\">Lesieur.name</a>",
+    "engine": "Site développé en <a href=\"http://nodejs.org/\" title=\"node.js, le moteur JavaScript côté serveur\">node.js</a> avec <a href=\"https://haeresis.github.io/NodeAtlas/\" title=\"Le Framework node.js NodeAtlas\">NodeAtlas</a>",
+    "listDate": {
+        "startingYear": "2012",
+        "titleYear": "Année",
+        "titleMonth": "Mois",
+        "linkYear": {
+            "href": "./archives/%year%",
+            "title": "Archives de l'année %year%"
+        },
+        "linkMonth": {
+            "href": "./archives/%year%/%month%/",
+            "title": "Archives du mois de %month% de l'année %year%"
+        }
+    },
+    "dates": {
+        "toHour": "à",
+        "toDate": "Le",
+        "unitHours": "h",
+        "months": [
+            "Janvier",
+            "Février",
+            "Mars",
+            "Avril",
+            "Mai",
+            "Juin",
+            "Juillet",
+            "Août",
+            "Septembre",
+            "Octobre",
+            "Novembre",
+            "Décembre"
+        ]
+    },
+    "comments": {
+        "title": "Nombre de commentaires",
+        "commentSimple": "commentaire<ins data-ins=\"s\"></ins>",
+        "commentMultiple": "commentaire<ins data-ins=\"s\">s</ins>",
+        "commentSentence": "Aller aux commentaires"
+    },
+    "categories": {
+        "title": "Toutes les categories",
+        "title2": "Catégorisé dans",
+        "link": {
+            "title": "Tous les articles de la categorie",
+            "href": "./categories/%urn%/"
+        }
+    },
+    "summary": {
+        "title": "Dans cette article"
+    },
+    "archives": {
+        "title": "Toutes les dates",
+        "startingYear": 2012,
+        "startingMonth": 11,
+        "linkYear": {
+            "title": "Tous les articles de l'année %year%",
+            "href": "./archives/%year%/"
+        },
+        "linkMonth": {
+            "title": "Tous les articles du mois de %month% de l'année %year%",
+            "href": "./archives/%year%/%month%/"
+        }
+    },
+    "articles": {
+        "updateArticle": "Modifier l'article",
+        "uploadAvatar": {
+            "button": "Uploader Avatar",
+            "alt": "Avatar"
+        },
+        "readMore": {
+            "href": "./%urn%/",
+            "content": "Lire la suite"
+        }
+    },
+    "rss": {
+        "title": "Quelques #ID et beaucoup de .CLASS",
+        "description": "Ce blog est une compilation d'articles sur le développement JavaScript Front-end jQuery, Back-end Node.js ou développement web en général.",
+        "feedUrl": "rss.xml",
+        "author": "Bruno Lesieur",
+        "copyright": "2012-2017",
+        "language": "fr",
+        "url": "%urn%/"
+    },
+    "aboutZetetic": {
+        "content": "<h2>En cours...</h2>\n\n<p>En cour de&nbsp; rédaction !</p>",
+        "beforePanel": {
+            "title": "En cours...",
+            "content": "<ul>\n\t<li>En cours</li>\n</ul>"
+        },
+        "title": "Zététique"
+    }
 }

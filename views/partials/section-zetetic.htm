@@ -1,0 +1,23 @@
+		<li class="small section <?= specific.opened.zetetic ?>" data-url="<?= common.url.zetetic ?>">
+			<section class="about zetetic content">
+				<h1>
+					<ins class="collapse icon cogs"></ins>
+					<span><?- et(common, ['aboutZetetic.title', fc]) ?></span>
+				</h1>
+
+				<div class="vertical scrollable">
+					<div class="before panel">
+						<h2><?- et(common, ['aboutZetetic.beforePanel.title', fc]) ?></h2>
+						<?- eh(common, ['aboutZetetic.beforePanel.content', fc]) ?>
+					</div>
+
+					<div class="complete">
+						<?- eh(common, ['aboutZetetic.content', fc]) ?>
+					</div>
+
+					<nav class="return">
+						<a href="javascript:;" title="<?- ea(common, ['menu.title', fc, 'title']) ?>"><?- et(common, ['menu.content', fc]) ?></a>
+					</nav>
+				</div>
+			</section>
+		</li>
