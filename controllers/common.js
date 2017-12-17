@@ -79,7 +79,7 @@ website.components = {};
 				/* Asynchrone Top Components */
 				data.topPart = {};
 				data.topPart['edit-me'] = NA.view('partials/section-edit-me.htm', locals);
-				data.topPart.bepo = NA.view('partials/section-bepo.htm', locals);
+				data.topPart.skills = NA.view('partials/section-skills.htm', locals);
 				data.topPart.book = NA.view('partials/section-book.htm', locals);
 				data.topPart.home = NA.view('partials/section-home.htm', locals);
 				data.topPart.blog = NA.view('partials/section-blog.htm', locals);
@@ -88,7 +88,7 @@ website.components = {};
 
 				/* Asynchrone Top Components */
 				data.bottomPart = {};
-				data.bottomPart.skills = NA.view('partials/section-skills.htm', locals);
+				data.bottomPart.bepo = NA.view('partials/section-bepo.htm', locals);
 				data.bottomPart.websites = NA.view('partials/section-websites.htm', locals);
 				data.bottomPart.offers = NA.view('partials/section-offers.htm', locals);
 				data.bottomPart['contact-me'] = NA.view('partials/section-contact-me.htm', locals);

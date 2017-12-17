@@ -3,9 +3,9 @@
 		"content" : [{
 			"path": "partials/top-section.htm"
 		}, {
-			"path": "partials/bottom-section.htm"
-		}, {
 			"path": "partials/section-skills.htm"
+		}, {
+			"path": "partials/bottom-section.htm"
 		}, {
 			"path": "partials/presentation.htm",
 			"variations": {
@@ -19,10 +19,10 @@
 			}
 		}]
 	},
-	"titlePage": "Bruno Lesieur c'est pas encore à quoi sert cette page.",
-	"description": "Contenu prochainement disponible.",
+	"titlePage": "Bruno Lesieur est peut-être un développeur ninja",
+	"description": "Voici la liste de toutes les technologies web auxquelles j'ai pu toucher de prèt ou de loin.",
 	"opened": {
-		"main": "to top",
+		"main": "to bottom",
 		"bepo": "",
 		"edit-me": "",
 		"book": "",

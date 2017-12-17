@@ -47,12 +47,12 @@
 		"redirect": "/metiers/",
 		"statusCode": 301
 	},
-	"/competences/": {
+	"/expertise/": {
 		"view": "simple.htm",
 		"variation": "skills.json"
 	},
-	"/competences": {
-		"redirect": "/competences/",
+	"/expertise": {
+		"redirect": "/expertise/",
 		"statusCode": 301
 	},
 	"/communautes/": {

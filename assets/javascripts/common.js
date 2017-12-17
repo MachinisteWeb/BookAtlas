@@ -1,3 +1,4 @@
+/* global $, NA, Hashes */
 /*------------------------------------*\
 	$%SUMMARY
 \*------------------------------------*/
@@ -19,8 +20,7 @@
 var website = website || {},
 	$window = $(window),
 	$html = $("html"),
-	$body = $("body"),
-	$base = $("base");
+	$body = $("body");
 
 
 
@@ -59,7 +59,8 @@ var website = website || {},
 		NA.socket.on("load-sections", function (data) {
 			var targetTop = ".top.sections > .return > a",
 				targetBottom = ".bottom.sections > .return > a",
-				$section;
+				$section,
+				i;
 
 			function animatedOpenSection($sectionWrap) {
 				var $section = $sectionWrap.find("section"),
@@ -74,22 +75,26 @@ var website = website || {},
 				});
 			}
 
-			for (var i in data.topPart) {
-				if (!$(".top.sections > .section > ." + i).length) {
-					$section = $(data.topPart[i]);
-					$(targetTop).parent().after($section);
-					animatedOpenSection($section);
+			for (i in data.topPart) {
+				if (data.topPart.hasOwnProperty(i)) {
+					if (!$(".top.sections > .section > ." + i).length) {
+						$section = $(data.topPart[i]);
+						$(targetTop).parent().after($section);
+						animatedOpenSection($section);
+					}
+					targetTop = ".top.sections > .section > ." + i;
 				}
-				targetTop = ".top.sections > .section > ." + i;
 			}
 
-			for (var i in data.bottomPart) {
-				if (!$(".bottom.sections > .section > ." + i).length) {
-					$section = $(data.bottomPart[i]);
-					$(targetBottom).parent().after($section);
-					animatedOpenSection($section);
+			for (i in data.bottomPart) {
+				if (data.bottomPart.hasOwnProperty(i)) {
+					if (!$(".bottom.sections > .section > ." + i).length) {
+						$section = $(data.bottomPart[i]);
+						$(targetBottom).parent().after($section);
+						animatedOpenSection($section);
+					}
+					targetBottom = ".bottom.sections > .section > ." + i;
 				}
-				targetBottom = ".bottom.sections > .section > ." + i;
 			}
 
 			callback();
@@ -159,14 +164,13 @@ var website = website || {},
 	};
 
 	publics.listeningAccountLogout = function () {
-		NA.socket.on('account-logout', function (data) {
+		NA.socket.on('account-logout', function () {
 			location.reload();
 		});
 	};
 
 	publics.sendMessage = function () {
-		var $detail = $(".contact--detail"),
-			$name = $(".contact--name"),
+		var $name = $(".contact--name"),
 			$email = $(".contact--email"),
 			$validation = $(".contact--validation"),
 			$isAnonyme = $(".contact-success .is-anonyme"),
@@ -203,7 +207,7 @@ var website = website || {},
 			} else {
 				$email.removeClass("contact-disabled");
 				$anonyme.addClass("contact-tip-disabled");
-				if ($emailInput.val().length !== 0) { 
+				if ($emailInput.val().length !== 0) {
 					$reply.addClass("contact-tip-disabled");
 				}
 			}
@@ -261,13 +265,17 @@ var website = website || {},
 		var halfHeight,
 			halfHeightPadding,
 			$main,
+			$topSections,
 			$topSection,
+			$bottomSections,
 			$bottomSection;
 
 		privates.loadSections(function () {
 			$main = $(".main");
-			$topSection = $(".top.sections .section");
-			$bottomSection = $(".bottom.sections .section");
+			$topSections = $(".top.sections");
+			$topSection = $topSections.find(".section");
+			$bottomSections = $(".bottom.sections");
+			$bottomSection = $bottomSections.find(".section");
 
 			function calcHalfHeight() {
 				if (window.matchMedia("(max-width: 323px), (max-height: 500px)").matches) {
@@ -283,6 +291,9 @@ var website = website || {},
 				$topSection.find(".content").css("height", "");
 				$bottomSection.find(".content").css("height", "");
 
+				$topSections.removeClass("has-open");
+				$bottomSections.removeClass("has-open");
+
 				$topSection.removeClass("open");
 				$bottomSection.removeClass("open");
 
@@ -297,7 +308,7 @@ var website = website || {},
 				if (!$this.hasClass("open")) {
 					if ($body.hasClass("index")) {
 						$body.removeClass().addClass(currentSection);
-					} else {                
+					} else {
 						$body.addClass("speed-2").addClass("from-end");
 						setTimeout(function () {
 							$body.removeClass().addClass(currentSection);
@@ -318,6 +329,7 @@ var website = website || {},
 					$topSection.removeClass("open").removeClass("start");
 					$bottomSection.removeClass("open").removeClass("start");
 					$currentSection.addClass("open");
+					$("." + current + ".sections").addClass("has-open");
 
 					$main.css(other, "");
 					$main.css(current, halfHeight);

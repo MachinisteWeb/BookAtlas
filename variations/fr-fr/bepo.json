@@ -3,9 +3,9 @@
 		"content" : [{
 			"path": "partials/top-section.htm"
 		}, {
-			"path": "partials/section-bepo.htm"
-		}, {
 			"path": "partials/bottom-section.htm"
+		}, {
+			"path": "partials/section-bepo.htm"
 		}, {
 			"path": "partials/presentation.htm",
 			"variations": {
@@ -22,7 +22,7 @@
 	"titlePage": "Bruno Lesieur écrit en Bépo",
 	"description": "J'écris et je développe avec une disposition Bépo. Vous aussi procurez vous un clavier Bépo et écrivez !",
 	"opened": {
-		"main": "to bottom",
+		"main": "to top",
 		"bepo": "open",
 		"edit-me": "",
 		"book": "",
