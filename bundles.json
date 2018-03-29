@@ -3,6 +3,7 @@
 		"javascripts/common.{version}.min.js": [
 			"../node_modules/socket.io-client/dist/socket.io.min.js",
 			"node-atlas/socket.io.js",
+			"javascripts/ga.min.js",
 			"javascripts/modernizr.js",
 			"javascripts/jquery.js",
 			"javascripts/jquery/jquery.validate.js",

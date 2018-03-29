@@ -254,11 +254,11 @@ var website = website || {},
 		});
 	};
 
-	publics.init = function () {
-		privates.accountLogin();
-		privates.listeningAccountLogin();
-		privates.accountLogout();
-		privates.listeningAccountLogout();
+	publics.setAnalytics = function () {
+		var ua = document.body.getAttribute('data-ua');
+		if (ua) {
+			ga('create', ua, 'auto');
+		}
 	};
 
 	publics.init = function () {
@@ -325,6 +325,13 @@ var website = website || {},
 					if (!notPushed) {
 						history.pushState($currentSection.data("url"), "", "/" + $currentSection.data("url") + "/");
 					}
+					if (document.body.getAttribute('data-ua')) {
+						ga('send', 'pageview', "/" + $currentSection.data("url") + "/", {
+							title: "/" + $currentSection.data("url") + "/",
+							location: location.href,
+							page: "/" + $currentSection.data("url") + "/"
+						});
+					}
 
 					$topSection.removeClass("open").removeClass("start");
 					$bottomSection.removeClass("open").removeClass("start");
@@ -373,6 +380,13 @@ var website = website || {},
 
 			$html.click(function () {
 				history.pushState("", "", "/");
+				if (document.body.getAttribute('data-ua')) {
+							ga('send', 'pageview', "/", {
+								title: "/",
+								location: location.href,
+								page: "/"
+							});
+						}
 
 				$body.addClass("from-end");
 				setTimeout(function () {
@@ -462,6 +476,8 @@ var website = website || {},
 			});
 
 			publics.activeEditMode();
+
+			publics.setAnalytics();
 		});
 	};
 }(website));
