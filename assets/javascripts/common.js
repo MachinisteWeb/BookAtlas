@@ -48,7 +48,7 @@ var website = website || {},
 	};
 
 	publics.generateAddress = function () {
-		$(".add7").text("66");
+		$(".add6").text("4");
 	};
 
 	privates.loadSections = function(callback) {
