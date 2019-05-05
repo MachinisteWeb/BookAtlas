@@ -1086,7 +1086,7 @@ a:hover {
 }
 .horizontal.divider:before {
   margin-left: -webkit-calc(-51%);
-  margin-left: calc(-51%);
+  margin-left: calc(-50% - 1em);
 }
 .horizontal.divider:after {
   margin-left: 1em;
