@@ -8,7 +8,6 @@
 	"pageNotFound": "/page-inexistante/",
 	"bundles": "bundles.json",
 	"languageCode": "fr-fr",
-	"optimizations": "optimizations.json",
 	"routes": "routes.json",
 	"statics": "statics.json",
 	"_min": false,

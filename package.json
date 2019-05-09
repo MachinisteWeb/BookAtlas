@@ -1,8 +1,8 @@
 {
 	"name": "book-atlas",
-	"version": "0.30.0",
+	"version": "0.31.0",
 	"author": "Bruno Lesieur <bruno.lesieur@gmail.com>",
-	"description": "Exemple de développement de site Node.js.",
+	"description": "Exemple de développement de site web Node.js.",
 	"private": false,
 	"repository": {
 		"type": "git",
@@ -16,11 +16,11 @@
 		"url": "https://github.com/Haeresis/BookAtlas/issues"
 	},
 	"dependencies": {
-		"cookie": "0.3.x",
-		"node-atlas": "2.0.7",
-		"socket.io": "1.7.x",
-		"nodemailer": "2.6.x",
-		"jshashes": "1.0.x"
+		"cookie": "^0.3.1",
+		"node-atlas": "^2.0.7",
+		"socket.io": "^2.2.0",
+		"nodemailer": "^6.1.1",
+		"jshashes": "^1.0.7"
 	},
 	"engines": {
 		"node": ">=0.10.10"
