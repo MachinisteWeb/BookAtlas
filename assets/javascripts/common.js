@@ -51,6 +51,15 @@ var website = website || {},
 		$(".add6").text("4");
 	};
 
+	publics.scrollAsideSynchonisation = function (target, base) {
+		$(target + ' .scrollable').scroll(function () {
+			var $target = $(target + ' .panel'),
+				calc = base - ($target.scrollTop() + $(target + ' .scrollable').scrollTop() / 3);
+
+			$target.css('top', calc);
+		});
+	};
+
 	privates.loadSections = function(callback) {
 		NA.socket.emit("load-sections", {
 			lang: $html.attr('lang'),
@@ -320,6 +329,20 @@ var website = website || {},
 				}
 			}
 
+			function setScrollbar() {
+				publics.scrollAsideSynchonisation('.sections .section.open .skills', 0);
+				publics.scrollAsideSynchonisation('.sections .section.open .edit-me', 0);
+				publics.scrollAsideSynchonisation('.sections .section.open .blog', 0);
+				publics.scrollAsideSynchonisation('.sections .section.open .jobs', 0);
+				publics.scrollAsideSynchonisation('.sections .section.open .zetetic', 0);
+
+				publics.scrollAsideSynchonisation('.sections .section.open .about-me', 88);
+				publics.scrollAsideSynchonisation('.sections .section.open .offers', 88);
+				publics.scrollAsideSynchonisation('.sections .section.open .games', 136);
+				publics.scrollAsideSynchonisation('.sections .section.open .websites', 136);
+				publics.scrollAsideSynchonisation('.sections .section.open .bepo', 136);
+			}
+
 			function openSection($currentSection, current, other, notPushed) {
 				if (!$html.hasClass("is-editable")) {
 					if (!notPushed) {
@@ -346,6 +369,8 @@ var website = website || {},
 					$currentSection.find(".content").css("height", halfHeight);
 
 					$currentSection.find(".scrollable").css("height", halfHeightPadding);
+
+					setScrollbar();
 
 					$main.removeClass("to " + current);
 					$main.addClass("to " + other);
@@ -466,6 +491,8 @@ var website = website || {},
 
 			publics.generateEmail();
 			publics.generateAddress();
+
+			setScrollbar();
 
 			publics.editAtlas(function () {
 				$(".toggle.checkbox").removeClass("checked");

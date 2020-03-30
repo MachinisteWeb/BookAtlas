@@ -1,6 +1,6 @@
 {
 	"name": "book-atlas",
-	"version": "0.31.0",
+	"version": "0.32.0",
 	"author": "Bruno Lesieur <bruno.lesieur@gmail.com>",
 	"description": "Exemple de développement de site web Node.js.",
 	"private": false,
