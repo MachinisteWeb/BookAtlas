@@ -6,14 +6,14 @@
 	"private": false,
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Haeresis/BookAtlas.git"
+		"url": "https://github.com/MachinisteWeb/BookAtlas.git"
 	},
 	"scripts": {
 		"start": "node www.lesieur.name.na"
 	},
 	"license": "GPL-2.0",
 	"bugs": {
-		"url": "https://github.com/Haeresis/BookAtlas/issues"
+		"url": "https://github.com/MachinisteWeb/BookAtlas/issues"
 	},
 	"dependencies": {
 		"cookie": "^0.3.1",
