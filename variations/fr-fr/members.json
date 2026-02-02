@@ -17,8 +17,8 @@
 			}
 		}]
 	},
-	"titlePage": "Connectez vous, Bruno Lesieur",
-	"description": "Espace de connexion à votre interface d'édition.",
+    "titlePage": "Connectez-vous, Bruno Lesieur",
+    "description": "Espace de connexion à votre interface d'édition.",
 	"opened": {
 		"main": ""
 	}
