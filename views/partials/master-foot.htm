@@ -1,6 +1,9 @@
 		</div>
+		<?- include('cards-viewer.htm') ?>
 		<?- include('edit-atlas.htm') ?>
 
+		<script type="text/javascript" src="https://www.youtube.com/iframe_api"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 		<? if (webconfig._min) { ?>
 		<script type="text/javascript" src="<?- urlBasePath ?>/javascripts/common.<?= webconfig.version ?>.min.js"></script>
 		<? } else { ?>
@@ -14,6 +17,7 @@
 		<script type="text/javascript" src="<?- urlBasePath ?>/javascripts/prettify.js"></script>
 		<script type="text/javascript" src="<?- urlBasePath ?>/javascripts/prettify/run_prettify.js"></script>
 		<script type="text/javascript" src="<?- urlBasePath ?>/javascripts/edit-atlas.js"></script>
+		<script type="text/javascript" src="<?- urlBasePath ?>/javascripts/cards-viewer.js"></script>
 		<script type="text/javascript" src="<?- urlBasePath ?>/javascripts/common.js"></script>
 		<? } ?>
 	</body>

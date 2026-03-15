@@ -71,6 +71,13 @@ var website = website || {},
 				$section,
 				i;
 
+			function addLazyToImages(html) {
+				if (typeof html !== 'string') return html;
+				return html
+					.replace(/(<img[^>]*?data-priority="high"[^>]*)(>)/gi, '$1 fetchpriority="high"$2')
+					.replace(/<img(?![^>]*data-priority="high")(?=\s|>)/gi, '<img loading="lazy" fetchpriority="low"');
+			}
+
 			function animatedOpenSection($sectionWrap) {
 				var $section = $sectionWrap.find("section"),
 					tempHeight = $section;
@@ -87,7 +94,7 @@ var website = website || {},
 			for (i in data.topPart) {
 				if (data.topPart.hasOwnProperty(i)) {
 					if (!$(".top.sections > .section > ." + i).length) {
-						$section = $(data.topPart[i]);
+						$section = $(addLazyToImages(data.topPart[i]));
 						$(targetTop).parent().after($section);
 						animatedOpenSection($section);
 					}
@@ -98,7 +105,7 @@ var website = website || {},
 			for (i in data.bottomPart) {
 				if (data.bottomPart.hasOwnProperty(i)) {
 					if (!$(".bottom.sections > .section > ." + i).length) {
-						$section = $(data.bottomPart[i]);
+						$section = $(addLazyToImages(data.bottomPart[i]));
 						$(targetBottom).parent().after($section);
 						animatedOpenSection($section);
 					}
@@ -107,7 +114,56 @@ var website = website || {},
 			}
 
 			callback();
+
+			if (typeof requestIdleCallback === 'function') {
+				requestIdleCallback(function () {
+					var imgs = document.querySelectorAll('.sections .section:not(.open) img[loading="lazy"][src], .cards-viewer.is-hidden img[loading="lazy"][src]');
+					var i = 0;
+					function preloadNext() {
+						if (i >= imgs.length) return;
+						var img = imgs[i];
+						var src = img.getAttribute('src');
+						if (src && src.indexOf('data:') !== 0) {
+							var preload = new Image();
+							preload.src = src;
+						}
+						i++;
+						if (i < imgs.length && typeof requestIdleCallback === 'function') {
+							requestIdleCallback(preloadNext, { timeout: 100 });
+						}
+					}
+					requestIdleCallback(preloadNext, { timeout: 2000 });
+				}, { timeout: 3000 });
+			}
 		});
+	};
+
+	privates.preloadCardsViewerImages = function () {
+		document.dispatchEvent(new CustomEvent('cards-viewer-preload'));
+	};
+
+	privates.preloadBackgroundImages = function () {
+		var bgImages = [
+			'animate-jobs.jpg', 'animate-zetetic.jpg', 'animate-about-me.jpg',
+			'animate-bepo.jpg', 'animate-websites.jpg', 'animate-book.jpg',
+			'animate-nodeatlas.jpg', 'animate-games.jpg', 'animate-blog.jpg',
+			'animate-contact-me.jpg', 'animate-home.jpg', 'animate-edit-me.jpg',
+			'animate-offers.jpg', 'animate-skills.jpg'
+		];
+		var cssLink = document.querySelector('link[rel="stylesheet"][href*="common"]');
+		var cssUrl = (cssLink && cssLink.href) || (window.location.origin + '/stylesheets/common.css');
+		var mediaBase = new URL('../media/images/', cssUrl).href;
+		var i = 0;
+		function preloadNext() {
+			if (i >= bgImages.length) return;
+			var img = new Image();
+			img.src = mediaBase + bgImages[i];
+			i++;
+			if (i < bgImages.length) {
+				setTimeout(preloadNext, 250);
+			}
+		}
+		preloadNext();
 	};
 
 	publics.activeEditMode = function () {
@@ -419,7 +475,8 @@ var website = website || {},
 				}, 1000);
 
 				closeSection();
-			}).find(".edit-atlas--popup, .members").click(function() {
+			}).find(".edit-atlas--popup, .members, .cards-viewer").click(function (e) {
+				if ($(e.target).closest("a[href]").length) return;
 				return false;
 			});
 
@@ -505,6 +562,18 @@ var website = website || {},
 			publics.activeEditMode();
 
 			publics.setAnalytics();
+		});
+
+		window.addEventListener('load', function () {
+			function runPreloads() {
+				privates.preloadCardsViewerImages();
+				privates.preloadBackgroundImages();
+			}
+			if (typeof requestIdleCallback === 'function') {
+				requestIdleCallback(runPreloads, { timeout: 5000 });
+			} else {
+				setTimeout(runPreloads, 3000);
+			}
 		});
 	};
 }(website));

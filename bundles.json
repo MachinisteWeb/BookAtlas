@@ -9,6 +9,7 @@
 			"javascripts/jquery/jquery.validate.js",
 			"javascripts/jquery/jquery.validate.unobtrusive.js",
 			"javascripts/edit-atlas.js",
+			"javascripts/cards-viewer.js",
 			"javascripts/prettify.js",
 			"javascripts/prettify/run_prettify.js",
 			"javascripts/common.js"

@@ -282,7 +282,7 @@
         "games": "hobbies"
     },
     "error404": "<span class=\"first\">Erreur 404</span> <span class=\"second\">Cette page n'existe pas.</span>",
-    "main": "<strong>Suivez mes recherches actuelles en consultant <a href=\"https://blog.lesieur.name/\" title=\"Quelques #ID et beaucoup de .CLASS\" target=\"_blank\"> mon blog</a>.</strong>",
+    "main": "<strong><a class=\"link cards-viewer-open\" href=\"javascript:;\">🎶 Ouvrir mon jukebox</a> • <a href=\"https://blog.lesieur.name/\" title=\"Quelques #ID et beaucoup de .CLASS\" target=\"_blank\" rel=\"noopener noreferrer\">Consulter mon blog</a></strong>",
     "copyright": "©2012-2026 <a href=\"https://www.lesieur.name/\" title=\"Site de Bruno Lesieur, Développeur web spécialiste Front-end / Node.js\">Lesieur.name</a>",
     "engine": "Site développé en <a href=\"https://nodejs.org/\" title=\"Node.js, le moteur JavaScript côté serveur\">Node.js</a> avec <a href=\"https://node-atlas.js.org/\" title=\"Le Framework NodeAtlas\">NodeAtlas</a>",
     "listDate": {

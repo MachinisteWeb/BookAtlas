@@ -1,4 +1,19 @@
 {
+	"/json/jukebox/": {
+		"view": "json-render.htm",
+		"variation": "api/jukebox.json",
+		"languageCode": "..",
+		"mimeType": "application/json",
+		"headers": {
+			"Cache-Control": "no-cache, no-store, must-revalidate",
+			"Pragma": "no-cache",
+			"Expires": "0"
+		}
+	},
+	"/json/jukebox": {
+		"redirect": "/json/jukebox/",
+		"statusCode": 301
+	},
 	"/bepo/": {
 		"view": "simple.htm",
 		"variation": "bepo.json"

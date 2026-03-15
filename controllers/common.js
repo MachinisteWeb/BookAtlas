@@ -9,6 +9,14 @@ website.components = {};
 	website.components.editAtlas = require('./modules/edit-atlas');
 	website.components.componentAtlas = require('./modules/component-atlas');
 
+	publics.setSessions = function (next) {
+		var NA = this;
+		if (NA.sessionStore && typeof NA.sessionStore.setMaxListeners === 'function') {
+			NA.sessionStore.setMaxListeners(50);
+		}
+		next();
+	};
+
 	publics.setModules = function () {
 		var NA = this,
 			path = NA.modules.path;
@@ -150,6 +158,7 @@ website.components = {};
 
 }(website));
 
+exports.setSessions = website.setSessions;
 exports.setSockets = website.setSockets;
 exports.setModules = website.setModules;
 exports.setConfigurations = website.setConfigurations;
