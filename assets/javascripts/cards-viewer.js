@@ -11,6 +11,8 @@
 	var ROTATION_ZONE_CARDS = 2.5;
 	var BACK_CARD_DEPTH = 120;
 	var DRAG_THRESHOLD = 8;
+	/** Touch screens often emit small spurious touchmove deltas; use a looser bound when classifying tap vs swipe on touchend. */
+	var TOUCH_TAP_THRESHOLD = 22;
 	var FLIP_DURATION = 0.6;
 	var SNAP_DURATION = 0.35;
 	var INERTIA_THRESHOLD = 0.3;
@@ -329,6 +331,14 @@
 		}
 	}
 
+	function getFlipPointerTarget(e) {
+		if (e.type === 'touchend' && e.changedTouches && e.changedTouches[0]) {
+			var pt = e.changedTouches[0];
+			return document.elementFromPoint(pt.clientX, pt.clientY) || e.target;
+		}
+		return e.target;
+	}
+
 	function handleFlip(e) {
 		var closestIndex = 0;
 		var closestDist = Infinity;
@@ -337,7 +347,7 @@
 			if (dist < closestDist) { closestDist = dist; closestIndex = index; }
 		});
 		var centralCard = cardSlots[closestIndex].card;
-		var target = e.target;
+		var target = getFlipPointerTarget(e);
 		while (target && target !== viewer) {
 			if (target === centralCard) {
 				var willBeFlipped = !centralCard.classList.contains('flipped');
@@ -478,7 +488,6 @@
 			if (!isDragging) return;
 			var deltaX = e.touches[0].clientX - dragStartX;
 			var deltaY = e.touches[0].clientY - dragStartY;
-			if (Math.abs(deltaX) > DRAG_THRESHOLD || Math.abs(deltaY) > DRAG_THRESHOLD) isClick = false;
 			scrollOffset = softClamp(dragStartScroll - deltaX);
 			var now = performance.now();
 			var dt = now - lastMoveTime;
@@ -490,8 +499,12 @@
 		viewer.addEventListener('touchend', function (e) {
 			if (!isDragging) return;
 			isDragging = false;
-			if (isClick) {
-				var touchTarget = e.changedTouches && e.changedTouches[0] ? document.elementFromPoint(e.changedTouches[0].clientX, e.changedTouches[0].clientY) : null;
+			var t = e.changedTouches && e.changedTouches[0];
+			var dx = t ? t.clientX - dragStartX : 0;
+			var dy = t ? t.clientY - dragStartY : 0;
+			var isTouchTap = t && Math.abs(dx) <= TOUCH_TAP_THRESHOLD && Math.abs(dy) <= TOUCH_TAP_THRESHOLD;
+			if (isTouchTap) {
+				var touchTarget = t ? document.elementFromPoint(t.clientX, t.clientY) : null;
 				var lyricsEl = getLyricsElement(touchTarget || e.target);
 				var scrolledInLyrics = lyricsEl && lyricsInteraction && lyricsEl.scrollTop !== lyricsInteraction.scrollTop;
 				lyricsInteraction = null;
